@@ -48,14 +48,14 @@ It can only access what your own account and Intune role can already access.
 
 ## What is stored, and where
 
-- **Device list and policy list:** stored in the browser's extension storage on your computer,
+- **Device list and policy list:** stored in this extension's local browser storage (IndexedDB) on your computer,
   separately for each tenant, so lists can be labelled and searches answered instantly. You can
   delete them at any time with "Clear stored data" on the Settings page, or by removing the extension.
   Group reports, rosters and decoded IDs are not stored; they exist only while the workspace tab
   shows them, and in any CSV you choose to save.
 - **Recent lookups:** the group sizes, app and policy status counts, policy names and filter rules
   shown in the admin center are kept on your computer for up to 30 minutes, so lists you reopen
-  show them straight away. "Clear stored data" and turning the extension off delete them.
+  show them straight away. "Clear stored data" deletes them, as does removing the extension.
 - **Sign-in tokens:** kept in memory and in the browser's session storage, which is memory only
   and cleared when the browser closes. Never written to disk by the extension.
 - **Settings:** which in-portal features are switched on and how they show (for example display
