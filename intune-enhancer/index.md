@@ -1,6 +1,6 @@
 # Privacy policy: Intune Enhancer
 
-_Last updated: 27 October 2026_
+_Last updated: 28 October 2026_
 
 ## The short version
 
@@ -30,6 +30,8 @@ After you accept the disclosure on the extension's Settings page (it opens when 
 - **Assignment filters**: filter names, platforms and rules, to show a filter's rule on hover.
 - **App install counts**: for each app shown in an app list, how many devices it installed on
   and failed on (Intune's app status report).
+- **Policy status counts**: for each policy shown in the Configuration list, how many devices
+  it succeeded and failed on (Intune's device status reports).
 - **Any ID you paste** into the ID decoder, which is looked up in Microsoft Graph.
 
 It can only access what your own account and Intune role can already access.
