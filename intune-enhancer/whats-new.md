@@ -5,7 +5,11 @@
 New features and fixes, newest first. Versions released on the same day are grouped.
 Intune Enhancer is read-only: it never changes your tenant, and it only talks to Microsoft Graph.
 
-## 1.47.0 to 1.65.0 - 1 November 2026
+## 1.47.0 to 1.67.0 - 1 November 2026
+- **Dark theme by default.** The workspace now opens in the dark theme. If you have already picked a theme with the
+  toggle, your choice is kept.
+- **One footer on every tab.** What's new, Privacy policy and a Contact link, with the read-only note, now sit in one
+  centred block at the bottom of every tab.
 - **"Related" button on devices.** A new command in a device page's toolbar shows the primary user's other
   devices and the groups the device is in.
 - **"Used by" button on groups.** A new command beside Delete on a group's page opens the workspace on what
