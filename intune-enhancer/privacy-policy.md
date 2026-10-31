@@ -1,6 +1,6 @@
 # Privacy policy: Intune Enhancer
 
-_Last updated: 28 October 2026_
+_Last updated: 31 October 2026_
 
 ## The short version
 
@@ -32,12 +32,19 @@ After you accept the disclosure on the extension's Settings page (it opens when 
   and failed on (Intune's app status report).
 - **Policy status counts**: for each policy shown in the Configuration list, how many devices
   it succeeded and failed on (Intune's device status reports).
+- **Installed app versions and device details**: in the workspace's App versions tool, the discovered
+  apps whose name you search for, with their versions and device counts, and the devices running a
+  version you pick; in Device quick facts, when you click "More details", one device's hardware, storage
+  and network details (serial number, memory, storage, encryption, TPM, IP and MAC address, enrolment).
+  Both are read from Microsoft Graph and are not stored beyond the 30 minutes below.
+- **Remediation script dates**: when each script package in the Remediations list was created and last
+  modified.
 - **Any ID you paste** into the ID decoder, which is looked up in Microsoft Graph.
 
 It can only access what your own account and Intune role can already access.
 
 <!-- Update this list as each new feature ships, before it is published, and copy this file to
-     systmworks/privacy-policies (intune-enhancer/index.md), which is the public copy. -->
+     systmworks/app-docs (intune-enhancer/privacy-policy.md), which is the public copy. -->
 
 ## Where data goes
 
@@ -53,7 +60,7 @@ It can only access what your own account and Intune role can already access.
   delete them at any time with "Clear stored data" on the Settings page, or by removing the extension.
   Group reports, rosters and decoded IDs are not stored; they exist only while the workspace tab
   shows them, and in any CSV you choose to save.
-- **Recent lookups:** the group sizes, app and policy status counts, policy names and filter rules
+- **Recent lookups:** the group sizes, app and policy status counts, remediation script dates, policy names and filter rules
   shown in the admin center are kept on your computer for up to 30 minutes, so lists you reopen
   show them straight away. "Clear stored data" deletes them, as does removing the extension.
 - **Sign-in tokens:** kept in memory and in the browser's session storage, which is memory only
