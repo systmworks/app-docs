@@ -1,7 +1,42 @@
 # Intune Enhancer: what's new
 
+**Note:** new versions may appear on this list before the extension stores have approved the update, so the version in the store can be older than the latest one here.
+
 New features and fixes, newest first. Versions released on the same day are grouped.
 Intune Enhancer is read-only: it never changes your tenant, and it only talks to Microsoft Graph.
+
+## 1.47.0 to 1.65.0 - 1 November 2026
+- **"Related" button on devices.** A new command in a device page's toolbar shows the primary user's other
+  devices and the groups the device is in.
+- **"Used by" button on groups.** A new command beside Delete on a group's page opens the workspace on what
+  uses that group.
+- **Progress bar and Stop.** A bar along the bottom of the workspace shows what a long read is doing, with a
+  count, a meter and the time so far, and a Stop button for the long ones.
+- Compare users shows each person's sign-in name after their name, and device and policy searches list
+  their matches alphabetically.
+- **New tool, Compliance.** Ranks every compliance setting by how many devices fail it, worst first, and
+  lists the devices failing any setting you pick, with copy and CSV export.
+- **New menu.** The workspace's tools are now a sidebar grouped by Policies, Groups and users, Devices,
+  Apps and Tenant, so they stay easy to find as more are added.
+- **New tool, Policy export.** Find a policy by name and get its details, assignments and settings as
+  Markdown or CSV, ready to paste into a change record.
+- **New tool, Duplicate policies.** Lists policies that set the same settings to the same values, which
+  Intune doesn't always flag as a conflict.
+- **New tool, Hardware.** Memory, storage, TPM, BIOS, battery and more for every device in one sortable
+  list, with copy and CSV export.
+- **New tool, Compare devices.** Two devices side by side: their details, their groups, and which
+  policies and apps reach one or both.
+- **Activity light on the device page.** The coloured light now also appears beside "Last check-in time"
+  on a device's own Overview page.
+
+## 1.42.0 to 1.46.0 - 31 October 2026
+- **New tool, Low storage.** Every device under 10 GB or 5 GB free, worst first, with CSV export.
+- **New tool, Orphaned users.** Devices whose primary user has been disabled or deleted.
+- **New tool, Tenant health.** Apple push certificate, VPP and ADE tokens, Managed Google Play and
+  connectors, with the days left before each expires.
+- **New tool, Device 360.** Everything that applies to one device and why, with the groups it and its
+  primary user are in.
+- **New tool, Compare users.** Two users' groups: the ones they share, and the ones only one of them is in.
 
 ## 1.35.0 to 1.39.0 - 30 October 2026
 - **Remediations: dates and sort.** The Remediations list shows when each script package was
