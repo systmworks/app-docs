@@ -1,6 +1,6 @@
 # Privacy policy: Intune Enhancer
 
-_Last updated: 31 October 2026_
+_Last updated: 1 November 2026_
 
 ## The short version
 
@@ -84,4 +84,4 @@ before that version is published.
 
 ## Contact
 
-systmworks@gmail.com
+systmworks@outlook.com

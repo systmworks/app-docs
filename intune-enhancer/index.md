@@ -7,4 +7,4 @@ Microsoft Graph.
 - [What's new](whats-new.md): new features and fixes, release by release
 - [Privacy policy](privacy-policy.md)
 
-Contact: systmworks@gmail.com
+Contact: systmworks@outlook.com
