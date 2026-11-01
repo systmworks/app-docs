@@ -159,3 +159,21 @@ Every screenshot is the real extension on a fictional tenant (Fabrikam). Nothing
 *The extension.* A switch for every addition to the admin center, so each can be turned off.
 
 ![Settings](extension/25-settings.png)
+
+## 26. Used by button
+
+*In the admin center.* A Used by command beside Delete on a group's page opens everything that references that group in the workspace.
+
+![Used by button](admin-center/26-group-used-by.png)
+
+## 27. Related button
+
+*In the admin center.* A Related command on a device's page shows the primary user's other devices and the groups the device is in.
+
+![Related button](admin-center/27-device-related.png)
+
+## 28. Settings picker usage
+
+*In the admin center.* When adding settings to a policy, 'Set in N policies' appears beside each setting that is already configured, with the policy names on hover.
+
+![Settings picker usage](admin-center/28-settings-picker-usage.png)
