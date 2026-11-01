@@ -6,5 +6,6 @@ Microsoft Graph.
 
 - [What's new](whats-new.md): new features and fixes, release by release
 - [Privacy policy](privacy-policy.md)
+- [Screenshots](https://github.com/systmworks/app-docs/blob/main/intune-enhancer/screenshots/README.md): every feature, on a fictional tenant
 
 Contact: systmworks@outlook.com
