@@ -5,7 +5,7 @@
 New features and fixes, newest first. Versions released on the same day are grouped.
 Intune Enhancer is read-only: it never changes your tenant, and it only talks to Microsoft Graph.
 
-## 1.47.0 to 1.74.0 - 1 November 2026
+## 1.47.0 to 1.75.0 - 1 November 2026
 - **Our buttons look like ours.** The Related and Used by commands are now outlined pills with a blue border, like the
   other additions, so they are easy to tell from Intune's own buttons.
 - **Settings picker shows what is already configured.** When you add settings to a policy, each setting already set in
