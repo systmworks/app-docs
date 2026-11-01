@@ -5,10 +5,12 @@
 New features and fixes, newest first. Versions released on the same day are grouped.
 Intune Enhancer is read-only: it never changes your tenant, and it only talks to Microsoft Graph.
 
-## 1.47.0 to 1.69.0 - 1 November 2026
+## 1.47.0 to 1.74.0 - 1 November 2026
+- **Our buttons look like ours.** The Related and Used by commands are now outlined pills with a blue border, like the
+  other additions, so they are easy to tell from Intune's own buttons.
 - **Settings picker shows what is already configured.** When you add settings to a policy, each setting already set in
-  another policy shows "Set in N policies" after its name. Hover to see which policies. It uses the policy list that
-  Setting check builds.
+  another policy shows "Set in N policies" after its name. Hover to see which policies. It only works after you have run a search in Setting check,
+  which builds the policy list it reads.
 - **Dark theme by default.** The workspace now opens in the dark theme. If you have already picked a theme with the
   toggle, your choice is kept.
 - **One footer on every tab.** What's new, Privacy policy and a Contact link, with the read-only note, now sit in one
