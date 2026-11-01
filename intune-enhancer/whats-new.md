@@ -9,6 +9,10 @@
 New features and fixes, newest first. Versions released on the same day are grouped.
 Intune Enhancer is read-only: it never changes your tenant, and it only talks to Microsoft Graph.
 
+## 1.77.0 - 1 November 2026
+- **Buy me a coffee link in the footer.** An optional link after Contact, for anyone who finds the extension useful.
+  The extension stays free and nothing depends on it.
+
 ## 1.47.0 to 1.76.0 - 1 November 2026
 - **Clear stored data now clears the Hardware report too.** The saved report (serial numbers, IP and MAC addresses)
   is deleted with the device and policy lists, and when you turn the extension off. The privacy policy is updated to
