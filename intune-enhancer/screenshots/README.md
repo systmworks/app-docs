@@ -1,3 +1,7 @@
+<p align="center"><a href="https://buymeacoffee.com/systmworks"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="45" alt="Buy me a coffee"></a></p>
+
+> I have spent many, many hours creating and testing this. If it helps you please consider buying me a Coffee :)
+
 # Intune Enhancer screenshots
 
 Every screenshot is the real extension on a fictional tenant (Fabrikam). Nothing here is from a real tenant. Listed highest benefit first; the folders group them by where they appear.
@@ -177,3 +181,7 @@ Every screenshot is the real extension on a fictional tenant (Fabrikam). Nothing
 *In the admin center.* When adding settings to a policy, 'Set in N policies' appears beside each setting that is already configured, with the policy names on hover.
 
 ![Settings picker usage](admin-center/28-settings-picker-usage.png)
+
+---
+
+**Sharing & responsibility** - Built for the community, shared with good intentions. Use at your own risk. The author accepts no responsibility for any outcomes resulting from the use of this software. Test in a safe environment first. If you find an issue or have a suggestion, contributions are welcome.

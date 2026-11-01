@@ -1,3 +1,7 @@
+<p align="center"><a href="https://buymeacoffee.com/systmworks"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="45" alt="Buy me a coffee"></a></p>
+
+> I have spent many, many hours creating and testing this. If it helps you please consider buying me a Coffee :)
+
 # Aussie Unit Price: what's new
 
 New features and fixes, newest first. Versions released on the same day are grouped. Versions
@@ -72,3 +76,7 @@ First version, for Dan Murphy's only.
 - **Sort toolbar** with "Load all", to sort the whole list rather than just what's showing.
 - Fixed: the badge sat underneath Dan Murphy's Add to Cart button.
 - Fixed: "Load all" couldn't find the "Show 24 more" button.
+
+---
+
+**Sharing & responsibility** - Built for the community, shared with good intentions. Use at your own risk. The author accepts no responsibility for any outcomes resulting from the use of this software. Test in a safe environment first. If you find an issue or have a suggestion, contributions are welcome.

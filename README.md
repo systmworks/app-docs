@@ -1,3 +1,7 @@
+<p align="center"><a href="https://buymeacoffee.com/systmworks"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="45" alt="Buy me a coffee"></a></p>
+
+> I have spent many, many hours creating and testing this. If it helps you please consider buying me a Coffee :)
+
 # App documentation
 
 Documentation for software published by systmworks whose code is not in a public repository:
@@ -17,3 +21,7 @@ This repository used to be called `privacy-policies`. Old privacy policy links u
 redirect here.
 
 Contact: systmworks@gmail.com
+
+---
+
+**Sharing & responsibility** - Built for the community, shared with good intentions. Use at your own risk. The author accepts no responsibility for any outcomes resulting from the use of this software. Test in a safe environment first. If you find an issue or have a suggestion, contributions are welcome.
