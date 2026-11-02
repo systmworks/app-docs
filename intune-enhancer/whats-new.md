@@ -9,6 +9,10 @@
 New features and fixes, newest first. Versions released on the same day are grouped.
 Intune Enhancer is read-only: it never changes your tenant, and it only talks to Microsoft Graph.
 
+## 1.79.0 - 2 November 2026
+- **The browser now enforces "Graph only".** The extension's manifest limits its connections to Microsoft Graph, so a
+  request to any other site is blocked by Chrome or Edge itself, not just left out of the code.
+
 ## 1.77.0 - 1 November 2026
 - **Buy me a coffee link in the footer.** An optional link after Contact, for anyone who finds the extension useful.
   The extension stays free and nothing depends on it.
