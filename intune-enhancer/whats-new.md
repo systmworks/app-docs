@@ -9,6 +9,11 @@
 New features and fixes, newest first. Versions released on the same day are grouped.
 Intune Enhancer is read-only: it never changes your tenant, and it only talks to Microsoft Graph.
 
+## 1.86.0 - 3 November 2026
+- **A "fetching stats" note while pills load.** When the app and policy pills take more than a second to arrive, a
+  small "Intune Enhancer: fetching stats..." note shows at the bottom right of the page and disappears when they are
+  drawn. It never blocks a click.
+
 ## 1.79.0 - 2 November 2026
 - **The browser now enforces "Graph only".** The extension's manifest limits its connections to Microsoft Graph, so a
   request to any other site is blocked by Chrome or Edge itself, not just left out of the code.
