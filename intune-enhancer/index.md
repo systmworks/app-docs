@@ -8,6 +8,7 @@ A free Chrome and Edge extension that adds missing information and time-saving t
 Microsoft Intune admin center. Read-only: it never changes your tenant, and it only talks to
 Microsoft Graph.
 
+- Install: [Chrome Web Store](https://chromewebstore.google.com/detail/intune-enhancer/geifmacoimaenjdednhfiegamkjkgjjm) or [Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/intune-enhancer/hcmhldmcpgieiaeobdbppcgfckahdeci)
 - [What's new](whats-new.md): new features and fixes, release by release
 - [Privacy policy](privacy-policy.md)
 - [Download the published package](download/README.md): the exact files, with a checksum, to read or compare
