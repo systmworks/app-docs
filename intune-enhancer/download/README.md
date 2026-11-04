@@ -39,7 +39,12 @@ To compare it with what you have installed: unzip it, then diff it against the e
 `%LocalAppData%\Google\Chrome\User Data\Default\Extensions\`). The store repackages the file, so the ZIP's own
 hash can differ from the store's, but the files inside should match.
 
-The extension makes one kind of network request, in `src/core/graph.js`, and in the 1.76.0 package above only to https://graph.microsoft.com. From 1.92.0 it can also use https://graph.microsoft.us or https://dod-graph.microsoft.us, but only if you allow a US Government cloud in its Settings, and then only the one for the cloud you are signed in to.
-See the [privacy policy](../privacy-policy.md).
+The extension makes one kind of network request, in `src/core/graph.js`, and only to Microsoft Graph:
+
+* https://graph.microsoft.com (all versions)
+* https://graph.microsoft.us (v1.92+)
+* https://dod-graph.microsoft.us (v1.92+)
+
+The two US Government addresses are used only if you allow a US Government cloud in Settings, and then only the one for the cloud you are signed in to. See the [privacy policy](../privacy-policy.md).
 
 Contact: systmworks@outlook.com
