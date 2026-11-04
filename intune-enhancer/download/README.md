@@ -1,5 +1,7 @@
 # Intune Enhancer: download
 
+## Install from Browser Store
+
 Install from your browser's store: a store install updates itself automatically when a new version is approved.
 The version live in each store today:
 
@@ -14,7 +16,7 @@ The version live in each store today:
 A manual install does not update itself. To move to a newer version, download the new ZIP and load it the same way,
 or remove it and install from the store instead, which keeps it up to date.
 
-Chrome/Edge
+### Chrome/Edge
 
 * Download the latest `.zip` file ([Intune-Enhancer-1.87.0.zip](Intune-Enhancer-1.87.0.zip), in the published package section below)
 * Extract the contents of the `.zip` file.
@@ -24,7 +26,7 @@ Chrome/Edge
 * Enable "Developer mode" by toggling the switch
 * Click on "Load unpacked" and select the extracted folder
 
-Firefox
+### Firefox
 
 Intune Enhancer is waiting for review on Firefox Add-ons, so there is no store link yet; it will be added here once
 it is approved. Until then you can load it for a test:
