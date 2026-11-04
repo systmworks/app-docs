@@ -2,10 +2,10 @@
 
 Install from your browser's store. The version live in each store today:
 
-| Browser | Store | Version live |
-|---|---|---|
-| Google Chrome | [Chrome Web Store](https://chromewebstore.google.com/detail/intune-enhancer/geifmacoimaenjdednhfiegamkjkgjjm) | 1.76.0 |
-| Microsoft Edge | [Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/intune-enhancer/hcmhldmcpgieiaeobdbppcgfckahdeci) | 1.27.0 |
+| Microsoft Edge | Google Chrome |
+|:---:|:---:|
+| [![Install from Microsoft Edge Add-ons](https://img.shields.io/badge/MICROSOFT%20EDGE-INSTALL%20INTUNE%20ENHANCER-0078D7?style=for-the-badge&labelColor=555555)](https://microsoftedge.microsoft.com/addons/detail/intune-enhancer/hcmhldmcpgieiaeobdbppcgfckahdeci) | [![Install from the Chrome Web Store](https://img.shields.io/badge/GOOGLE%20CHROME-INSTALL%20INTUNE%20ENHANCER-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=555555)](https://chromewebstore.google.com/detail/intune-enhancer/geifmacoimaenjdednhfiegamkjkgjjm) |
+| ![Edge version 1.27.0](https://img.shields.io/badge/Version-1.27.0-0078D7?style=flat-square) | ![Chrome version 1.76.0](https://img.shields.io/badge/Version-1.76.0-4285F4?style=flat-square) |
 
 Newer versions are listed in [What's new](../whats-new.md) before the stores approve them, so the store can be a
 version or two behind.
