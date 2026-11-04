@@ -9,6 +9,15 @@
 New features and fixes, newest first. Versions released on the same day are grouped.
 Intune Enhancer is read-only: it never changes your tenant, and it only talks to Microsoft Graph.
 
+## 2.1.0 to 2.4.0 - 4 to 5 November 2026
+- **Group assignments.** The Group impact tab is now called Group assignments. It has new All devices and All users
+  (licensed) buttons that list every policy, app and script assigned to those built-in targets, with intent and filter.
+- **Same export buttons everywhere.** Copy table and Save CSV now appear on every report once it has results, and
+  Group assignments has Copy table too.
+- **Tidier Compare tabs.** The two search boxes on Compare devices and Compare users have a small gap between them.
+- **US Government clouds are marked experimental.** The Settings switch now says experimental instead of untested.
+  It is built from Microsoft's documentation and has not been tried on a government tenant yet.
+
 ## 1.91.0 to 2.0.0 - 4 November 2026
 - **Version 2.** A new look for the Settings tab, with switches, short descriptions and an i for the full
   explanation, and optional support for the US Government clouds (GCC High and DoD, not yet tried on a
@@ -25,7 +34,7 @@ Intune Enhancer is read-only: it never changes your tenant, and it only talks to
   follow its link or resize the window, and the switches draw properly in Firefox.
 - **A tidier Settings tab.** Tick-boxes are now toggles, descriptions are shorter (hover or click the i for the full
   explanation), and settings are grouped by what they do. The footer shows the version you have installed.
-- **US Government clouds (untested).** Settings has one switch to allow GCC High and DoD tenants. The browser asks
+- **US Government clouds (experimental).** Settings has one switch to allow GCC High and DoD tenants. The browser asks
   for access to those clouds' Intune admin center and Microsoft Graph addresses only, checked against Microsoft's
   documentation, and nothing changes for anyone who does not use it. It has not been tried on a government tenant
   yet: feedback is welcome.
@@ -156,7 +165,7 @@ Intune Enhancer is read-only: it never changes your tenant, and it only talks to
 - Renamed to Intune Enhancer, with a new icon.
 - Fixed: the first request straight after agreeing could be refused as "turned off".
 
-## 0.1.0 to 1.9.0 - 24 to 26 October 2026
+## 0.1.0 to 1.9.0 - October 2026
 - **Workspace tools** in a full browser tab, with light and dark themes: Setting check, Group
   impact, Group roster, OS builds, Stale and duplicate devices, Cleanup, ID decoder.
 - **Recent changes.** Every policy, profile, script and app by modified or created date.
