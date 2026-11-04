@@ -11,7 +11,7 @@ The version live in each store today:
 | ![Edge published version 1.27.0](https://img.shields.io/badge/Published%20Version-1.27.0-2EA44F?style=flat-square) | ![Chrome published version 1.87.0](https://img.shields.io/badge/Published%20Version-1.87.0-2EA44F?style=flat-square) | ![Firefox published version none](https://img.shields.io/badge/Published%20Version-none-lightgrey?style=flat-square) |
 | ![Edge pending review 1.86.0](https://img.shields.io/badge/Pending%20review-1.86.0-DFB317?style=flat-square) | ![Chrome pending review none](https://img.shields.io/badge/Pending%20review-none-lightgrey?style=flat-square) | ![Firefox pending review 1.84.0](https://img.shields.io/badge/Pending%20review-1.84.0-DFB317?style=flat-square) |
 
-**Manual Install**
+## Manual Install
 
 A manual install does not update itself. To move to a newer version, download the new ZIP and load it the same way,
 or remove it and install from the store instead, which keeps it up to date.
