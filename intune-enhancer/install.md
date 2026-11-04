@@ -25,7 +25,9 @@ Intune admin center. It is read-only and uses your own Intune sign-in, so there 
 
 ## Manual install (advanced)
 
-Use this only if you have been given a ZIP file instead of a store link.
+Use this only if you have been given a ZIP file instead of a store link. A store install updates itself
+automatically when a new version is approved; a manual install does not, so to update it you load the new ZIP the
+same way (or remove it and install from the store instead).
 
 1. Extract the ZIP into a folder you will keep (the browser reads the extension from there).
 2. Open `edge://extensions` in Edge, or `chrome://extensions` in Chrome.
