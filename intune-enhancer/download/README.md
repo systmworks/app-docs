@@ -1,4 +1,16 @@
-# Intune Enhancer: published package
+# Intune Enhancer: download
+
+Install from your browser's store. The version live in each store today:
+
+| Browser | Store | Version live |
+|---|---|---|
+| Google Chrome | [Chrome Web Store](https://chromewebstore.google.com/detail/intune-enhancer/geifmacoimaenjdednhfiegamkjkgjjm) | 1.76.0 |
+| Microsoft Edge | [Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/intune-enhancer/hcmhldmcpgieiaeobdbppcgfckahdeci) | 1.27.0 |
+
+Newer versions are listed in [What's new](../whats-new.md) before the stores approve them, so the store can be a
+version or two behind.
+
+## Published package (Chrome 1.76.0)
 
 The exact files of the version that is live in the Chrome Web Store, so you can read them or compare them with
 what is installed. Only the currently published version is kept here; it is replaced when a newer one is approved.
