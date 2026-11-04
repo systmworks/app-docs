@@ -58,125 +58,125 @@ When adding settings to a policy, 'Set in N policies' appears beside each settin
 
 ## In the workspace
 
-### 9. Compare devices
-
-*Devices.* Two devices side by side: details, groups, and which policies, apps and scripts reach one or both.
-
-![Compare devices](workspace/09-compare-devices.png)
-
-### 10. Compliance breakdown
-
-*Devices.* Which compliance settings fail on the most devices, worst first, with the devices behind each one.
-
-![Compliance breakdown](workspace/10-compliance-breakdown.png)
-
-### 11. Device 360
-
-*Devices.* Every policy, app and script that reaches one device, and why: which group, whether it is excluded, or depends on a filter.
-
-![Device 360](workspace/11-device-360.png)
-
-### 12. Hardware report
-
-*Devices.* Memory, storage, TPM, BIOS and more for every device, sortable, and saved as CSV.
-
-![Hardware report](workspace/12-hardware.png)
-
-### 13. Low storage
-
-*Devices.* Devices with little free disk space, least free first.
-
-![Low storage](workspace/13-low-storage.png)
-
-### 14. OS builds
-
-*Devices.* How many devices are on each Windows release, with the devices behind each.
-
-![OS builds](workspace/14-os-builds.png)
-
-### 15. Stale and duplicate devices
-
-*Devices.* Devices that have not checked in for a set number of days, and device names with more than one Intune record.
-
-![Stale and duplicate devices](workspace/15-stale-and-duplicates.png)
-
-### 16. Policy cleanup
-
-*Policies.* Policies and apps that do nothing: assigned to deleted or empty groups, exclude-only, or not assigned at all.
-
-![Policy cleanup](workspace/16-cleanup.png)
-
-### 17. Duplicate policies
-
-*Policies.* Pairs of policies that set the same settings to the same values. Intune only flags a conflict when the values differ, so these often go unnoticed.
-
-![Duplicate policies](workspace/17-duplicate-policies.png)
-
-### 18. Policy export
-
-*Policies.* One policy's details, assignments and settings, written up as Markdown or CSV for a change record.
-
-![Policy export](workspace/18-policy-export.png)
-
-### 19. Recent changes
-
-*Policies.* Policies, scripts and apps by when they were last changed or created, with who they are assigned to.
-
-![Recent changes](workspace/19-recent-changes.png)
-
-### 20. Setting check
-
-*Policies.* Search every policy for a setting and see where it is configured, with its value and who it is assigned to. Spot the same setting set two ways.
-
-![Setting check](workspace/20-setting-check.png)
-
-### 21. App versions
-
-*Apps.* Which versions of an app are out there, and the devices running the old ones.
-
-![App versions](workspace/21-app-versions.png)
-
-### 22. Compare users
-
-*Users and groups.* Pick two users and see which groups they share and which only one of them is in, direct or nested.
-
-![Compare users](workspace/22-compare-users.png)
-
-### 23. Group assignments
-
-*Users and groups.* Everything that references a group, and whether it looks safe to retire: assignments, Conditional Access, licences, role assignments and more. Buttons for the built-in All devices and All users targets list what is assigned to them.
-
-![Group assignments](workspace/23-group-assignments.png)
-
-### 24. Group roster
-
-*Users and groups.* A group's members with each device's primary user, compliance, OS and last check-in. Filter, then copy or save.
-
-![Group roster](workspace/24-group-roster.png)
-
-### 25. Orphaned users
-
-*Users and groups.* Devices whose primary user is disabled or no longer exists, ready to reassign or retire.
-
-![Orphaned users](workspace/25-orphaned-users.png)
-
-### 26. ID decoder
-
-*Tenant.* Paste an ID or an admin center link and find out what it is: device, group, user, policy, app, script and more.
-
-![ID decoder](workspace/26-id-decoder.png)
-
-### 27. Tenant health
-
-*Tenant.* Tokens, certificates and connectors that stop things working when they lapse, with days left.
-
-![Tenant health](workspace/27-tenant-health.png)
-
-### 28. Settings
+### 9. Settings
 
 *The extension.* A switch for every addition to the admin center, so each can be turned off.
 
-![Settings](workspace/28-settings.png)
+![Settings](workspace/09-settings.png)
+
+### 10. Compare devices
+
+*Devices.* Two devices side by side: details, groups, and which policies, apps and scripts reach one or both.
+
+![Compare devices](workspace/10-compare-devices.png)
+
+### 11. Compliance breakdown
+
+*Devices.* Which compliance settings fail on the most devices, worst first, with the devices behind each one.
+
+![Compliance breakdown](workspace/11-compliance-breakdown.png)
+
+### 12. Device 360
+
+*Devices.* Every policy, app and script that reaches one device, and why: which group, whether it is excluded, or depends on a filter.
+
+![Device 360](workspace/12-device-360.png)
+
+### 13. Hardware report
+
+*Devices.* Memory, storage, TPM, BIOS and more for every device, sortable, and saved as CSV.
+
+![Hardware report](workspace/13-hardware.png)
+
+### 14. Low storage
+
+*Devices.* Devices with little free disk space, least free first.
+
+![Low storage](workspace/14-low-storage.png)
+
+### 15. OS builds
+
+*Devices.* How many devices are on each Windows release, with the devices behind each.
+
+![OS builds](workspace/15-os-builds.png)
+
+### 16. Stale and duplicate devices
+
+*Devices.* Devices that have not checked in for a set number of days, and device names with more than one Intune record.
+
+![Stale and duplicate devices](workspace/16-stale-and-duplicates.png)
+
+### 17. Policy cleanup
+
+*Policies.* Policies and apps that do nothing: assigned to deleted or empty groups, exclude-only, or not assigned at all.
+
+![Policy cleanup](workspace/17-cleanup.png)
+
+### 18. Duplicate policies
+
+*Policies.* Pairs of policies that set the same settings to the same values. Intune only flags a conflict when the values differ, so these often go unnoticed.
+
+![Duplicate policies](workspace/18-duplicate-policies.png)
+
+### 19. Policy export
+
+*Policies.* One policy's details, assignments and settings, written up as Markdown or CSV for a change record.
+
+![Policy export](workspace/19-policy-export.png)
+
+### 20. Recent changes
+
+*Policies.* Policies, scripts and apps by when they were last changed or created, with who they are assigned to.
+
+![Recent changes](workspace/20-recent-changes.png)
+
+### 21. Setting check
+
+*Policies.* Search every policy for a setting and see where it is configured, with its value and who it is assigned to. Spot the same setting set two ways.
+
+![Setting check](workspace/21-setting-check.png)
+
+### 22. App versions
+
+*Apps.* Which versions of an app are out there, and the devices running the old ones.
+
+![App versions](workspace/22-app-versions.png)
+
+### 23. Compare users
+
+*Users and groups.* Pick two users and see which groups they share and which only one of them is in, direct or nested.
+
+![Compare users](workspace/23-compare-users.png)
+
+### 24. Group assignments
+
+*Users and groups.* Everything that references a group, and whether it looks safe to retire: assignments, Conditional Access, licences, role assignments and more. Buttons for the built-in All devices and All users targets list what is assigned to them.
+
+![Group assignments](workspace/24-group-assignments.png)
+
+### 25. Group roster
+
+*Users and groups.* A group's members with each device's primary user, compliance, OS and last check-in. Filter, then copy or save.
+
+![Group roster](workspace/25-group-roster.png)
+
+### 26. Orphaned users
+
+*Users and groups.* Devices whose primary user is disabled or no longer exists, ready to reassign or retire.
+
+![Orphaned users](workspace/26-orphaned-users.png)
+
+### 27. ID decoder
+
+*Tenant.* Paste an ID or an admin center link and find out what it is: device, group, user, policy, app, script and more.
+
+![ID decoder](workspace/27-id-decoder.png)
+
+### 28. Tenant health
+
+*Tenant.* Tokens, certificates and connectors that stop things working when they lapse, with days left.
+
+![Tenant health](workspace/28-tenant-health.png)
 
 ---
 
