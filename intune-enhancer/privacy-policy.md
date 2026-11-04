@@ -84,8 +84,7 @@ It can only access what your own account and Intune role can already access.
   stored data" on the Settings page, or by removing the extension.
 - **Hardware report:** if you run it, the report's rows (including serial numbers, IP addresses and MAC
   addresses) are saved in the same local storage with the date they were read, so the report is there the
-  next time you open the workspace. "Clear stored data" deletes it, and so does turning the extension off
-  or removing it.
+  next time you open the workspace. "Clear stored data" deletes it, and so does removing the extension.
 - **Not stored:** group reports, rosters, comparisons and decoded IDs exist only while the workspace tab
   shows them, and in any CSV you choose to save.
 - **Recent lookups:** the group sizes, app and policy status counts, remediation script dates, policy names and filter rules
