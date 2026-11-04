@@ -4,183 +4,179 @@
 
 # Intune Enhancer screenshots
 
-Every screenshot is the real extension on a fictional tenant (Fabrikam). Nothing here is from a real tenant. Listed highest benefit first; the folders group them by where they appear.
+Every screenshot is the real extension on a fictional tenant (Fabrikam). Nothing here is from a real tenant. The Intune admin center first (light theme, as the admin center looks), then the workspace tools (dark theme) in the same order as the workspace's sidebar, top to bottom.
 
-## 1. Devices list
+## In the Intune admin center
 
-*In the admin center.* Each device shows its primary user, a green, yellow, orange or red check-in light and a flag when free storage is low, right in the admin center's own list.
+### 1. Devices list
+
+Each device shows its primary user, a green, yellow, orange or red check-in light and a flag when free storage is low, right in the admin center's own list.
 
 ![Devices list](admin-center/01-devices-list.png)
 
-## 2. Group lists
+### 2. Group lists
 
-*In the admin center.* How many devices, users and groups each group holds, beside its name. Empty groups say so.
+How many devices, users and groups each group holds, beside its name. Empty groups say so.
 
 ![Group lists](admin-center/02-groups-list.png)
 
-## 3. Policy lists
+### 3. Policy lists
 
-*In the admin center.* The number of devices that succeeded and failed sits next to each policy's name, so a failing policy stands out without opening it.
+The number of devices that succeeded and failed sits next to each policy's name, so a failing policy stands out without opening it.
 
 ![Policy lists](admin-center/03-policies-list.png)
 
-## 4. App lists
+### 4. App lists
 
-*In the admin center.* The same succeeded and failed counts next to each app.
+The same succeeded and failed counts next to each app.
 
 ![App lists](admin-center/04-apps-list.png)
 
-## 5. Adding members to a group
+### 5. Adding members to a group
 
-*In the admin center.* In the Add members picker each device shows its primary user and check-in light, so you pick the right one.
+In the Add members picker each device shows its primary user and check-in light, so you pick the right one.
 
 ![Adding members to a group](admin-center/05-add-members.png)
 
-## 6. Device 360
+### 6. Used by button
 
-*Devices.* Every policy, app and script that reaches one device, and why: which group, whether it is excluded, or depends on a filter.
+A Used by command beside Delete on a group's page opens everything that references that group in the workspace.
 
-![Device 360](devices/06-device-360.png)
+![Used by button](admin-center/06-group-used-by.png)
 
-![Device 360 (dark)](devices/06-device-360-dark.png)
+### 7. Related button
 
-## 7. Setting check
+A Related command on a device's page shows the primary user's other devices and the groups the device is in.
 
-*Policies.* Search every policy for a setting and see where it is configured, with its value and who it is assigned to. Spot the same setting set two ways.
+![Related button](admin-center/07-device-related.png)
 
-![Setting check](policies/07-setting-check.png)
+### 8. Settings picker usage
 
-![Setting check (dark)](policies/07-setting-check-dark.png)
+When adding settings to a policy, 'Set in N policies' appears beside each setting that is already configured, with the policy names on hover.
 
-## 8. Group impact
+![Settings picker usage](admin-center/08-settings-picker-usage.png)
 
-*Users and groups.* Everything that references a group, and whether it looks safe to retire: assignments, Conditional Access, licences, role assignments and more.
+## In the workspace
 
-![Group impact](users-and-groups/08-group-impact.png)
-
-![Group impact (dark)](users-and-groups/08-group-impact-dark.png)
-
-## 9. Compliance breakdown
-
-*Devices.* Which compliance settings fail on the most devices, worst first, with the devices behind each one.
-
-![Compliance breakdown](devices/09-compliance-breakdown.png)
-
-## 10. Recent changes
-
-*Policies.* Policies, scripts and apps by when they were last changed or created, with who they are assigned to.
-
-![Recent changes](policies/10-recent-changes.png)
-
-## 11. Policy cleanup
-
-*Policies.* Policies and apps that do nothing: assigned to deleted or empty groups, exclude-only, or not assigned at all.
-
-![Policy cleanup](policies/11-cleanup.png)
-
-![Policy cleanup (dark)](policies/11-cleanup-dark.png)
-
-## 12. Duplicate policies
-
-*Policies.* Pairs of policies that set the same settings to the same values. Intune only flags a conflict when the values differ, so these often go unnoticed.
-
-![Duplicate policies](policies/12-duplicate-policies.png)
-
-## 13. Compare users
-
-*Users and groups.* Pick two users and see which groups they share and which only one of them is in, direct or nested.
-
-![Compare users](users-and-groups/13-compare-users.png)
-
-## 14. Policy export
-
-*Policies.* One policy's details, assignments and settings, written up as Markdown or CSV for a change record.
-
-![Policy export](policies/14-policy-export.png)
-
-## 15. Compare devices
+### 9. Compare devices
 
 *Devices.* Two devices side by side: details, groups, and which policies, apps and scripts reach one or both.
 
-![Compare devices](devices/15-compare-devices.png)
+![Compare devices](workspace/09-compare-devices.png)
 
-## 16. Low storage
+### 10. Compliance breakdown
 
-*Devices.* Devices with little free disk space, least free first.
+*Devices.* Which compliance settings fail on the most devices, worst first, with the devices behind each one.
 
-![Low storage](devices/16-low-storage.png)
+![Compliance breakdown](workspace/10-compliance-breakdown.png)
 
-## 17. Stale and duplicate devices
+### 11. Device 360
 
-*Devices.* Devices that have not checked in for a set number of days, and device names with more than one Intune record.
+*Devices.* Every policy, app and script that reaches one device, and why: which group, whether it is excluded, or depends on a filter.
 
-![Stale and duplicate devices](devices/17-stale-and-duplicates.png)
+![Device 360](workspace/11-device-360.png)
 
-## 18. Orphaned users
-
-*Users and groups.* Devices whose primary user is disabled or no longer exists, ready to reassign or retire.
-
-![Orphaned users](users-and-groups/18-orphaned-users.png)
-
-## 19. Group roster
-
-*Users and groups.* A group's members with each device's primary user, compliance, OS and last check-in. Filter, then copy or save.
-
-![Group roster](users-and-groups/19-group-roster.png)
-
-## 20. Hardware report
+### 12. Hardware report
 
 *Devices.* Memory, storage, TPM, BIOS and more for every device, sortable, and saved as CSV.
 
-![Hardware report](devices/20-hardware.png)
+![Hardware report](workspace/12-hardware.png)
 
-## 21. App versions
+### 13. Low storage
 
-*Apps.* Which versions of an app are out there, and the devices running the old ones.
+*Devices.* Devices with little free disk space, least free first.
 
-![App versions](apps/21-app-versions.png)
+![Low storage](workspace/13-low-storage.png)
 
-## 22. OS builds
+### 14. OS builds
 
 *Devices.* How many devices are on each Windows release, with the devices behind each.
 
-![OS builds](devices/22-os-builds.png)
+![OS builds](workspace/14-os-builds.png)
 
-## 23. Tenant health
+### 15. Stale and duplicate devices
 
-*Tenant.* Tokens, certificates and connectors that stop things working when they lapse, with days left.
+*Devices.* Devices that have not checked in for a set number of days, and device names with more than one Intune record.
 
-![Tenant health](tenant/23-tenant-health.png)
+![Stale and duplicate devices](workspace/15-stale-and-duplicates.png)
 
-## 24. ID decoder
+### 16. Policy cleanup
+
+*Policies.* Policies and apps that do nothing: assigned to deleted or empty groups, exclude-only, or not assigned at all.
+
+![Policy cleanup](workspace/16-cleanup.png)
+
+### 17. Duplicate policies
+
+*Policies.* Pairs of policies that set the same settings to the same values. Intune only flags a conflict when the values differ, so these often go unnoticed.
+
+![Duplicate policies](workspace/17-duplicate-policies.png)
+
+### 18. Policy export
+
+*Policies.* One policy's details, assignments and settings, written up as Markdown or CSV for a change record.
+
+![Policy export](workspace/18-policy-export.png)
+
+### 19. Recent changes
+
+*Policies.* Policies, scripts and apps by when they were last changed or created, with who they are assigned to.
+
+![Recent changes](workspace/19-recent-changes.png)
+
+### 20. Setting check
+
+*Policies.* Search every policy for a setting and see where it is configured, with its value and who it is assigned to. Spot the same setting set two ways.
+
+![Setting check](workspace/20-setting-check.png)
+
+### 21. App versions
+
+*Apps.* Which versions of an app are out there, and the devices running the old ones.
+
+![App versions](workspace/21-app-versions.png)
+
+### 22. Compare users
+
+*Users and groups.* Pick two users and see which groups they share and which only one of them is in, direct or nested.
+
+![Compare users](workspace/22-compare-users.png)
+
+### 23. Group assignments
+
+*Users and groups.* Everything that references a group, and whether it looks safe to retire: assignments, Conditional Access, licences, role assignments and more. Buttons for the built-in All devices and All users targets list what is assigned to them.
+
+![Group assignments](workspace/23-group-assignments.png)
+
+### 24. Group roster
+
+*Users and groups.* A group's members with each device's primary user, compliance, OS and last check-in. Filter, then copy or save.
+
+![Group roster](workspace/24-group-roster.png)
+
+### 25. Orphaned users
+
+*Users and groups.* Devices whose primary user is disabled or no longer exists, ready to reassign or retire.
+
+![Orphaned users](workspace/25-orphaned-users.png)
+
+### 26. ID decoder
 
 *Tenant.* Paste an ID or an admin center link and find out what it is: device, group, user, policy, app, script and more.
 
-![ID decoder](tenant/24-id-decoder.png)
+![ID decoder](workspace/26-id-decoder.png)
 
-## 25. Settings
+### 27. Tenant health
+
+*Tenant.* Tokens, certificates and connectors that stop things working when they lapse, with days left.
+
+![Tenant health](workspace/27-tenant-health.png)
+
+### 28. Settings
 
 *The extension.* A switch for every addition to the admin center, so each can be turned off.
 
-![Settings](extension/25-settings.png)
-
-## 26. Used by button
-
-*In the admin center.* A Used by command beside Delete on a group's page opens everything that references that group in the workspace.
-
-![Used by button](admin-center/26-group-used-by.png)
-
-## 27. Related button
-
-*In the admin center.* A Related command on a device's page shows the primary user's other devices and the groups the device is in.
-
-![Related button](admin-center/27-device-related.png)
-
-## 28. Settings picker usage
-
-*In the admin center.* When adding settings to a policy, 'Set in N policies' appears beside each setting that is already configured, with the policy names on hover.
-
-![Settings picker usage](admin-center/28-settings-picker-usage.png)
+![Settings](workspace/28-settings.png)
 
 ---
 
