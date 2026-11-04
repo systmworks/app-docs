@@ -9,6 +9,29 @@
 New features and fixes, newest first. Versions released on the same day are grouped.
 Intune Enhancer is read-only: it never changes your tenant, and it only talks to Microsoft Graph.
 
+## 1.91.0 to 2.0.0 - 4 November 2026
+- **Version 2.** A new look for the Settings tab, with switches, short descriptions and an i for the full
+  explanation, and optional support for the US Government clouds (GCC High and DoD, not yet tried on a
+  government tenant). It includes every fix below.
+- **Fixes across the workspace.** The Stop button on the progress bar works, administrative template policies are
+  compared by the values set inside them, Duplicate policies copes with very large tenants, Clear stored data also
+  clears what the reports show, and new policies get their status in the Configuration list within minutes.
+- **Lighter on long lists.** Friendly OS versions and Low storage flags do less work while you scroll, and group and
+  user search now show the real reason when a search fails.
+- **More reliable.** Admins who switch between tenants stay on the right one, settings changed at the same moment
+  are all kept, labels come back by themselves after a hiccup, big policies are fully checked in Setting check, and
+  Copy table is safe to paste into Excel.
+- **Settings tab fixes.** Clicking a setting's name turns it on or off again, the explanation card closes when you
+  follow its link or resize the window, and the switches draw properly in Firefox.
+- **A tidier Settings tab.** Tick-boxes are now toggles, descriptions are shorter (hover or click the i for the full
+  explanation), and settings are grouped by what they do. The footer shows the version you have installed.
+- **US Government clouds (untested).** Settings has one switch to allow GCC High and DoD tenants. The browser asks
+  for access to those clouds' Intune admin center and Microsoft Graph addresses only, checked against Microsoft's
+  documentation, and nothing changes for anyone who does not use it. It has not been tried on a government tenant
+  yet: feedback is welcome.
+- **New device view switch.** Settings has a New device view switch (on by default). Off, the extension's open-device
+  links use the old device view address instead.
+
 ## 1.86.0 - 3 November 2026
 - **A "fetching stats" note while pills load.** When the app and policy pills take more than a second to arrive, a
   small "Intune Enhancer: fetching stats..." note shows at the bottom right of the page and disappears when they are
@@ -24,8 +47,8 @@ Intune Enhancer is read-only: it never changes your tenant, and it only talks to
 
 ## 1.47.0 to 1.76.0 - 1 November 2026
 - **Clear stored data now clears the Hardware report too.** The saved report (serial numbers, IP and MAC addresses)
-  is deleted with the device and policy lists, and when you turn the extension off. The privacy policy is updated to
-  describe everything the extension reads and keeps.
+  is deleted with the device and policy lists. The privacy policy is updated to describe everything the extension
+  reads and keeps.
 - **Our buttons look like ours.** The Related and Used by commands are now outlined pills with a blue border, like the
   other additions, so they are easy to tell from Intune's own buttons.
 - **Settings picker shows what is already configured.** When you add settings to a policy, each setting already set in
