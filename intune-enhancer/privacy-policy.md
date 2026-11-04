@@ -1,18 +1,25 @@
 # Privacy policy: Intune Enhancer
 
-_Last updated: 1 November 2026_
+_Last updated: 4 November 2026_
 
 ## The short version
 
 **No data is sent to the developer, or anywhere other than Microsoft.** Intune Enhancer only
-talks to Microsoft Graph (graph.microsoft.com), the same service the Microsoft Intune admin
-center itself uses. The developer runs no server for this extension and receives nothing from
+talks to Microsoft Graph (graph.microsoft.com, or the US Government equivalents if you choose to
+allow them), the same service the Microsoft Intune admin center itself uses. The developer runs no server for this extension and receives nothing from
 it.
 
 ## What the extension accesses
 
 After you accept the disclosure on the extension's Settings page (it opens when you install):
 
+- **US Government clouds (optional).** By default the extension works only on the commercial
+  Intune admin center (intune.microsoft.com). If your tenant is on a US Government cloud (GCC High or DoD),
+  you can allow it in the workspace's Settings, and your browser then asks for access to the government
+  Intune admin center (intune.microsoft.us), the Azure Government portal (portal.azure.us) and the
+  Microsoft Graph addresses graph.microsoft.us and dod-graph.microsoft.us. Nothing is requested or used
+  until you allow it, and you can remove it again there. Everything else in this policy applies to those
+  clouds in the same way.
 - **Sign-in tokens.** It reads the Microsoft Graph access tokens that the Intune admin center
   already holds for your sign-in, so it can make requests as you. It does not read refresh
   tokens, ID tokens or passwords, and it never asks for your password.
@@ -62,8 +69,10 @@ It can only access what your own account and Intune role can already access.
 
 ## Where data goes
 
-- **To Microsoft Graph only.** All network requests go to `https://graph.microsoft.com`. The
-  extension's code refuses to send a request to any other address.
+- **To Microsoft Graph only.** All network requests go to `https://graph.microsoft.com`. If you use a US
+  Government cloud and choose to allow it in Settings, requests go to `https://graph.microsoft.us` or
+  `https://dod-graph.microsoft.us` instead, and only to the one for the cloud you are signed in to. Nothing is
+  allowed until you grant it. The extension's code refuses to send a request to any other address.
 - **To no one else.** Nothing is sent to the developer or any third party. There are no
   analytics, tracking, advertising, licensing checks or error reports.
 
