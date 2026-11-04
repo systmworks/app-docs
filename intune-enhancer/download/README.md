@@ -26,8 +26,17 @@ Chrome/Edge
 
 Firefox
 
-* Install it from Firefox Add-ons once the review is done (Firefox only installs signed add-ons, so there is no
-  manual install from a ZIP).
+Intune Enhancer is waiting for review on Firefox Add-ons, so there is no store link yet; it will be added here once
+it is approved. Until then you can load it for a test:
+
+* Download the Firefox `.zip` file ([Intune-Enhancer-Firefox-1.84.0.zip](Intune-Enhancer-Firefox-1.84.0.zip), the
+  version in review, in the Firefox package section below)
+* Extract the contents of the `.zip` file.
+* Open Firefox and navigate to `about:debugging#/runtime/this-firefox`
+* Click "Load Temporary Add-on" and select the `manifest.json` file in the extracted folder
+
+Firefox removes a temporary add-on when it closes, so you load it again after each restart (and it never updates
+itself).
 
 Newer versions are listed in [What's new](../whats-new.md) before the stores approve them, so the store can be a
 version or two behind.
@@ -48,6 +57,16 @@ To compare it with what you have installed: unzip it, then diff it against the e
 `chrome://extensions` (Developer mode, then the extension's ID, then the folder under
 `%LocalAppData%\Google\Chrome\User Data\Default\Extensions\`). The store repackages the file, so the ZIP's own
 hash can differ from the store's, but the files inside should match.
+
+## Firefox package (1.84.0, in review)
+
+The Firefox build of the version waiting for review on Firefox Add-ons: the same files as Chrome and Edge, with a
+Firefox manifest. 1.84.0 has one known issue, fixed in 1.85.0: in a few lists a device name that starts with an icon
+is read as blank, so that row gets no label.
+
+| Version | File | SHA-256 |
+|---|---|---|
+| 1.84.0 | [Intune-Enhancer-Firefox-1.84.0.zip](Intune-Enhancer-Firefox-1.84.0.zip) | `53eded715f4b30559a6bb07c344ddd8e2a982138e1c611115ae0387d608091ce` |
 
 The extension makes one kind of network request, in `src/core/graph.js`, and only to Microsoft Graph:
 
