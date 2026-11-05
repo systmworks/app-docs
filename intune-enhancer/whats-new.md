@@ -21,7 +21,8 @@ Intune Enhancer is read-only: it never changes your tenant, and it only talks to
   extension updates, an already-open admin center tab no longer shows a "Dates couldn't be read" note on the
   Remediations list (reload the tab to get the new version). Autopilot failures says it can't tell which enrollment
   status page applies, instead of guessing, for users in very many groups. Clear stored data also clears what the
-  workspace was showing, and the ID decoder spaces policy type names properly.
+  workspace was showing, and the ID decoder spaces policy type names properly. Long reports say the same thing when
+  they show only part of a list ("Showing the first N of M. Copy and Save CSV include all.").
 
 ## 2.4.0 to 2.34.0 - 5 November 2026
 - **Fixes.** In Firefox, the Group roster row filter and the App versions "older than" box now apply when you press
