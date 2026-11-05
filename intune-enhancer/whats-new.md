@@ -9,16 +9,26 @@
 New features and fixes, newest first. Versions released on the same day are grouped.
 Intune Enhancer is read-only: it never changes your tenant, and it only talks to Microsoft Graph.
 
-## 2.4.0 to 2.33.0 - 5 November 2026
+## 2.35.0 - 6 November 2026
+- **Star your favourites.** Click the star beside a report in All reports, then use the Starred button to see only
+  those. Every tool in the workspace's sidebar has a star too (it shows when you point at the tool), and "Starred only"
+  at the top of the sidebar hides the tools you haven't starred, keeping the headings.
+- **Reset all settings to defaults.** A link at the foot of the Settings tab puts every switch, dropdown, column width,
+  star and the theme back to how they were at install. It asks first, and nothing you have stored is deleted.
+- **Updating keeps your settings.** Store installs keep them through every update. For a manual install, extract the
+  new version over the same folder and reload the extension; the download page explains how.
+
+## 2.4.0 to 2.34.0 - 5 November 2026
 - **Fixes.** In Firefox, the Group roster row filter and the App versions "older than" box now apply when you press
   Enter. Settings catalog policies for macOS, iOS and Android open in the right place. Changing the workspace scope
   while devices are loading no longer shows the wrong devices. Compare users keeps the names of the users it compared.
   The workspace copes better when Microsoft Graph is briefly unavailable, and the dark theme's sidebar highlights the
   selected tab again. Orphaned users and Tenant health no longer start a second scan if you click Run twice, and a
   policy export says when a policy's settings couldn't be read.
-- **All reports.** A new Reports section in the workspace lists about 50 of Intune's own reports in one place. Click a
-  name to open that report in the Intune admin center. Narrow the list with the All, Compliance, Updates, Enrollment,
-  Apps and Security buttons, or type three or more letters to search. Nothing is read from your tenant to build it.
+- **All reports.** A new Reports section in the workspace lists about 50 of Intune's own reports in one place, sorted
+  by category and then by name. Click a name to open that report in the Intune admin center. Narrow the list with the
+  All, Apps, Compliance, Configuration, Security and Updates buttons, or type three or more letters to search. Nothing is
+  read from your tenant to build it.
 - **Advanced (experimental) settings.** The Settings card for new and not yet widely tested options is now called
   Advanced (experimental). Baseline gap, Workspace scope and US Government clouds are there.
 - **Baseline gap (experimental).** Turn it on under Settings > Advanced (experimental) for a new tool under Devices. Pick a Windows device and a Microsoft security baseline (Windows 11,
