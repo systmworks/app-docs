@@ -1,6 +1,6 @@
 # Privacy policy: Intune Enhancer
 
-_Last updated: 4 November 2026_
+_Last updated: 5 November 2026_
 
 ## The short version
 
@@ -36,7 +36,7 @@ After you accept the disclosure on the extension's Settings page (it opens when 
   created / last modified dates of Intune policies, profiles, scripts, apps and similar objects.
 - **Group information**: member counts of groups shown in the admin center (group size hints),
   and, in the workspace, group names, descriptions, membership rules, owners and members, and,
-  for Group impact, the Conditional Access policies, enterprise app assignments, licences and
+  for Group assignments, the Conditional Access policies, enterprise app assignments, licences and
   Intune role assignments that reference a group.
 - **Group memberships and user search** (Device 360, Compare devices, Compare users and the Related
   button): the groups a device or user belongs to, directly and through other groups, and the names and
@@ -46,13 +46,27 @@ After you accept the disclosure on the extension's Settings page (it opens when 
 - **User account status** (Orphaned users): whether each device's primary user still exists in Microsoft
   Entra and is enabled.
 - **Tenant health**: the Apple push certificate (Apple ID and expiry), Apple VPP and enrolment tokens (names
-  and expiry), the Managed Google Play binding (owner user principal name), and certificate connectors
+  and expiry), the Managed Google Play binding (owner user principal name), and certificate and domain join connectors
   (names, state and last contact).
+- **Custom setting names** (Setting check, Policy export) look up a custom profile's CSP path in a table that is part of the
+  extension (names from the Intune product team's published export, descriptions from Microsoft's CSP definitions). Nothing is sent.
+- **Baseline gap** compares one device's applied policy settings (already read for Device 360 and Setting check) with Microsoft
+  security baselines that are part of the extension. It reads nothing else and sends nothing.
+- **Error code lookup** reads nothing from your tenant. Its error tables are part of the extension (adapted from
+  Microsoft's public documentation, CC BY 4.0) and the lookup runs on your computer without sending anything.
 - **Assignment filters**: filter names, platforms and rules, to show a filter's rule on hover.
 - **App install counts**: for each app shown in an app list, how many devices it installed on
-  and failed on (Intune's app status report).
+  and failed on (Intune's app status report). The workspace's Failed apps tool reads the same
+  counts for every app, for devices and for users.
 - **Policy status counts**: for each policy shown in the Configuration list, how many devices
-  it succeeded and failed on (Intune's device status reports).
+  it succeeded and failed on (Intune's device status reports). The workspace's Failed policies
+  tool reads these for every configuration policy, for devices and for users, including conflicts.
+- **Autopilot deployments**: in the workspace's Autopilot failures tool, Intune's Autopilot deployment events for the
+  last few days (device name, serial number, user, status, timings and every other field Intune sends), the
+  enrollment status page items, and the device's Autopilot registration record. To explain a failure it also reads, for
+  those devices and their users, the Intune managed device record, the Entra device record, the groups they belong to,
+  the enrollment status page assignments and the Autopilot profiles with their assigned groups. These are shown on the
+  page and kept only in the open workspace tab until you read again, save a file or close it.
 - **Installed app versions and device details**: in the workspace's App versions tool, the discovered
   apps whose name you search for, with their versions and device counts, and the devices running a
   version you pick; in Device quick facts, when you click "More details", one device's hardware, storage
@@ -95,6 +109,9 @@ It can only access what your own account and Intune role can already access.
 - **Settings:** which in-portal features are switched on and how they show (for example display
   names or user principal names), and the column widths you choose or drag (extension storage),
   and the workspace's light or dark theme and the tool you last had open (the workspace page's own storage).
+- **Workspace scope:** if you pick a scope group at the top of the workspace, its ID and name are kept in extension
+  storage so the scope is still set next time. The group's member list is read when the workspace needs it and is not
+  stored. "Clear stored data" removes the scope, as does removing the extension.
 
 ## Changes to your tenant
 
