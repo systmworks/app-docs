@@ -9,7 +9,40 @@
 New features and fixes, newest first. Versions released on the same day are grouped.
 Intune Enhancer is read-only: it never changes your tenant, and it only talks to Microsoft Graph.
 
-## 2.1.0 to 2.4.0 - 4 to 5 November 2026
+## 2.10.0 to 2.33.0 - 5 November 2026
+- **Fixes.** In Firefox, the Group roster row filter and the App versions "older than" box now apply when you press
+  Enter. Settings catalog policies for macOS, iOS and Android open in the right place. Changing the workspace scope
+  while devices are loading no longer shows the wrong devices. Compare users keeps the names of the users it compared.
+  The workspace copes better when Microsoft Graph is briefly unavailable, and the dark theme's sidebar highlights the
+  selected tab again. Orphaned users and Tenant health no longer start a second scan if you click Run twice, and a
+  policy export says when a policy's settings couldn't be read.
+- **Advanced (experimental) settings.** The Settings card for new and not yet widely tested options is now called
+  Advanced (experimental). Baseline gap, Workspace scope and US Government clouds are there.
+- **Baseline gap (experimental).** Turn it on under Settings > Advanced (experimental) for a new tool under Devices. Pick a Windows device and a Microsoft security baseline (Windows 11,
+  Microsoft 365 Apps or Edge) to see, for each recommendation, whether a policy that reaches the device sets it as
+  recommended: Matches, Different, Conflict, Check value or Not configured. It is judged from your Intune policies, so
+  Group Policy and scripts are not seen. Save the result as CSV or JSON.
+- **Error code lookup.** Type an error code or a few words to see its name, meaning and fix from Microsoft's published
+  Intune, Entra and Windows error tables. Works offline, and Autopilot failures shows the codes in each event.
+- **Scope the workspace to a device group.** Responsible for one site or team in a big tenant? Turn on Workspace scope
+  under Settings > Advanced (experimental), then pick a device group with Scope at the top of the workspace. OS builds, Stale &
+  duplicates, Low storage, Hardware, Orphaned users, the device searches and the list of devices failing a compliance
+  setting then show only that group's devices (nested groups included). The scope is kept until you clear it with the x.
+  It only filters what the workspace shows: nothing in Intune changes.
+
+## 2.1.0 to 2.9.0 - 4 to 5 November 2026
+- **Autopilot failures.** A new report under Devices for troubleshooting failed Autopilot deployments. It lists the
+  last 1 to 30 days (7 by default) of Autopilot events, with one search box for host name, serial number or user.
+  Open Details on a row for everything Intune reports about it, including the enrollment status page apps and
+  policies and the device's Autopilot record. Copy the table or save it as CSV or JSON. New and not yet tried on a
+  live tenant.
+- **Failed apps and Failed policies.** Two new reports in the workspace, under Apps and Policies. Each lists only the
+  apps or policies that have failures, with the failure percentage, and a Devices / Users switch (one at a time).
+  Choose a minimum number of fails and a platform. Failed policies also shows conflicts. Click a heading to sort,
+  then copy the table or save it as CSV. These are new and not yet tried on a live tenant.
+- **Sort the Remediations list by more.** The Sort by menu on the Remediations list now also sorts by Author,
+  Status, Without issues, With issues, Issue fixed, Recurred and Total remediated (when the list shows them).
+- **Low storage sorts by heading.** Click any column heading to sort, like the Hardware report.
 - **Group assignments.** The Group impact tab is now called Group assignments. It has new All devices and All users
   (licensed) buttons that list every policy, app and script assigned to those built-in targets, with intent and filter.
 - **Same export buttons everywhere.** Copy table and Save CSV now appear on every report once it has results, and
