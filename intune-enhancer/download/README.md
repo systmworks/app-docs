@@ -7,9 +7,9 @@ The version live in each store today:
 
 | Microsoft Edge | Google Chrome | Mozilla Firefox |
 |:---:|:---:|:---:|
-| [![Install from Microsoft Edge Add-ons](https://img.shields.io/badge/MICROSOFT%20EDGE-INSTALL%20INTUNE%20ENHANCER-0078D7?style=for-the-badge&labelColor=555555)](https://microsoftedge.microsoft.com/addons/detail/intune-enhancer/hcmhldmcpgieiaeobdbppcgfckahdeci) | [![Install from the Chrome Web Store](https://img.shields.io/badge/GOOGLE%20CHROME-INSTALL%20INTUNE%20ENHANCER-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=555555)](https://chromewebstore.google.com/detail/intune-enhancer/geifmacoimaenjdednhfiegamkjkgjjm) | ![Firefox Add-ons: coming soon](https://img.shields.io/badge/MOZILLA%20FIREFOX-COMING%20SOON-FF7139?style=for-the-badge&logo=firefoxbrowser&logoColor=white&labelColor=555555) |
-| ![Edge published version 1.27.0](https://img.shields.io/badge/Published%20Version-1.27.0-2EA44F?style=flat-square) | ![Chrome published version 1.87.0](https://img.shields.io/badge/Published%20Version-1.87.0-2EA44F?style=flat-square) | ![Firefox published version none](https://img.shields.io/badge/Published%20Version-none-lightgrey?style=flat-square) |
-| ![Edge pending review 1.86.0](https://img.shields.io/badge/Pending%20review-1.86.0-DFB317?style=flat-square) | ![Chrome pending review none](https://img.shields.io/badge/Pending%20review-none-lightgrey?style=flat-square) | ![Firefox pending review 1.84.0](https://img.shields.io/badge/Pending%20review-1.84.0-DFB317?style=flat-square) |
+| [![Install from Microsoft Edge Add-ons](https://img.shields.io/badge/MICROSOFT%20EDGE-INSTALL%20INTUNE%20ENHANCER-0078D7?style=for-the-badge&labelColor=555555)](https://microsoftedge.microsoft.com/addons/detail/intune-enhancer/hcmhldmcpgieiaeobdbppcgfckahdeci) | [![Install from the Chrome Web Store](https://img.shields.io/badge/GOOGLE%20CHROME-INSTALL%20INTUNE%20ENHANCER-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=555555)](https://chromewebstore.google.com/detail/intune-enhancer/geifmacoimaenjdednhfiegamkjkgjjm) | [![Install from Firefox Add-ons](https://img.shields.io/badge/MOZILLA%20FIREFOX-INSTALL%20INTUNE%20ENHANCER-FF7139?style=for-the-badge&logo=firefoxbrowser&logoColor=white&labelColor=555555)](https://addons.mozilla.org/firefox/addon/intune-enhancer/) |
+| ![Edge published version 1.27.0](https://img.shields.io/badge/Published%20Version-1.27.0-2EA44F?style=flat-square) | ![Chrome published version 1.87.0](https://img.shields.io/badge/Published%20Version-1.87.0-2EA44F?style=flat-square) | ![Firefox published version 1.84.0](https://img.shields.io/badge/Published%20Version-1.84.0-2EA44F?style=flat-square) |
+| ![Edge pending review 1.86.0](https://img.shields.io/badge/Pending%20review-1.86.0-DFB317?style=flat-square) | ![Chrome pending review none](https://img.shields.io/badge/Pending%20review-none-lightgrey?style=flat-square) | ![Firefox pending review none](https://img.shields.io/badge/Pending%20review-none-lightgrey?style=flat-square) |
 
 ## Manual Install
 
@@ -28,11 +28,11 @@ or remove it and install from the store instead, which keeps it up to date.
 
 ### Firefox
 
-Intune Enhancer is waiting for review on Firefox Add-ons, so there is no store link yet; it will be added here once
-it is approved. Until then you can load it for a test:
+Intune Enhancer is on [Firefox Add-ons](https://addons.mozilla.org/firefox/addon/intune-enhancer/), and installing
+from there is the easiest way. To load it by hand for a test instead:
 
 * Download the Firefox `.zip` file ([Intune-Enhancer-Firefox-1.84.0.zip](Intune-Enhancer-Firefox-1.84.0.zip), the
-  version in review, in the Firefox package section below)
+  published version, in the Firefox package section below)
 * Extract the contents of the `.zip` file.
 * Open Firefox and navigate to `about:debugging#/runtime/this-firefox`
 * Click "Load Temporary Add-on" and select the `manifest.json` file in the extracted folder
@@ -60,11 +60,11 @@ To compare it with what you have installed: unzip it, then diff it against the e
 `%LocalAppData%\Google\Chrome\User Data\Default\Extensions\`). The store repackages the file, so the ZIP's own
 hash can differ from the store's, but the files inside should match.
 
-## Firefox package (1.84.0, in review)
+## Firefox package (1.84.0)
 
-The Firefox build of the version waiting for review on Firefox Add-ons: the same files as Chrome and Edge, with a
-Firefox manifest. 1.84.0 has one known issue, fixed in 1.85.0: in a few lists a device name that starts with an icon
-is read as blank, so that row gets no label.
+The Firefox build of the version that is live on Firefox Add-ons: the same files as Chrome and Edge, with a
+Firefox manifest. 1.84.0 has one known issue, fixed in 1.85.0 and coming to Firefox Add-ons in the next update: in a
+few lists a device name that starts with an icon is read as blank, so that row gets no label.
 
 | Version | File | SHA-256 |
 |---|---|---|
