@@ -9,7 +9,7 @@
 New features and fixes, newest first. Versions released on the same day are grouped.
 Intune Enhancer is read-only: it never changes your tenant, and it only talks to Microsoft Graph.
 
-## 2.35.0 to 2.38.0 - 6 November 2026
+## 2.35.0 to 2.39.0 - 6 November 2026
 - **Star your favourites.** Click the star beside a report in All reports, then use the Starred button to see only
   those. Every tool in the workspace's sidebar has a star too, and "Starred only" at the top of the sidebar hides the
   tools you haven't starred, keeping the headings. The sidebar is a little wider.
