@@ -1,6 +1,6 @@
 # Privacy policy: Intune Enhancer
 
-_Last updated: 5 November 2026_
+_Last updated: 6 November 2026_
 
 ## The short version
 
@@ -107,8 +107,9 @@ It can only access what your own account and Intune role can already access.
 - **Sign-in tokens:** kept in memory and in the browser's session storage, which is memory only
   and cleared when the browser closes. Never written to disk by the extension.
 - **Settings:** which in-portal features are switched on and how they show (for example display
-  names or user principal names), and the column widths you choose or drag (extension storage),
-  and the workspace's light or dark theme and the tool you last had open (the workspace page's own storage).
+  names or user principal names), the column widths you choose or drag, and the reports and workspace tools you
+  star (extension storage), and the workspace's light or dark theme and the tool you last had open (the workspace
+  page's own storage). "Reset all settings to defaults" in Settings removes them; removing the extension deletes them.
 - **Workspace scope:** if you pick a scope group at the top of the workspace, its ID and name are kept in extension
   storage so the scope is still set next time. The group's member list is read when the workspace needs it and is not
   stored. "Clear stored data" removes the scope, as does removing the extension.
