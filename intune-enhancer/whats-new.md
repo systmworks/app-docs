@@ -9,14 +9,19 @@
 New features and fixes, newest first. Versions released on the same day are grouped.
 Intune Enhancer is read-only: it never changes your tenant, and it only talks to Microsoft Graph.
 
-## 2.35.0 - 6 November 2026
+## 2.35.0 to 2.36.0 - 6 November 2026
 - **Star your favourites.** Click the star beside a report in All reports, then use the Starred button to see only
-  those. Every tool in the workspace's sidebar has a star too (it shows when you point at the tool), and "Starred only"
-  at the top of the sidebar hides the tools you haven't starred, keeping the headings.
+  those. Every tool in the workspace's sidebar has a star too, and "Starred only" at the top of the sidebar hides the
+  tools you haven't starred, keeping the headings. The sidebar is a little wider.
 - **Reset all settings to defaults.** A link at the foot of the Settings tab puts every switch, dropdown, column width,
   star and the theme back to how they were at install. It asks first, and nothing you have stored is deleted.
 - **Updating keeps your settings.** Store installs keep them through every update. For a manual install, extract the
   new version over the same folder and reload the extension; the download page explains how.
+- **Fixes.** Group sizes and app install counts refresh in an admin center tab left open for a long time. After the
+  extension updates, an already-open admin center tab no longer shows a "Dates couldn't be read" note on the
+  Remediations list (reload the tab to get the new version). Autopilot failures says it can't tell which enrollment
+  status page applies, instead of guessing, for users in very many groups. Clear stored data also clears what the
+  workspace was showing.
 
 ## 2.4.0 to 2.34.0 - 5 November 2026
 - **Fixes.** In Firefox, the Group roster row filter and the App versions "older than" box now apply when you press
