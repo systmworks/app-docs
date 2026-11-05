@@ -9,13 +9,16 @@
 New features and fixes, newest first. Versions released on the same day are grouped.
 Intune Enhancer is read-only: it never changes your tenant, and it only talks to Microsoft Graph.
 
-## 2.10.0 to 2.33.0 - 5 November 2026
+## 2.4.0 to 2.33.0 - 5 November 2026
 - **Fixes.** In Firefox, the Group roster row filter and the App versions "older than" box now apply when you press
   Enter. Settings catalog policies for macOS, iOS and Android open in the right place. Changing the workspace scope
   while devices are loading no longer shows the wrong devices. Compare users keeps the names of the users it compared.
   The workspace copes better when Microsoft Graph is briefly unavailable, and the dark theme's sidebar highlights the
   selected tab again. Orphaned users and Tenant health no longer start a second scan if you click Run twice, and a
   policy export says when a policy's settings couldn't be read.
+- **All reports.** A new Reports section in the workspace lists about 50 of Intune's own reports in one place. Click a
+  name to open that report in the Intune admin center. Narrow the list with the All, Compliance, Updates, Enrollment,
+  Apps and Security buttons, or type three or more letters to search. Nothing is read from your tenant to build it.
 - **Advanced (experimental) settings.** The Settings card for new and not yet widely tested options is now called
   Advanced (experimental). Baseline gap, Workspace scope and US Government clouds are there.
 - **Baseline gap (experimental).** Turn it on under Settings > Advanced (experimental) for a new tool under Devices. Pick a Windows device and a Microsoft security baseline (Windows 11,
@@ -29,8 +32,6 @@ Intune Enhancer is read-only: it never changes your tenant, and it only talks to
   duplicates, Low storage, Hardware, Orphaned users, the device searches and the list of devices failing a compliance
   setting then show only that group's devices (nested groups included). The scope is kept until you clear it with the x.
   It only filters what the workspace shows: nothing in Intune changes.
-
-## 2.1.0 to 2.9.0 - 4 to 5 November 2026
 - **Autopilot failures.** A new report under Devices for troubleshooting failed Autopilot deployments. It lists the
   last 1 to 30 days (7 by default) of Autopilot events, with one search box for host name, serial number or user.
   Open Details on a row for everything Intune reports about it, including the enrollment status page apps and
@@ -43,15 +44,13 @@ Intune Enhancer is read-only: it never changes your tenant, and it only talks to
 - **Sort the Remediations list by more.** The Sort by menu on the Remediations list now also sorts by Author,
   Status, Without issues, With issues, Issue fixed, Recurred and Total remediated (when the list shows them).
 - **Low storage sorts by heading.** Click any column heading to sort, like the Hardware report.
+
+## 1.91.0 to 2.3.0 - 4 November 2026
 - **Group assignments.** The Group impact tab is now called Group assignments. It has new All devices and All users
   (licensed) buttons that list every policy, app and script assigned to those built-in targets, with intent and filter.
 - **Same export buttons everywhere.** Copy table and Save CSV now appear on every report once it has results, and
   Group assignments has Copy table too.
 - **Tidier Compare tabs.** The two search boxes on Compare devices and Compare users have a small gap between them.
-- **US Government clouds are marked experimental.** The Settings switch now says experimental instead of untested.
-  It is built from Microsoft's documentation and has not been tried on a government tenant yet.
-
-## 1.91.0 to 2.0.0 - 4 November 2026
 - **Version 2.** A new look for the Settings tab, with switches, short descriptions and an i for the full
   explanation, and optional support for the US Government clouds (GCC High and DoD, not yet tried on a
   government tenant). It includes every fix below.
@@ -82,10 +81,6 @@ Intune Enhancer is read-only: it never changes your tenant, and it only talks to
 ## 1.79.0 - 2 November 2026
 - **The browser now enforces "Graph only".** The extension's manifest limits its connections to Microsoft Graph, so a
   request to any other site is blocked by Chrome or Edge itself, not just left out of the code.
-
-## 1.77.0 - 1 November 2026
-- **Buy me a coffee link in the footer.** An optional link after Contact, for anyone who finds the extension useful.
-  The extension stays free and nothing depends on it.
 
 ## 1.47.0 to 1.76.0 - 1 November 2026
 - **Clear stored data now clears the Hardware report too.** The saved report (serial numbers, IP and MAC addresses)
