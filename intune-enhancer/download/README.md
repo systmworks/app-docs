@@ -50,6 +50,21 @@ itself). Your settings are kept when you load it again.
 Newer versions are listed in [What's new](../whats-new.md) before the stores approve them, so the store can be a
 version or two behind.
 
+## Pre-release / Experimental (2.39.0)
+
+**This version is still undergoing testing.** It has the newest features and fixes listed in
+[What's new](../whats-new.md), but it has not been sent to the stores yet, so use the store version if you want the
+tested one. Install it by hand with the steps above (Chrome/Edge: Load unpacked; Firefox: Load Temporary Add-on). A
+manual install does not update itself.
+
+| Browser | File | SHA-256 |
+|---|---|---|
+| Chrome / Edge | [Intune-Enhancer-ChromeEdge-2.39.0.zip](Intune-Enhancer-ChromeEdge-2.39.0.zip) | `cee1ec1f64b304ebf61f63f3ffdf23a5c623c8019a83279d8d64bf6289260202` |
+| Firefox | [Intune-Enhancer-Firefox-2.39.0.zip](Intune-Enhancer-Firefox-2.39.0.zip) | `6ce1dc47ac13570bc2226760dca1c2599d5efee12c4fc3d2503f495c79d7f5b5` |
+
+If you already have a store version installed, remove it before loading this one (two copies would both run). Removing
+it deletes its settings, so you set them again here.
+
 ## Published package (Chrome 1.87.0)
 
 The exact files of the version that is live in the Chrome Web Store, so you can read them or compare them with
