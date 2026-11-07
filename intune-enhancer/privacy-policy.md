@@ -1,6 +1,6 @@
 # Privacy policy: Intune Enhancer
 
-_Last updated: 6 November 2026_
+_Last updated: 7 November 2026_
 
 ## The short version
 
@@ -103,7 +103,8 @@ It can only access what your own account and Intune role can already access.
   shows them, and in any CSV you choose to save.
 - **Recent lookups:** the group sizes, app and policy status counts, remediation script dates, policy names and filter rules
   shown in the admin center are kept on your computer for up to 30 minutes, so lists you reopen
-  show them straight away. "Clear stored data" deletes them, as does removing the extension.
+  show them straight away. The same applies to the Device quick facts "More details" answers for one device
+  (serial number, IP and MAC addresses, memory, storage, TPM and encryption details). "Clear stored data" deletes them, as does removing the extension.
 - **Sign-in tokens:** kept in memory and in the browser's session storage, which is memory only
   and cleared when the browser closes. Never written to disk by the extension.
 - **Settings:** which in-portal features are switched on and how they show (for example display
