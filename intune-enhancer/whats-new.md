@@ -9,7 +9,12 @@
 New features and fixes, newest first. Versions released on the same day are grouped.
 Intune Enhancer is read-only: it never changes your tenant, and it only talks to Microsoft Graph.
 
-## 2.40.0 - 7 November 2026
+## 2.40.0 and 2.41.0 - 7 November 2026
+- **More fixes (2.41.0).** Clear stored data clears everything even while a list is still being read. A click on a
+  column's edge no longer changes its saved width. Compare devices and Compare users forget a pick when you type in
+  its box. For US Government clouds, the additions in the admin center are set up properly once you allow the
+  cloud. In Firefox, the install screen now also lists personal information (names and email addresses), which the
+  extension sends only to Microsoft Graph.
 - **Fixes.** Group sizes, app install counts and policy status counts now really do refresh after 30 minutes in an
   admin center tab left open for a long time. Saved and copied tables keep negative numbers as numbers (for example
   days left on an expired token in Tenant health). The Autopilot failures filter runs when you press Enter, like the
