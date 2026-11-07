@@ -9,7 +9,11 @@
 New features and fixes, newest first. Versions released on the same day are grouped.
 Intune Enhancer is read-only: it never changes your tenant, and it only talks to Microsoft Graph.
 
-## 2.40.0 to 2.50.0 - 7 November 2026
+## 2.40.0 to 2.52.0 - 7 November 2026
+- **2.52.0.** Cleanup has a Copy table button like the other reports. Tenant health and Orphaned users grey their
+  button while they read. Compliance breakdown says when it shows only the first 2,000 devices.
+- **2.51.0.** Behind the scenes: shared code for running searches and reports, with more of it tested. If you look up
+  two IDs in quick succession in the ID decoder, you now always see the answer to the second.
 - **Matching cards (2.50.0).** Device quick facts and the Related card now look the same, with a blue edge like the
   extension's buttons, on both the light and dark admin center themes.
 - **Easier dates (2.49.0).** Check-ins and changes read the same way everywhere: "yesterday", "3 days ago", "2 weeks
