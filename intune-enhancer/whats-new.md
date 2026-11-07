@@ -9,7 +9,15 @@
 New features and fixes, newest first. Versions released on the same day are grouped.
 Intune Enhancer is read-only: it never changes your tenant, and it only talks to Microsoft Graph.
 
-## 2.40.0 to 2.44.0 - 7 November 2026
+## 2.40.0 to 2.48.0 - 7 November 2026
+- **2.48.0.** Policy export no longer shows a 1970 date for a policy Intune gives no real date for. Compliance states
+  read the same in the workspace as in the admin center's quick facts card.
+- **2.47.0.** Behind the scenes: every report table is drawn the same way, so they look and behave alike.
+- **2.46.0.** Device quick facts and the Related card share one way of opening and closing, so only one is open at a
+  time.
+- **One way to search (2.45.0).** Every search box now finds rows that hold all the words you type, in any order, so
+  "ann laptop" finds Ann's laptop in Group roster, Recent changes, Autopilot failures and the device and policy
+  searches, as it already did in All reports and Setting check. Put words in quotes to keep a phrase together.
 - **2.44.0.** The Settings disclosure lists everything the extension reads, with a link to the privacy policy. Stopping
   the Hardware report no longer replaces the last saved full report.
 - **Tidier workspace (2.43.0).** Reset to defaults is now a button in the top bar, next to Settings, and asks before
