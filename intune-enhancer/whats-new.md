@@ -9,7 +9,11 @@
 New features and fixes, newest first. Versions released on the same day are grouped.
 Intune Enhancer is read-only: it never changes your tenant, and it only talks to Microsoft Graph.
 
-## 2.40.0 to 2.48.0 - 7 November 2026
+## 2.40.0 to 2.50.0 - 7 November 2026
+- **Matching cards (2.50.0).** Device quick facts and the Related card now look the same, with a blue edge like the
+  extension's buttons, on both the light and dark admin center themes.
+- **Easier dates (2.49.0).** Check-ins and changes read the same way everywhere: "yesterday", "3 days ago", "2 weeks
+  ago", "4 months ago", instead of counting days into the hundreds.
 - **2.48.0.** Policy export no longer shows a 1970 date for a policy Intune gives no real date for. Compliance states
   read the same in the workspace as in the admin center's quick facts card.
 - **2.47.0.** Behind the scenes: every report table is drawn the same way, so they look and behave alike.
