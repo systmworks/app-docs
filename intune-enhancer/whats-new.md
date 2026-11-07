@@ -9,7 +9,9 @@
 New features and fixes, newest first. Versions released on the same day are grouped.
 Intune Enhancer is read-only: it never changes your tenant, and it only talks to Microsoft Graph.
 
-## 2.40.0 to 2.43.0 - 7 November 2026
+## 2.40.0 to 2.44.0 - 7 November 2026
+- **2.44.0.** The Settings disclosure lists everything the extension reads, with a link to the privacy policy. Stopping
+  the Hardware report no longer replaces the last saved full report.
 - **Tidier workspace (2.43.0).** Reset to defaults is now a button in the top bar, next to Settings, and asks before
   it does anything. Where the extension's data comes from is under Credits in the footer.
 - **Clearer credits (2.42.0).** The Settings page says more precisely where setting descriptions come from: adapted
