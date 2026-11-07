@@ -9,7 +9,9 @@
 New features and fixes, newest first. Versions released on the same day are grouped.
 Intune Enhancer is read-only: it never changes your tenant, and it only talks to Microsoft Graph.
 
-## 2.40.0 and 2.41.0 - 7 November 2026
+## 2.40.0 to 2.42.0 - 7 November 2026
+- **Clearer credits (2.42.0).** The Settings page says more precisely where setting descriptions come from: adapted
+  from Microsoft Learn and Microsoft's published files, with Microsoft Learn text used under CC BY 4.0.
 - **More fixes (2.41.0).** Clear stored data clears everything even while a list is still being read. A click on a
   column's edge no longer changes its saved width. Compare devices and Compare users forget a pick when you type in
   its box. For US Government clouds, the additions in the admin center are set up properly once you allow the
