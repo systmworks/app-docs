@@ -49,6 +49,8 @@ After you accept the disclosure on the extension's Settings page (it opens when 
   fail, and for a setting you open, the failing devices with their names, primary users and state.
 - **User account status** (Orphaned users): whether each device's primary user still exists in Microsoft
   Entra and is enabled.
+- **User 360**: for the user you pick, their name, sign-in name, job title, department and whether the account is
+  enabled, the groups they are in, and the devices they are the primary user of. Shown on the page only.
 - **Tenant health**: the Apple push certificate (Apple ID and expiry), Apple VPP and enrolment tokens (names
   and expiry), the Managed Google Play binding (owner user principal name), and certificate and domain join connectors
   (names, state and last contact).
