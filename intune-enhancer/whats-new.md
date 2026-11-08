@@ -9,7 +9,14 @@
 New features and fixes, newest first. Versions released on the same day are grouped.
 Intune Enhancer is read-only: it never changes your tenant, and it only talks to Microsoft Graph.
 
-## 2.53.0 to 2.69.0 - 8 November 2026
+## 2.53.0 to 2.71.0 - 8 November 2026
+- **Group assignments sees nested groups (2.71.0).** When a group is a member of other groups, Group assignments now
+  also lists the policies, apps and scripts assigned to those parent groups, which its members get too, and which
+  group each comes through. A group with nothing assigned directly no longer looks unused.
+- **Environment overview (2.70.0).** A new report under Reports: a one or two page summary of your devices, with
+  counts and percentages by platform and release, manufacturer and model, compliance, encryption, last check-in,
+  ownership, join type and Autopilot, plus TPM, Secure Boot and Credential Guard once the Hardware report has been
+  read. Save it as an HTML page and print that to PDF, or copy it as Markdown or CSV.
 - **Security posture (2.69.0).** A new tool under Devices: encryption, TPM 2.0, Secure Boot, virtualization-based
   security and Credential Guard across your Windows and macOS devices, with how many pass each check and what each
   device needs attention for. It shares the Hardware report's read, so running either one fills both.
