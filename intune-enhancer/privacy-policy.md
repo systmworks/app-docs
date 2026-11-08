@@ -25,13 +25,17 @@ After you accept the disclosure on the extension's Settings page (it opens when 
   tokens, ID tokens or passwords, and it never asks for your password.
 - **Device information from Microsoft Graph.** For each Intune managed device: its id, name,
   serial number, Microsoft Entra device id, operating system and version, model, total and free
-  storage, compliance state, ownership, enrolment and last sync time, its primary user's id, display
+  storage, compliance state, ownership, enrolment and last sync time, manufacturer, join and enrolment type,
+  enrolment profile, management agent, device category, whether it is encrypted, supervised or registered with
+  Autopilot, when its management certificate expires and when its compliance grace period ends, its primary user's id, display
   name and user principal name, and the display name and user principal name of the user who last
   logged on (Windows devices). For Entra device lists, it may look up which Entra object ids are devices.
 - **Hardware details** (the workspace's Hardware report, only when you click "Read hardware for all
   devices"): for each device, its manufacturer, model, serial number, operating system and edition,
   memory, storage, encryption state, TPM and BIOS details, battery health, IP address, and Wi-Fi and
-  Ethernet MAC addresses. This report is saved on your computer (see below).
+  Ethernet MAC addresses, and its security state for Security posture (Secure Boot, BitLocker and code integrity
+  as attested, virtualization-based security, Credential Guard, and Intune's encryption state, readiness and
+  reasons). This report is saved on your computer (see below).
 - **Policy information** (workspace tools): the names, configured settings, assignments and
   created / last modified dates of Intune policies, profiles, scripts, apps and similar objects.
 - **Group information**: member counts of groups shown in the admin center (group size hints),
@@ -72,6 +76,9 @@ After you accept the disclosure on the extension's Settings page (it opens when 
   Both are read from Microsoft Graph and are not stored beyond the 30 minutes below.
 - **Remediation script dates**: when each script package in the Remediations list was created and last
   modified.
+- **App details**: in the workspace's App details tool, for the one app you open, its publisher and version, install
+  and uninstall commands, detection and requirement rules (including the text of any detection or requirement script),
+  return codes, and the apps it depends on or supersedes. Shown on the page only, not stored.
 - **Any ID you paste** into the ID decoder, which is looked up in Microsoft Graph.
 
 It can only access what your own account and Intune role can already access.
@@ -102,7 +109,8 @@ It can only access what your own account and Intune role can already access.
 - **Recent lookups:** the group sizes, app and policy status counts, remediation script dates, policy names and filter rules
   shown in the admin center are kept on your computer for up to 30 minutes, so lists you reopen
   show them straight away. The same applies to the Device quick facts "More details" answers for one device
-  (serial number, IP and MAC addresses, memory, storage, TPM and encryption details). "Clear stored data" deletes them, as does removing the extension.
+  (serial number, IP and MAC addresses, memory, storage, TPM and encryption details), and to every device's encryption
+  state while the Hardware report or Security posture reads. "Clear stored data" deletes them, as does removing the extension.
 - **Sign-in tokens:** kept in memory and in the browser's session storage, which is memory only
   and cleared when the browser closes. Never written to disk by the extension.
 - **Settings:** which in-portal features are switched on and how they show (for example display
