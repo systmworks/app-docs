@@ -9,7 +9,11 @@
 New features and fixes, newest first. Versions released on the same day are grouped.
 Intune Enhancer is read-only: it never changes your tenant, and it only talks to Microsoft Graph.
 
-## 2.53.0 to 2.62.0 - 8 November 2026
+## 2.53.0 to 2.64.0 - 8 November 2026
+- **2.64.0.** Behind the scenes: every colour now comes from one theme, ready for more themes later. In the admin
+  center's dark theme, the activity dots on the Related card now match the ones in device lists.
+- **2.63.0.** When you limit the workspace to one device group, Compare devices and the device lists in App versions
+  now show only that group's devices too. All reports has Enrollment and Other quick filters.
 - **2.62.0.** Behind the scenes: the workspace page is smaller, with its search boxes and Copy table / Save CSV
   buttons built one way everywhere.
 - **2.61.0.** The tool list on the left is a little wider, so every tool name fits on one line.
