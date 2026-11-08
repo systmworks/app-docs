@@ -9,6 +9,20 @@
 New features and fixes, newest first. Versions released on the same day are grouped.
 Intune Enhancer is read-only: it never changes your tenant, and it only talks to Microsoft Graph.
 
+## 2.53.0 to 2.58.0 - 8 November 2026
+- **2.58.0.** Remediation dates and sort is now off until you turn it on in Settings.
+- **Try it on a sample tenant (2.57.0).** A new Demo on sample tenant button at the top of the workspace shows every
+  tool working on a fictional company, without touching your tenant. Leave demo takes you back.
+- **2.56.0.** Autopilot failures no longer names a lower-priority enrollment status page as expected when it can't
+  tell whether a higher-priority page targets the device; it says it can't tell.
+- **2.55.0.** Autopilot failures no longer says the Default enrollment status page applies when it can't read another
+  page's assignments. Baseline gap and Duplicate policies say when only part of a policy's settings could be read.
+  Device 360 and Compare devices open faster, and very large tenants use less memory while reading policies.
+- **2.54.0.** Device lists in the admin center redraw with less work while you scroll, and primary user labels
+  refresh properly after the feature is turned off and on again.
+- **2.53.0.** A smaller download: custom (OMA-URI) settings no longer show a friendly name and description in Setting
+  check and Policy export. Search them by their path as before.
+
 ## 2.40.0 to 2.52.0 - 7 November 2026
 - **2.52.0.** Cleanup has a Copy table button like the other reports. Tenant health and Orphaned users grey their
   button while they read. Compliance breakdown says when it shows only the first 2,000 devices.
