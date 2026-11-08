@@ -1,6 +1,6 @@
 # Privacy policy: Intune Enhancer
 
-_Last updated: 7 November 2026_
+_Last updated: 8 November 2026_
 
 ## The short version
 
@@ -48,8 +48,6 @@ After you accept the disclosure on the extension's Settings page (it opens when 
 - **Tenant health**: the Apple push certificate (Apple ID and expiry), Apple VPP and enrolment tokens (names
   and expiry), the Managed Google Play binding (owner user principal name), and certificate and domain join connectors
   (names, state and last contact).
-- **Custom setting names** (Setting check, Policy export) look up a custom profile's CSP path in a table that is part of the
-  extension (names from the Intune product team's published export, descriptions from Microsoft's CSP definitions). Nothing is sent.
 - **Baseline gap** compares one device's applied policy settings (already read for Device 360 and Setting check) with Microsoft
   security baselines that are part of the extension. It reads nothing else and sends nothing.
 - **Error code lookup** reads nothing from your tenant. Its error tables are part of the extension (adapted from
