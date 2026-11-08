@@ -9,7 +9,11 @@
 New features and fixes, newest first. Versions released on the same day are grouped.
 Intune Enhancer is read-only: it never changes your tenant, and it only talks to Microsoft Graph.
 
-## 2.53.0 to 2.71.0 - 8 November 2026
+## 2.53.0 to 2.72.0 - 8 November 2026
+- **More in the Environment overview (2.72.0).** The overview now shows how many devices have the firewall on, from
+  your compliance policies' firewall check, and how many apps and policies are assigned or not. Build overview now
+  gathers everything itself, including each device's security details the first time, so there is no need to run
+  another report first.
 - **Group assignments sees nested groups (2.71.0).** When a group is a member of other groups, Group assignments now
   also lists the policies, apps and scripts assigned to those parent groups, which its members get too, and which
   group each comes through. A group with nothing assigned directly no longer looks unused.
