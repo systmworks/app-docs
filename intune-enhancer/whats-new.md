@@ -9,7 +9,12 @@
 New features and fixes, newest first. Versions released on the same day are grouped.
 Intune Enhancer is read-only: it never changes your tenant, and it only talks to Microsoft Graph.
 
-## 2.53.0 to 2.74.0 - 8 November 2026
+## 2.53.0 to 2.76.0 - 8 November 2026
+- **Update check (2.76.0).** The OS builds tab can now show which Windows devices are behind on updates: each release
+  is checked against the newest build on your devices, or a build you type, with the devices that are behind listed
+  and ready to copy or save.
+- **Tidier sidebar (2.75.0).** The tools in the workspace sidebar sit closer together, and the sidebar's scrollbar only
+  appears while the pointer is over it.
 - **Small fixes (2.74.0).** Security posture's encryption issues read in plain sentence case; Hardware dates stay on
   one line; badges and check-in lights on the Device 360 and User 360 cards sit inline; User 360 marks a device that
   has two Intune records; and the sample tenant's groups and hardware are more consistent.
