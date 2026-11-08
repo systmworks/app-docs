@@ -16,7 +16,7 @@ page by it. It only reads the page you are viewing, and sends nothing anywhere.
 Not affiliated with, endorsed by or connected to any of the shops it works on. Shop names are used
 only to say where the extension works.
 
-Contact: systmworks@gmail.com
+Contact: systmworks@outlook.com
 
 ---
 

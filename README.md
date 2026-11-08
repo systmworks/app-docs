@@ -20,7 +20,7 @@ Each product has its own folder with an `index.md` (or `README.md`, which GitHub
 This repository used to be called `privacy-policies`. Old privacy policy links under that name
 redirect here.
 
-Contact: systmworks@gmail.com
+Contact: systmworks@outlook.com
 
 ---
 

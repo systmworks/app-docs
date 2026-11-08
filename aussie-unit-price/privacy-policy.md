@@ -52,4 +52,4 @@ before that version is published.
 
 ## Contact
 
-systmworks@gmail.com
+systmworks@outlook.com
