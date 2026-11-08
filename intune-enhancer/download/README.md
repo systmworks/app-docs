@@ -94,8 +94,8 @@ manual install does not update itself.
 
 | Browser | File | SHA-256 |
 |---|---|---|
-| Chrome / Edge | [Intune-Enhancer-ChromeEdge-2.64.0.zip](Intune-Enhancer-ChromeEdge-2.64.0.zip) | `5795cd292113d32fe4344511b14fb368621d90b33bc3e7d8370871c5eb530cc2` |
-| Firefox | [Intune-Enhancer-Firefox-2.64.0.zip](Intune-Enhancer-Firefox-2.64.0.zip) | `ad29084f4693927e4e1dfb4c0124c4cb11e930553a29dc0540d10c94909af051` |
+| Chrome / Edge | [Intune-Enhancer-ChromeEdge-2.64.0-experimental.zip](Intune-Enhancer-ChromeEdge-2.64.0-experimental.zip) | `5795cd292113d32fe4344511b14fb368621d90b33bc3e7d8370871c5eb530cc2` |
+| Firefox | [Intune-Enhancer-Firefox-2.64.0-experimental.zip](Intune-Enhancer-Firefox-2.64.0-experimental.zip) | `ad29084f4693927e4e1dfb4c0124c4cb11e930553a29dc0540d10c94909af051` |
 
 If you already have a store version installed, remove it before loading this one (two copies would both run). Removing
 it deletes its settings, so you set them again here.
