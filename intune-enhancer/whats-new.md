@@ -9,7 +9,21 @@
 New features and fixes, newest first. Versions released on the same day are grouped.
 Intune Enhancer is read-only: it never changes your tenant, and it only talks to Microsoft Graph.
 
-## 2.53.0 to 2.64.0 - 8 November 2026
+## 2.53.0 to 2.69.0 - 8 November 2026
+- **Security posture (2.69.0).** A new tool under Devices: encryption, TPM 2.0, Secure Boot, virtualization-based
+  security and Credential Guard across your Windows and macOS devices, with how many pass each check and what each
+  device needs attention for. It shares the Hardware report's read, so running either one fills both.
+- **Device explorer (2.68.0).** A new tool under Devices: every device in one table with the columns you choose,
+  such as ownership, join and enrolment type, manufacturer, encryption and when the management certificate expires.
+  Filter, sort by any heading, and copy or save what you see. It loads the whole list, not the first few hundred.
+- **App details (2.67.0).** A new App details tool under Apps: find an app and see how it is detected and what it
+  requires (including the text of a detection or requirement script), its install and uninstall commands, return
+  codes, the apps it depends on or supersedes, and its assignments. Copy it as Markdown or save it as CSV.
+- **Why this setting? (2.66.0).** Device 360 now lists every setting that reaches the device, which policy sets it
+  and why that policy reaches the device. Where two policies set the same setting to different values, it is marked
+  as a conflict. Show only conflicts or everything, filter the list, and copy or save it.
+- **Filter checks in Cleanup (2.65.0).** Cleanup now also checks assignment filters: assignments that still name a
+  filter that was deleted, filters nothing uses, and for every filter, the policies, apps and scripts that use it.
 - **2.64.0.** Behind the scenes: every colour now comes from one theme, ready for more themes later. In the admin
   center's dark theme, the activity dots on the Related card now match the ones in device lists.
 - **2.63.0.** When you limit the workspace to one device group, Compare devices and the device lists in App versions
