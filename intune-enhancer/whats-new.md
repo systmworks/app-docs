@@ -9,7 +9,9 @@
 New features and fixes, newest first. Versions released on the same day are grouped.
 Intune Enhancer is read-only: it never changes your tenant, and it only talks to Microsoft Graph.
 
-## 2.53.0 to 2.61.0 - 8 November 2026
+## 2.53.0 to 2.62.0 - 8 November 2026
+- **2.62.0.** Behind the scenes: the workspace page is smaller, with its search boxes and Copy table / Save CSV
+  buttons built one way everywhere.
 - **2.61.0.** The tool list on the left is a little wider, so every tool name fits on one line.
 - **Tidier reports (2.59.0).** Numbers line up in the centre of their columns, report pages use more of the window,
   and results no longer sit right against the button above them. Hardware shows users by name, in the CSV too;
