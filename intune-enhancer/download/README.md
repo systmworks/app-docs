@@ -21,7 +21,7 @@ update. Your browser deletes them when the extension is removed, so to update a 
 
 ### Chrome/Edge
 
-* Download the latest `.zip` file ([Intune-Enhancer-1.87.0.zip](Intune-Enhancer-1.87.0.zip), in the published package section below)
+* Download the latest `.zip` file ([Intune-Enhancer-ChromeEdge-1.87.0.zip](Intune-Enhancer-ChromeEdge-1.87.0.zip), in the published package section below)
 * Extract the contents of the `.zip` file.
 * Open your browser and navigate to:
    * Microsoft Edge: `edge://extensions`
@@ -57,10 +57,10 @@ what is installed. Only the currently published version is kept here; it is repl
 
 | Version | File | SHA-256 |
 |---|---|---|
-| 1.87.0 | [Intune-Enhancer-1.87.0.zip](Intune-Enhancer-1.87.0.zip) | `4783d8195cddaed3fce27b2b58e6a6a884eae0ba3bb2fd05571c0eb1b7df5cee` |
+| 1.87.0 | [Intune-Enhancer-ChromeEdge-1.87.0.zip](Intune-Enhancer-ChromeEdge-1.87.0.zip) | `4783d8195cddaed3fce27b2b58e6a6a884eae0ba3bb2fd05571c0eb1b7df5cee` |
 
 The code is plain, unminified JavaScript. To check the download: compare its SHA-256 with the one above
-(PowerShell: `Get-FileHash Intune-Enhancer-1.87.0.zip`).
+(PowerShell: `Get-FileHash Intune-Enhancer-ChromeEdge-1.87.0.zip`).
 
 To compare it with what you have installed: unzip it, then diff it against the extension folder under
 `chrome://extensions` (Developer mode, then the extension's ID, then the folder under
