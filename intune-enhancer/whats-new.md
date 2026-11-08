@@ -9,7 +9,10 @@
 New features and fixes, newest first. Versions released on the same day are grouped.
 Intune Enhancer is read-only: it never changes your tenant, and it only talks to Microsoft Graph.
 
-## 2.53.0 to 2.58.0 - 8 November 2026
+## 2.53.0 to 2.60.0 - 8 November 2026
+- **Tidier reports (2.59.0).** Numbers line up in the centre of their columns, report pages use more of the window,
+  and results no longer sit right against the button above them. Hardware shows users by name, in the CSV too;
+  Compliance breakdown shows them by name (the full address is still in its CSV). App versions highlights "List all devices".
 - **2.58.0.** Remediation dates and sort is now off until you turn it on in Settings.
 - **Try it on a sample tenant (2.57.0).** A new Demo on sample tenant button at the top of the workspace shows every
   tool working on a fictional company, without touching your tenant. Leave demo takes you back.
