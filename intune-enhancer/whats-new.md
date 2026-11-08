@@ -9,7 +9,8 @@
 New features and fixes, newest first. Versions released on the same day are grouped.
 Intune Enhancer is read-only: it never changes your tenant, and it only talks to Microsoft Graph.
 
-## 2.53.0 to 2.76.0 - 8 November 2026
+## 2.53.0 to 2.77.0 - 8 November 2026
+- **Tidier code (2.77.0).** Shared code in place of a few copies. Nothing looks or works differently.
 - **Update check (2.76.0).** The OS builds tab can now show which Windows devices are behind on updates: each release
   is checked against the newest build on your devices, or a build you type, with the devices that are behind listed
   and ready to copy or save.
