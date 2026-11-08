@@ -11,45 +11,6 @@ The version live in each store today:
 | ![Edge published version 1.27.0](https://img.shields.io/badge/Published%20Version-1.27.0-2EA44F?style=flat-square) | ![Chrome published version 1.87.0](https://img.shields.io/badge/Published%20Version-1.87.0-2EA44F?style=flat-square) | ![Firefox published version 1.84.0](https://img.shields.io/badge/Published%20Version-1.84.0-2EA44F?style=flat-square) |
 | ![Edge pending review 1.86.0](https://img.shields.io/badge/Pending%20review-1.86.0-DFB317?style=flat-square) | ![Chrome pending review none](https://img.shields.io/badge/Pending%20review-none-lightgrey?style=flat-square) | ![Firefox pending review none](https://img.shields.io/badge/Pending%20review-none-lightgrey?style=flat-square) |
 
-## Manual Install
-
-A manual install does not update itself. To move to a newer version, download the new ZIP and load it the same way,
-or remove it and install from the store instead, which keeps it up to date.
-
-**Keeping your settings.** A store install keeps your settings (switches, column widths and stars) through every
-update. Your browser deletes them when the extension is removed, so to update a manual install without losing them:
-
-### Chrome/Edge
-
-* Download the latest `.zip` file ([Intune-Enhancer-ChromeEdge-1.87.0.zip](Intune-Enhancer-ChromeEdge-1.87.0.zip), in the published package section below)
-* Extract the contents of the `.zip` file.
-* Open your browser and navigate to:
-   * Microsoft Edge: `edge://extensions`
-   * Google Chrome: `chrome://extensions`
-* Enable "Developer mode" by toggling the switch
-* Click on "Load unpacked" and select the extracted folder
-
-To update it and keep your settings, extract the new `.zip` over the same folder (replace the files), then click the
-extension's reload button on the extensions page. Removing the extension, or loading the new version from a different
-folder, starts again with default settings.
-
-### Firefox
-
-Intune Enhancer is on [Firefox Add-ons](https://addons.mozilla.org/firefox/addon/intune-enhancer/), and installing
-from there is the easiest way. To load it by hand for a test instead:
-
-* Download the Firefox `.zip` file ([Intune-Enhancer-Firefox-1.84.0.zip](Intune-Enhancer-Firefox-1.84.0.zip), the
-  published version, in the Firefox package section below)
-* Extract the contents of the `.zip` file.
-* Open Firefox and navigate to `about:debugging#/runtime/this-firefox`
-* Click "Load Temporary Add-on" and select the `manifest.json` file in the extracted folder
-
-Firefox removes a temporary add-on when it closes, so you load it again after each restart (and it never updates
-itself). Your settings are kept when you load it again.
-
-Newer versions are listed in [What's new](../whats-new.md) before the stores approve them, so the store can be a
-version or two behind.
-
 ## Published package (Chrome 1.87.0)
 
 The exact files of the version that is live in the Chrome Web Store, so you can read them or compare them with
@@ -84,6 +45,45 @@ The extension makes one kind of network request, in `src/core/graph.js`, and onl
 * https://dod-graph.microsoft.us (v1.92+)
 
 The two US Government addresses are used only if you allow a US Government cloud in Settings, and then only the one for the cloud you are signed in to. See the [privacy policy](../privacy-policy.md).
+
+## Manual Install
+
+A manual install does not update itself. To move to a newer version, download the new ZIP and load it the same way,
+or remove it and install from the store instead, which keeps it up to date.
+
+**Keeping your settings.** A store install keeps your settings (switches, column widths and stars) through every
+update. Your browser deletes them when the extension is removed, so to update a manual install without losing them:
+
+### Chrome/Edge
+
+* Download the latest `.zip` file ([Intune-Enhancer-ChromeEdge-1.87.0.zip](Intune-Enhancer-ChromeEdge-1.87.0.zip), in the published package section above)
+* Extract the contents of the `.zip` file.
+* Open your browser and navigate to:
+   * Microsoft Edge: `edge://extensions`
+   * Google Chrome: `chrome://extensions`
+* Enable "Developer mode" by toggling the switch
+* Click on "Load unpacked" and select the extracted folder
+
+To update it and keep your settings, extract the new `.zip` over the same folder (replace the files), then click the
+extension's reload button on the extensions page. Removing the extension, or loading the new version from a different
+folder, starts again with default settings.
+
+### Firefox
+
+Intune Enhancer is on [Firefox Add-ons](https://addons.mozilla.org/firefox/addon/intune-enhancer/), and installing
+from there is the easiest way. To load it by hand for a test instead:
+
+* Download the Firefox `.zip` file ([Intune-Enhancer-Firefox-1.84.0.zip](Intune-Enhancer-Firefox-1.84.0.zip), the
+  published version, in the Firefox package section above)
+* Extract the contents of the `.zip` file.
+* Open Firefox and navigate to `about:debugging#/runtime/this-firefox`
+* Click "Load Temporary Add-on" and select the `manifest.json` file in the extracted folder
+
+Firefox removes a temporary add-on when it closes, so you load it again after each restart (and it never updates
+itself). Your settings are kept when you load it again.
+
+Newer versions are listed in [What's new](../whats-new.md) before the stores approve them, so the store can be a
+version or two behind.
 
 ## Pre-release / Experimental (2.64.0)
 
