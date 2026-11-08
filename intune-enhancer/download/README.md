@@ -85,7 +85,7 @@ The extension makes one kind of network request, in `src/core/graph.js`, and onl
 
 The two US Government addresses are used only if you allow a US Government cloud in Settings, and then only the one for the cloud you are signed in to. See the [privacy policy](../privacy-policy.md).
 
-## Pre-release / Experimental (2.41.0)
+## Pre-release / Experimental (2.64.0)
 
 **This version is still undergoing testing.** It has the newest features and fixes listed in
 [What's new](../whats-new.md), but it has not been sent to the stores yet, so use the store version if you want the
@@ -94,8 +94,8 @@ manual install does not update itself.
 
 | Browser | File | SHA-256 |
 |---|---|---|
-| Chrome / Edge | [Intune-Enhancer-ChromeEdge-2.41.0.zip](Intune-Enhancer-ChromeEdge-2.41.0.zip) | `495c1892049e0c9ab34ff4eadd751b27cd743a1645a04097f47cac77d0d9e9e2` |
-| Firefox | [Intune-Enhancer-Firefox-2.41.0.zip](Intune-Enhancer-Firefox-2.41.0.zip) | `052505b51b930430bbbb9494a65227002ad473f3acd5ac14ad078514101bf391` |
+| Chrome / Edge | [Intune-Enhancer-ChromeEdge-2.64.0.zip](Intune-Enhancer-ChromeEdge-2.64.0.zip) | `5795cd292113d32fe4344511b14fb368621d90b33bc3e7d8370871c5eb530cc2` |
+| Firefox | [Intune-Enhancer-Firefox-2.64.0.zip](Intune-Enhancer-Firefox-2.64.0.zip) | `ad29084f4693927e4e1dfb4c0124c4cb11e930553a29dc0540d10c94909af051` |
 
 If you already have a store version installed, remove it before loading this one (two copies would both run). Removing
 it deletes its settings, so you set them again here.
