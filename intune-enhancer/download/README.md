@@ -85,7 +85,7 @@ itself). Your settings are kept when you load it again.
 Newer versions are listed in [What's new](../whats-new.md) before the stores approve them, so the store can be a
 version or two behind.
 
-## Pre-release / Experimental (2.64.0)
+## Pre-release / Experimental (2.89.0)
 
 **This version is still undergoing testing.** It has the newest features and fixes listed in
 [What's new](../whats-new.md), but it has not been sent to the stores yet, so use the store version if you want the
@@ -94,8 +94,8 @@ manual install does not update itself.
 
 | Browser | File | SHA-256 |
 |---|---|---|
-| Chrome / Edge | [Intune-Enhancer-ChromeEdge-2.64.0-experimental.zip](Intune-Enhancer-ChromeEdge-2.64.0-experimental.zip) | `5795cd292113d32fe4344511b14fb368621d90b33bc3e7d8370871c5eb530cc2` |
-| Firefox | [Intune-Enhancer-Firefox-2.64.0-experimental.zip](Intune-Enhancer-Firefox-2.64.0-experimental.zip) | `ad29084f4693927e4e1dfb4c0124c4cb11e930553a29dc0540d10c94909af051` |
+| Chrome / Edge | [Intune-Enhancer-ChromeEdge-2.89.0-experimental.zip](Intune-Enhancer-ChromeEdge-2.89.0-experimental.zip) | `8f073021db5399615b9a8e3890c85eb6ad33bf0a3b198bd6874e4d5a857ade20` |
+| Firefox | [Intune-Enhancer-Firefox-2.89.0-experimental.zip](Intune-Enhancer-Firefox-2.89.0-experimental.zip) | `036a2051324ca384a23e120c6a44a6e281e5b24d85a05ea7d5b1036f8894e8b9` |
 
 If you already have a store version installed, remove it before loading this one (two copies would both run). Removing
 it deletes its settings, so you set them again here.
