@@ -69,8 +69,8 @@ Intune Enhancer is read-only: it never changes your tenant, and it only talks to
   Device 360 and Compare devices open faster, and very large tenants use less memory while reading policies.
 - **2.54.0.** Device lists in the admin center redraw with less work while you scroll, and primary user labels
   refresh properly after the feature is turned off and on again.
-- **2.53.0.** A smaller download: custom (OMA-URI) settings no longer show a friendly name and description in Setting
-  check and Policy export. Search them by their path as before.
+- **2.53.0.** Friendly names for custom (OMA-URI) settings were removed, making the download about 225 KB smaller.
+  Setting check and Policy export no longer show a name and description for them; search them by their path as before.
 
 ## 2.40.0 to 2.52.0 - 7 November 2026
 - **2.52.0.** Cleanup has a Copy table button like the other reports. Tenant health and Orphaned users grey their
