@@ -9,7 +9,11 @@
 New features and fixes, newest first. Versions released on the same day are grouped.
 Intune Enhancer is read-only: it never changes your tenant, and it only talks to Microsoft Graph.
 
-## 2.78.0 to 2.80.0 - 9 November 2026
+## 2.78.0 to 2.82.0 - 9 November 2026
+- **Fix (2.82.0).** In Device 360's settings list and Setting check, a very long value (such as a certificate) is cut
+  short so every column fits; Copy table and Save CSV still hold the whole value.
+- **Easier to read counts (2.81.0).** In Security posture and Baseline gap, counts of zero are greyed out, so the
+  ones that need a look keep their colour.
 - **Fix (2.80.0).** Windows update rings no longer show a "not in Intune" label beside their names.
 - **Version in the header (2.79.0).** The workspace shows its version beside the Intune Enhancer name at the top
   left, instead of in the footer.
