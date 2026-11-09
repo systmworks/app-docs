@@ -9,7 +9,15 @@
 New features and fixes, newest first. Versions released on the same day are grouped.
 Intune Enhancer is read-only: it never changes your tenant, and it only talks to Microsoft Graph.
 
-## 2.78.0 to 2.83.0 - 9 November 2026
+## 2.78.0 to 2.87.0 - 9 November 2026
+- **Secure Boot removed for now (2.87.0).** Security posture no longer lists Secure Boot, because Intune does not
+  report it reliably through this route. It will come back once it can be read correctly.
+- **Same value in several policies (2.86.0).** Device 360's settings list can now show the settings that several
+  policies set to the same value, as well as the conflicts where they differ.
+- **Security posture in A to Z order (2.85.0).** The checks are listed alphabetically, with Ready for encryption just
+  before Encrypted.
+- **Fewer false conflicts (2.84.0).** Device 360's settings list no longer calls these conflicts: several entries of one
+  list in one policy, several certificate, VPN or Wi-Fi profiles, or compliance policies.
 - **Fix (2.83.0).** Security posture and the Hardware report now show each device's TPM version and Secure Boot state,
   which Intune was not sending before; a device with an older TPM is listed as "TPM 1.2". Read the report again after
   updating.
