@@ -9,7 +9,11 @@
 New features and fixes, newest first. Versions released on the same day are grouped.
 Intune Enhancer is read-only: it never changes your tenant, and it only talks to Microsoft Graph.
 
-## 2.78.0 to 2.87.0 - 9 November 2026
+## 2.78.0 to 2.89.0 - 9 November 2026
+- **A colourful Environment overview page (2.89.0).** The saved HTML report has coloured headings, numbers and bars and
+  lightly shaded boxes on a white page, and keeps them when printed to PDF.
+- **Fix (2.88.0).** App versions groups apps whose name includes the version, such as 7-Zip, into one entry with every
+  version, so "List all devices, every version" is there for them too.
 - **Secure Boot removed for now (2.87.0).** Security posture no longer lists Secure Boot, because Intune does not
   report it reliably through this route. It will come back once it can be read correctly.
 - **Same value in several policies (2.86.0).** Device 360's settings list can now show the settings that several
