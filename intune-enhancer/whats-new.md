@@ -9,7 +9,10 @@
 New features and fixes, newest first. Versions released on the same day are grouped.
 Intune Enhancer is read-only: it never changes your tenant, and it only talks to Microsoft Graph.
 
-## 2.78.0 to 2.82.0 - 9 November 2026
+## 2.78.0 to 2.83.0 - 9 November 2026
+- **Fix (2.83.0).** Security posture and the Hardware report now show each device's TPM version and Secure Boot state,
+  which Intune was not sending before; a device with an older TPM is listed as "TPM 1.2". Read the report again after
+  updating.
 - **Fix (2.82.0).** In Device 360's settings list and Setting check, a very long value (such as a certificate) is cut
   short so every column fits; Copy table and Save CSV still hold the whole value.
 - **Easier to read counts (2.81.0).** In Security posture and Baseline gap, counts of zero are greyed out, so the
