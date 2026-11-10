@@ -84,18 +84,10 @@ itself). Your settings are kept when you load it again.
 Newer versions are listed in [What's new](../whats-new.md) before the stores approve them, so the store can be a
 version or two behind.
 
-## Pre-release / Experimental (2.89.0)
+## Pre-release / Experimental
 
-**This version is still undergoing testing.** It has the newest features and fixes listed in
-[What's new](../whats-new.md), but the Chrome and Edge stores have not approved it yet, so use the store version if you want the
-tested one. (Firefox already has this version: see the Firefox package above.) Install it by hand with the steps above
-(Load unpacked). A manual install does not update itself.
-
-| Browser | File | SHA-256 |
-|---|---|---|
-| Chrome / Edge | [Intune-Enhancer-ChromeEdge-2.89.0-experimental.zip](Intune-Enhancer-ChromeEdge-2.89.0-experimental.zip) | `8f073021db5399615b9a8e3890c85eb6ad33bf0a3b198bd6874e4d5a857ade20` |
-
-If you already have a store version installed, remove it before loading this one (two copies would both run). Removing
-it deletes its settings, so you set them again here.
+There is no pre-release version at the moment: the latest version is the one in the stores. Newer pre-release
+versions, with features and fixes that are still being tested, will be posted here later. They will be installed by
+hand (see Manual Install above), and a manual install does not update itself.
 
 Contact: systmworks@outlook.com
