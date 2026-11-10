@@ -8,20 +8,20 @@ The version live in each store today:
 | Microsoft Edge | Google Chrome | Mozilla Firefox |
 |:---:|:---:|:---:|
 | [![Install from Microsoft Edge Add-ons](https://img.shields.io/badge/MICROSOFT%20EDGE-INSTALL%20INTUNE%20ENHANCER-0078D7?style=for-the-badge&labelColor=555555)](https://microsoftedge.microsoft.com/addons/detail/intune-enhancer/hcmhldmcpgieiaeobdbppcgfckahdeci) | [![Install from the Chrome Web Store](https://img.shields.io/badge/GOOGLE%20CHROME-INSTALL%20INTUNE%20ENHANCER-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=555555)](https://chromewebstore.google.com/detail/intune-enhancer/geifmacoimaenjdednhfiegamkjkgjjm) | [![Install from Firefox Add-ons](https://img.shields.io/badge/MOZILLA%20FIREFOX-INSTALL%20INTUNE%20ENHANCER-FF7139?style=for-the-badge&logo=firefoxbrowser&logoColor=white&labelColor=555555)](https://addons.mozilla.org/firefox/addon/intune-enhancer/) |
-| ![Edge published version 1.86.0](https://img.shields.io/badge/Published%20Version-1.86.0-2EA44F?style=flat-square) | ![Chrome published version 1.87.0](https://img.shields.io/badge/Published%20Version-1.87.0-2EA44F?style=flat-square) | ![Firefox published version 2.89.0](https://img.shields.io/badge/Published%20Version-2.89.0-2EA44F?style=flat-square) |
-| ![Edge pending review 2.89.0](https://img.shields.io/badge/Pending%20review-2.89.0-DFB317?style=flat-square) | ![Chrome pending review 2.89.0](https://img.shields.io/badge/Pending%20review-2.89.0-DFB317?style=flat-square) | ![Firefox pending review none](https://img.shields.io/badge/Pending%20review-none-lightgrey?style=flat-square) |
+| ![Edge published version 1.86.0](https://img.shields.io/badge/Published%20Version-1.86.0-2EA44F?style=flat-square) | ![Chrome published version 2.89.0](https://img.shields.io/badge/Published%20Version-2.89.0-2EA44F?style=flat-square) | ![Firefox published version 2.89.0](https://img.shields.io/badge/Published%20Version-2.89.0-2EA44F?style=flat-square) |
+| ![Edge pending review 2.89.0](https://img.shields.io/badge/Pending%20review-2.89.0-DFB317?style=flat-square) | ![Chrome pending review none](https://img.shields.io/badge/Pending%20review-none-lightgrey?style=flat-square) | ![Firefox pending review none](https://img.shields.io/badge/Pending%20review-none-lightgrey?style=flat-square) |
 
-## Published package (Chrome 1.87.0)
+## Published package (Chrome 2.89.0)
 
 The exact files of the version that is live in the Chrome Web Store, so you can read them or compare them with
 what is installed. Only the currently published version is kept here; it is replaced when a newer one is approved.
 
 | Version | File | SHA-256 |
 |---|---|---|
-| 1.87.0 | [Intune-Enhancer-ChromeEdge-1.87.0.zip](Intune-Enhancer-ChromeEdge-1.87.0.zip) | `4783d8195cddaed3fce27b2b58e6a6a884eae0ba3bb2fd05571c0eb1b7df5cee` |
+| 2.89.0 | [Intune-Enhancer-ChromeEdge-2.89.0.zip](Intune-Enhancer-ChromeEdge-2.89.0.zip) | `e10d088fff71e581c0f5723db0c3ae5ab1a82a47ca90f2c3e5ebf42ac3aff86c` |
 
 The code is plain, unminified JavaScript. To check the download: compare its SHA-256 with the one above
-(PowerShell: `Get-FileHash Intune-Enhancer-ChromeEdge-1.87.0.zip`).
+(PowerShell: `Get-FileHash Intune-Enhancer-ChromeEdge-2.89.0.zip`).
 
 To compare it with what you have installed: unzip it, then diff it against the extension folder under
 `chrome://extensions` (Developer mode, then the extension's ID, then the folder under
@@ -55,7 +55,7 @@ update. Your browser deletes them when the extension is removed, so to update a 
 
 ### Chrome/Edge
 
-* Download the latest `.zip` file ([Intune-Enhancer-ChromeEdge-1.87.0.zip](Intune-Enhancer-ChromeEdge-1.87.0.zip), in the published package section above)
+* Download the latest `.zip` file ([Intune-Enhancer-ChromeEdge-2.89.0.zip](Intune-Enhancer-ChromeEdge-2.89.0.zip), in the published package section above)
 * Extract the contents of the `.zip` file.
 * Open your browser and navigate to:
    * Microsoft Edge: `edge://extensions`
