@@ -9,7 +9,8 @@
 New features and fixes, newest first. Versions released on the same day are grouped.
 Intune Enhancer is read-only: it never changes your tenant, and it only talks to Microsoft Graph.
 
-## 2.90.0 to 2.96.0 - 11 November 2026
+## 2.90.0 to 2.97.0 - 11 November 2026
+- **Export buttons stand out (2.97.0).** Save HTML, Copy Markdown, Copy table, Save CSV and Save JSON have a soft blue tint and a brighter border, so they are easy to tell from other buttons.
 - **Tidier code (2.96.0).** Shared code in place of a few copies, and a page-level test run for the workspace. Whole-page
   Save HTML and Copy Markdown now hold every row of each table, not only the rows drawn on screen.
 - **Quick filters (2.95.0).** Device explorer, Hardware and Security posture have pills you click to narrow the list by
