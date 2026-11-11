@@ -9,7 +9,20 @@
 New features and fixes, newest first. Versions released on the same day are grouped.
 Intune Enhancer is read-only: it never changes your tenant, and it only talks to Microsoft Graph.
 
-## 2.90.0 to 2.91.0 - 11 November 2026
+## 2.90.0 to 2.95.0 - 11 November 2026
+- **Quick filters (2.95.0).** Device explorer, Hardware and Security posture have pills you click to narrow the list by
+  platform, compliance, ownership, last check-in, manufacturer, encryption or what a device needs attention for. Each
+  pill shows its count, and pills combine.
+- **A footer on saved HTML reports (2.95.0).** Pages saved with Save HTML end with a short "Created with Intune
+  Enhancer" line.
+- **Whole-page export (2.94.0).** Every report has Save HTML and Copy Markdown at the top right, next to its heading. They
+  write the whole page, tables included, ready to paste into a ticket or print to PDF. Copy table and Save CSV stay beside
+  each table.
+- **Export buttons in the same order everywhere (2.93.0).** Save CSV is always the last button and Copy table sits just
+  before it; the less common Copy Markdown, Save JSON and Save HTML come before them, in that order. Opening an
+  Autopilot failures row no longer scrolls the page.
+- **Easier to read Autopilot failures (2.92.0).** The table shows just the date, device, serial number, user, status
+  and notes, with no sideways scrolling. Click any row to see everything else about that event in a pane underneath.
 - **Dates and time zone in every export (2.91.0).** Every Save CSV and Copy table writes dates in the same
   day/month/year format, and a column of times says which time zone it is in, for example "Last check-in (UTC+10)".
 - **Quieter pills (2.91.0).** The succeeded and failed pills on app and policy lists turn pink only when the failures
