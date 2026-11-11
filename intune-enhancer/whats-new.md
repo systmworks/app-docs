@@ -9,6 +9,18 @@
 New features and fixes, newest first. Versions released on the same day are grouped.
 Intune Enhancer is read-only: it never changes your tenant, and it only talks to Microsoft Graph.
 
+## 2.91.0 - 11 November 2026
+- **Dates and time zone in every export (2.91.0).** Every Save CSV and Copy table writes dates in the same
+  day/month/year format, and a column of times says which time zone it is in, for example "Last check-in (UTC+10)".
+- **Quieter pills (2.91.0).** The succeeded and failed pills on app and policy lists turn pink only when the failures
+  are more than a tenth of the successes. The failed number stays red whenever there is one.
+
+## 2.90.0 - 11 November 2026
+- **Dates Excel can sort (2.90.0).** Save CSV and Copy table now write dates and times in your own time zone as
+  day/month/year hours:minutes (for example 11/11/2026 10:31), instead of Intune's format, which Excel can't sort.
+- **Refresh on Group assignments (2.90.0).** A refresh button beside Search checks the same group again, without
+  searching and choosing it a second time.
+
 ## 2.78.0 to 2.89.0 - 9 November 2026
 - **A colourful Environment overview page (2.89.0).** The saved HTML report has coloured headings, numbers and bars and
   lightly shaded boxes on a white page, and keeps them when printed to PDF.
