@@ -9,6 +9,11 @@
 New features and fixes, newest first. Versions released on the same day are grouped.
 Intune Enhancer is read-only: it never changes your tenant, and it only talks to Microsoft Graph.
 
+## 2.98.0 - 12 November 2026
+- **Groups with devices and users (2.98.0).** Cleanup now lists assigned groups that hold both devices and users, nested groups included, since most groups should hold only one kind.
+- **More quick filters (2.98.0).** Low storage, Stale devices and the devices behind a compliance setting have pills for compliance, ownership, platform and last check-in.
+- **Save HTML for Policy export and App details (2.98.0).** Both now have the same Save HTML and Copy Markdown buttons as the other reports.
+
 ## 2.90.0 to 2.97.0 - 11 November 2026
 - **Export buttons stand out (2.97.0).** Save HTML, Copy Markdown, Copy table, Save CSV and Save JSON have a soft blue tint and a brighter border, so they are easy to tell from other buttons.
 - **Tidier code (2.96.0).** Shared code in place of a few copies, and a page-level test run for the workspace. Whole-page
