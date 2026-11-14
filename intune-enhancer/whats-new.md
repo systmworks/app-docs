@@ -9,6 +9,12 @@
 New features and fixes, newest first. Versions released on the same day are grouped.
 Intune Enhancer is read-only: it never changes your tenant, and it only talks to Microsoft Graph.
 
+## 2.99.0 to 2.102.0 - 14 November 2026
+- **Quick filters grey out when empty (2.102.0).** On the reports with filter pills, a pill that would show no rows with your current search and other pills is greyed out, and each pill's number counts what is left once your other pills are applied.
+- **Sign-in help (2.101.0).** When a report can't run because you aren't signed in to Intune, the message now has an "Open the Intune admin center" link, and so does the not-signed-in banner.
+- **Check my access (2.100.0).** In Settings, one button shows which Microsoft areas your account can read (devices, policies, apps, groups, Autopilot and more), with Microsoft's own reason for any it refuses, so an empty report can be explained by a missing Intune role. It runs only when you click and changes nothing.
+- **Console tab (2.99.0).** A new Console tab under Tenant lists what the extension itself noticed: reads Microsoft refused or that failed, sign-in pickup and page errors. Filter it, narrow it with Level and Source pills, copy it or save it as CSV, and clear it. It is kept in memory for the browser session only and never sent anywhere.
+
 ## 2.98.0 - 12 November 2026
 - **Groups with devices and users (2.98.0).** Cleanup now lists assigned groups that hold both devices and users, nested groups included, since most groups should hold only one kind.
 - **More quick filters (2.98.0).** Low storage, Stale devices and the devices behind a compliance setting have pills for compliance, ownership, platform and last check-in.
