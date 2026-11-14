@@ -6,10 +6,7 @@
 
 **Note:** new versions may appear on this list before the extension stores have approved the update, so the version in the store can be older than the latest one here.
 
-New features and fixes, newest first. Versions released on the same day are grouped.
-Intune Enhancer is read-only: it never changes your tenant, and it only talks to Microsoft Graph.
-
-## 2.99.0 to 2.106.0 - 14 November 2026
+## 2.99.0 to 2.107.0 - 14 November 2026
 - **No reload after an update (2.106.0).** After the extension updates, an Intune admin center tab that was already open is picked up straight away. Before, the workspace found no sign-in until you reloaded that tab.
 - **Icon export buttons (2.105.0).** The export buttons above each table (Save CSV, Copy table, and where offered Save JSON, Save HTML, Copy Markdown) are small icons; hover one to see its name. Copy lights up when it works.
 - **Tidier top bar (2.104.0).** The account you are signed in as now shows in the middle of the top bar, and Reset to defaults moves to the Settings page, beside its heading.
