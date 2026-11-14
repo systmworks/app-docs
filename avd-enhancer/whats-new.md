@@ -6,8 +6,10 @@
 
 **Note:** new versions may appear on this list before the extension stores have approved the update, so the version in the store can be older than the latest one here.
 
-New features and fixes, newest first.
-AVD Enhancer is read-only: it never changes your tenant, and it only talks to Azure.
+## 1.5.0 to 1.7.0 - 15 November 2026
+- **Fixes (1.7.0).** The Capacity used tile no longer says all hosts are off when hosts are on but their pool limits could not be read. Two refreshes in a row can no longer show an older answer after a newer one, or leave the Refresh button disabled. Exported CSV files now also guard a formula hidden behind a leading tab.
+- **Tidy-up (1.6.0).** Internal clean-up and extra safety checks; nothing changes in how AVD Enhancer looks or works.
+- **Fix.** Scan sessions and Check my access now tell you when they leave something out. A scan reads the first 300 hosts and Check my access the first 40 resource groups; before, the rest were dropped without a word.
 
 ## 1.0.0 to 1.4.0 - 14 November 2026
 - **Fix (1.1.0).** After the extension was updated, an Azure portal tab that was already open showed no sign-in until you reloaded it. The extension now picks the sign-in up in the open portal tabs straight after an update.
