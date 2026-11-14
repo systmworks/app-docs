@@ -9,7 +9,9 @@
 New features and fixes, newest first. Versions released on the same day are grouped.
 Intune Enhancer is read-only: it never changes your tenant, and it only talks to Microsoft Graph.
 
-## 2.99.0 to 2.102.0 - 14 November 2026
+## 2.99.0 to 2.105.0 - 14 November 2026
+- **Icon export buttons (2.105.0).** The export buttons above each table (Save CSV, Copy table, and where offered Save JSON, Save HTML, Copy Markdown) are small icons; hover one to see its name. Copy lights up when it works.
+- **Tidier top bar (2.104.0).** The account you are signed in as now shows in the middle of the top bar, and Reset to defaults moves to the Settings page, beside its heading.
 - **Quick filters grey out when empty (2.102.0).** On the reports with filter pills, a pill that would show no rows with your current search and other pills is greyed out, and each pill's number counts what is left once your other pills are applied.
 - **Sign-in help (2.101.0).** When a report can't run because you aren't signed in to Intune, the message now has an "Open the Intune admin center" link, and so does the not-signed-in banner.
 - **Check my access (2.100.0).** In Settings, one button shows which Microsoft areas your account can read (devices, policies, apps, groups, Autopilot and more), with Microsoft's own reason for any it refuses, so an empty report can be explained by a missing Intune role. It runs only when you click and changes nothing.
