@@ -6,7 +6,7 @@
 
 **Note:** new versions may appear on this list before the extension stores have approved the update, so the version in the store can be older than the latest one here.
 
-New features and fixes, newest first. From version 1.0.0 each day has its own heading, with that day's versions together. The versions before the first public release (0.1.0 to 0.39.0) are grouped under Initial development, with no dates.
+New features and fixes, newest first.
 AVD Enhancer is read-only: it never changes your tenant, and it only talks to Azure.
 
 ## 1.0.0 to 1.4.0 - 14 November 2026
