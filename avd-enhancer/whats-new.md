@@ -56,3 +56,7 @@ Versions 0.1.0 to 0.39.0, built before the first public release.
 - **Idle hosts, old agents and pool capacity (0.4.0).** Spot running hosts with no sessions and out-of-date agents, and see how full each pool is.
 - **Host details (0.3.0).** Click a host to see its details and who is signed in.
 - **Look and feel (0.2.0).** The same light and dark themes as Intune Enhancer, a theme toggle, a Demo on sample tenant button and a footer.
+
+---
+
+**Sharing & responsibility** - Built for the community, shared with good intentions. Use at your own risk. The author accepts no responsibility for any outcomes resulting from the use of this software. Test in a safe environment first. If you find an issue or have a suggestion, contributions are welcome.
