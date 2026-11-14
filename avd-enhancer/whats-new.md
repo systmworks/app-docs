@@ -6,12 +6,15 @@
 
 **Note:** new versions may appear on this list before the extension stores have approved the update, so the version in the store can be older than the latest one here.
 
-New features and fixes, newest first. Versions released on the same day are grouped.
+New features and fixes, newest first. From version 1.0.0 each day has its own heading, with that day's versions together. The versions before the first public release (0.1.0 to 0.39.0) are grouped under Initial development, with no dates.
 AVD Enhancer is read-only: it never changes your tenant, and it only talks to Azure.
 
-## 0.25.0 to 1.1.0 - 14 November 2026
+## 1.0.0 to 1.4.0 - 14 November 2026
 - **Fix (1.1.0).** After the extension was updated, an Azure portal tab that was already open showed no sign-in until you reloaded it. The extension now picks the sign-in up in the open portal tabs straight after an update.
-- **AVD Enhancer 1.0.0: the first public release.** Everything above in one version: the Dashboard with its tiles, pool list and host table, host and pool details, scan sessions, Inventory with scaling plans and maintenance windows, Tags, PIM roles, Check my access, custom cards, saved views and exports, stars, light and dark themes, and the new icon. It is read-only, talks only to Azure, and sends no data to the developer.
+- **AVD Enhancer 1.0.0: the first public release.** Everything under Initial development below, in one version: the Dashboard with its tiles, pool list and host table, host and pool details, scan sessions, Inventory with scaling plans and maintenance windows, Tags, PIM roles, Check my access, custom cards, saved views and exports, stars, light and dark themes, and the new icon. It is read-only, talks only to Azure, and sends no data to the developer.
+
+## Initial development
+Versions 0.1.0 to 0.39.0, built before the first public release.
 - **New icon (0.39.0).** The extension has a new icon: a monitor showing the pool as a grid of green, amber and red host-health squares.
 - **Fix (0.38.0).** A host's details now link to the host's virtual machine in the Azure portal ("Open VM in Azure portal") as well as to its session host entry in Azure Virtual Desktop. The single link used to open only the session host entry.
 - **Try Intune Enhancer (0.37.0).** A card at the bottom of the sidebar links to Intune Enhancer, my companion extension for Microsoft Intune, in the store that matches your browser (Chrome Web Store, Edge Add-ons or Firefox Add-ons).
@@ -32,8 +35,6 @@ AVD Enhancer is read-only: it never changes your tenant, and it only talks to Az
 - **Left sidebar (0.26.0).** The Dashboard, Inventory, Tags, PIM roles, Links and Console tabs moved from the top bar to a sidebar. The signed-in account is now centred in the top bar. The selected tab is highlighted again.
 - **Fix (0.25.0).** The Application groups table on Inventory failed with "Query is invalid". It loads again.
 - **Sign-in errors link to the portal (0.25.0).** When the extension cannot find a sign-in, the message links straight to portal.azure.com.
-
-## 0.2.0 to 0.24.0 - 12 November 2026
 - **Check my access (0.24.0).** A button in Settings shows what your account is allowed to do on the resource groups that hold your pools and hosts: see them, power hosts on and restart them, drain mode, log off users, remove hosts, change pool settings. It only reads, and covers your active roles only.
 - **User sessions in the page export (0.24.0).** After Scan sessions, Save HTML and Copy Markdown include the user sessions as filtered and sorted on screen.
 - **A fuller demo (0.23.0).** The demo on sample data has 8 pools, Pooled and Personal, 29 hosts, application groups, workspaces and scaling plans.
