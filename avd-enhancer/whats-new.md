@@ -6,7 +6,9 @@
 
 **Note:** new versions may appear on this list before the extension stores have approved the update, so the version in the store can be older than the latest one here.
 
-## 1.5.0 to 1.8.0 - 15 November 2026
+## 1.5.0 to 1.10.0 - 15 November 2026
+- **Tidy-up (1.10.0).** Internal clean-up: the page's code is split into smaller files. Nothing changes in how AVD Enhancer looks or works.
+- **New icon colours (1.9.0).** The icon's grid of host-health squares now has one green square, with blue and yellow beside the amber and red ones.
 - **Keyboard and screen readers (1.8.0).** The tools in the sidebar can now be moved through with the arrow keys (Up and Down, Home and End), only the open tool takes a Tab stop, and screen readers hear each tool and its page properly named.
 - **Fixes (1.7.0).** The Capacity used tile no longer says all hosts are off when hosts are on but their pool limits could not be read. Two refreshes in a row can no longer show an older answer after a newer one, or leave the Refresh button disabled. Exported CSV files now also guard a formula hidden behind a leading tab.
 - **Tidy-up (1.6.0).** Internal clean-up and extra safety checks; nothing changes in how AVD Enhancer looks or works.
