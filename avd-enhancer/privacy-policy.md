@@ -46,7 +46,7 @@ link you click to open a store page in a new tab; the extension makes no request
 
 - **Settings:** the display choices you make: auto-refresh and background-check intervals, the subscription you pick,
   the host table columns and saved views, the custom Dashboard cards, the sidebar stars, and the idle cost
-  rate (extension storage), and the workspace's light or dark theme (the workspace page's own storage).
+  rate (extension storage), and the workspace's chosen theme (the workspace page's own storage).
   "Reset to defaults" in Settings removes them; removing the extension deletes them.
 - **Consent:** your Agree choice (extension storage).
 - **Toolbar badge:** the number of hosts that needed attention at the last read, and when (extension storage).

@@ -19,7 +19,7 @@ Works in Google Chrome, Microsoft Edge and Mozilla Firefox. Find it by searching
 - **Tags:** every Azure tag on the VMs behind your hosts; pick one to list its hosts and narrow by value. Add your own Dashboard cards that count hosts by tag.
 - **PIM roles:** the Azure roles you hold now or can activate through Privileged Identity Management, with a link to activate them.
 - **Check my access:** what your account is allowed to do on the resource groups that hold your pools and hosts.
-- **Quick links, console and stars:** one-click links to Azure, Entra and Intune pages, the extension's own error log, and stars for the tools you use most. Light and dark themes.
+- **Quick links, console and stars:** one-click links to Azure, Entra and Intune pages, the extension's own error log, and stars for the tools you use most. Six themes (three light, three dark).
 
 ![Inventory](screenshots/4-inventory.png)
 
