@@ -1,6 +1,6 @@
 # Privacy policy: Intune Enhancer
 
-_Last updated: 8 November 2026_
+_Last updated: 15 November 2026_
 
 ## The short version
 
@@ -107,7 +107,8 @@ It can only access what your own account and Intune role can already access.
   addresses) are saved in the same local storage with the date they were read, so the report is there the
   next time you open the workspace. "Clear stored data" deletes it, and so does removing the extension.
 - **Not stored:** group reports, rosters, comparisons and decoded IDs exist only while the workspace tab
-  shows them, and in any CSV you choose to save.
+  shows them, and in any CSV you choose to save. Check my access (Settings) asks Microsoft for one record from each area
+  the tools read, and keeps only whether it was allowed, with Microsoft's own message, on the page.
 - **Recent lookups:** the group sizes, app and policy status counts, remediation script dates, policy names and filter rules
   shown in the admin center are kept on your computer for up to 30 minutes, so lists you reopen
   show them straight away. The same applies to the Device quick facts "More details" answers for one device
@@ -115,9 +116,13 @@ It can only access what your own account and Intune role can already access.
   state while the Hardware report or Security posture reads. "Clear stored data" deletes them, as does removing the extension.
 - **Sign-in tokens:** kept in memory and in the browser's session storage, which is memory only
   and cleared when the browser closes. Never written to disk by the extension.
+- **Console log:** a short list (the newest 200 lines) of the extension's own messages: reads Microsoft refused or that failed,
+  sign-in pickup and page errors. Kept in the browser's session storage, which is memory only and cleared when the browser
+  closes. Sign-in tokens are removed from it. A line can include the text of a Microsoft error message, which may name a device
+  or group. It is never sent anywhere. The Console tab's Clear button and "Clear stored data" empty it.
 - **Settings:** which in-portal features are switched on and how they show (for example display
   names or user principal names), the column widths you choose or drag, and the reports and workspace tools you
-  star (extension storage), and the workspace's light or dark theme and the tool you last had open (the workspace
+  star (extension storage), and the workspace's theme (one of six) and the tool you last had open (the workspace
   page's own storage). "Reset all settings to defaults" in Settings removes them; removing the extension deletes them.
 - **Workspace scope:** if you pick a scope group at the top of the workspace, its ID and name are kept in extension
   storage so the scope is still set next time. The group's member list is read when the workspace needs it and is not
