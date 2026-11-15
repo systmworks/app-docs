@@ -6,8 +6,10 @@
 
 **Note:** new versions may appear on this list before the extension stores have approved the update, so the version in the store can be older than the latest one here.
 
-## 2.107.0 - 15 November 2026
-- **Tidy-up (2.107.0).** Internal clean-up; nothing changes in how Intune Enhancer looks or works.
+## 2.107.0 to 2.114.0 - 15 November 2026
+- **Sliders match the theme (2.114.0).** The column width sliders on the Settings page, and other plain controls, now use the theme's colour instead of always being blue.
+- **Six themes (2.111.0).** The sun or moon button at the top right now opens a menu of six themes: Blue, Grey and Pink (light), and Blue, Green and Red (dark). Your choice is remembered, and an earlier light or dark choice carries over as Blue.
+- **Tidy-up (2.107.0 to 2.110.0).** Internal clean-up; nothing changes in how Intune Enhancer looks or works.
 
 ## 2.99.0 to 2.106.0 - 14 November 2026
 - **No reload after an update (2.106.0).** After the extension updates, an Intune admin center tab that was already open is picked up straight away. Before, the workspace found no sign-in until you reloaded that tab.
