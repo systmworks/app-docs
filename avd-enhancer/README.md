@@ -6,7 +6,7 @@
 
 A control panel for Azure Virtual Desktop in your browser. See your host pools, session hosts, power state and user sessions at a glance, spot idle hosts and out-of-date agents, and check scaling plans, maintenance windows, tags and your PIM roles, without clicking through the Azure portal. Read-only. It talks only to Azure, and no data goes to the developer.
 
-Works in Google Chrome, Microsoft Edge and Mozilla Firefox. Find it by searching for **AVD Enhancer** in the Chrome Web Store, Microsoft Edge Add-ons or Firefox Add-ons.
+Works in Google Chrome, Microsoft Edge and Mozilla Firefox. Find it by searching for **AVD Enhancer** in the Chrome Web Store, Microsoft Edge Add-ons or Firefox Add-ons. The [download page](download/README.md) has the store links, the current Chrome package with its checksum, and manual install steps.
 
 ![The AVD Enhancer dashboard](screenshots/1-dashboard.png)
 
