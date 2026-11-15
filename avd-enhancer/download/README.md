@@ -40,8 +40,8 @@ See the [privacy policy](../privacy-policy.md).
 
 ## Firefox package
 
-The Firefox build is on Mozilla's review queue, so there is no package here yet. It is added when Firefox Add-ons
-approves it.
+The Firefox build is on Mozilla's review queue, so there is no published Firefox package yet; it is added here when
+Firefox Add-ons approves it. A newer Firefox build for trying by hand is under Pre-release / Experimental below.
 
 ## Manual Install
 
@@ -68,17 +68,29 @@ folder, starts again with default settings.
 Newer versions are listed in [What's new](../whats-new.md) before the stores approve them, so the store can be a
 version or two behind.
 
+### Firefox
+
+AVD Enhancer is waiting for review on Firefox Add-ons. To try the experimental build by hand (see Pre-release / Experimental below):
+
+* Download the Firefox `.zip` file and extract it.
+* Open Firefox and navigate to `about:debugging#/runtime/this-firefox`
+* Click "Load Temporary Add-on" and select the `manifest.json` file in the extracted folder
+
+Firefox removes a temporary add-on when it closes, so you load it again after each restart (and it never updates itself).
+Your settings are kept when you load it again.
+
 ## Pre-release / Experimental
 
-Newer versions that are still in store review are posted here for Chrome and Edge, with `-experimental` in the file name so
-they are not mistaken for the published package. They are installed by hand (see Manual Install above), and a manual install
-does not update itself. Once a store approves the version, install from the store instead.
+Newer versions that are still in store review are posted here, with `-experimental` in the file name so they are not
+mistaken for the published package. They are installed by hand (see Manual Install above), and a manual install does not
+update itself. Once a store approves the version, install from the store instead. Only the latest pair is kept here.
 
-| Version | File | SHA-256 |
-|---|---|---|
-| 1.11.0 (pending review in Chrome) | [AVD-Enhancer-ChromeEdge-1.11.0-experimental.zip](AVD-Enhancer-ChromeEdge-1.11.0-experimental.zip) | `856e322a7bea3198239d15595db0a096e6866a7880646ce85894e24a0c9d2807` |
+| Browser | Version | File | SHA-256 |
+|---|---|---|---|
+| Chrome and Edge | 1.15.0 | [AVD-Enhancer-ChromeEdge-1.15.0-experimental.zip](AVD-Enhancer-ChromeEdge-1.15.0-experimental.zip) | `2ec2da9f665de21fec58bc60b777f0109467d4bdca7176b31b37b85277b1b55d` |
+| Firefox | 1.15.0 | [AVD-Enhancer-Firefox-1.15.0-experimental.zip](AVD-Enhancer-Firefox-1.15.0-experimental.zip) | `dbd07ddb714e7e3fc546d86208efa07ad2e206bd533e3b9a5dfc676a26e6451b` |
 
-What is new since 1.2.0: six themes (Light Blue, Grey and Pink; Dark Blue, Green and Red), notices when Scan sessions or Check my access leave something out, keyboard and screen reader support in the sidebar, and a few fixes. See [What's new](../whats-new.md).
+Version 1.11.0 is in review at the Chrome Web Store; 1.15.0 is newer than that. What is new since 1.2.0: six themes (Light Blue, Grey and Pink; Dark Blue, Green and Red), a wider sidebar whose sections fold, up to six host pools pinned to the sidebar, a Reports section (Fleet health, Capacity, Versions, Size and cost, Coverage) with an All reports page, notices when Scan sessions or Check my access leave something out, keyboard and screen reader support in the sidebar, and a few fixes. The links on the All reports page to Azure's own reports have not all been checked on a live tenant. See [What's new](../whats-new.md).
 
 Contact: systmworks@outlook.com
 
