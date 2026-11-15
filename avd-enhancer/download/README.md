@@ -70,7 +70,15 @@ version or two behind.
 
 ## Pre-release / Experimental
 
-There is no pre-release version at the moment: the latest version is the one in the stores.
+Newer versions that are still in store review are posted here for Chrome and Edge, with `-experimental` in the file name so
+they are not mistaken for the published package. They are installed by hand (see Manual Install above), and a manual install
+does not update itself. Once a store approves the version, install from the store instead.
+
+| Version | File | SHA-256 |
+|---|---|---|
+| 1.11.0 (pending review in Chrome) | [AVD-Enhancer-ChromeEdge-1.11.0-experimental.zip](AVD-Enhancer-ChromeEdge-1.11.0-experimental.zip) | `856e322a7bea3198239d15595db0a096e6866a7880646ce85894e24a0c9d2807` |
+
+What is new since 1.2.0: six themes (Light Blue, Grey and Pink; Dark Blue, Green and Red), notices when Scan sessions or Check my access leave something out, keyboard and screen reader support in the sidebar, and a few fixes. See [What's new](../whats-new.md).
 
 Contact: systmworks@outlook.com
 
