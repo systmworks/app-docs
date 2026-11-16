@@ -31,9 +31,10 @@ After you accept the disclosure on the extension's Settings page (it opens when 
   what your account is allowed to do on the resource groups that hold your pools and hosts, and the
   Azure resource roles your account holds or can activate through Privileged Identity Management.
   Nothing is activated or changed from the extension.
-- **VM prices from Microsoft's public price list.** When you open the Size and cost report, the extension asks
-  Microsoft's public Azure Retail Prices service (prices.azure.com) for the pay-as-you-go hourly price of each
-  VM size in each region your session hosts use, in the currency you pick in Settings (US dollars by default;
+- **VM prices from Microsoft's public price list.** When the Dashboard works out the cost of idle hosts, or you open
+  the Size and cost report, the extension asks Microsoft's public Azure Retail Prices service (prices.azure.com) for
+  the pay-as-you-go hourly price of each VM size in each region your session hosts use (the idle hosts' on the
+  Dashboard, all hosts' in the report; nothing is asked in the demo on the sample tenant), in the currency you pick in Settings (US dollars by default;
   Microsoft converts the price, nothing else is used). What is sent is only the VM size name (for example
   Standard_D4s_v6), the region name (for example australiaeast) and the currency code. No sign-in or token is
   sent, and your tenant, subscriptions, users and host names are not. Like any web request, the service

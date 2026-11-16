@@ -28,7 +28,7 @@ Works in Google Chrome, Microsoft Edge and Mozilla Firefox. Find it by searching
 
 - Read-only: it never changes anything in your tenant.
 - It reads the Azure sign-in your browser already has (the Azure portal's own), so there is no app registration and nothing to set up in your tenant. It can only see what your own account can see; Reader on the subscriptions or resource groups with Azure Virtual Desktop is enough.
-- It talks only to Azure Resource Manager (management.azure.com) and, for VM prices in the Size and cost report, Microsoft's public Azure price list (prices.azure.com, sent only a VM size, a region and a currency). No data is sent to the developer or anywhere else, and there is no analytics, tracking or error reporting.
+- It talks only to Azure Resource Manager (management.azure.com) and, for VM prices (the Dashboard's idle cost and the Size and cost report), Microsoft's public Azure price list (prices.azure.com, sent only a VM size, a region and a currency). No data is sent to the developer or anywhere else, and there is no analytics, tracking or error reporting.
 - Nothing happens until you accept a short disclosure, which opens as soon as you install.
 
 Read the [privacy policy](privacy-policy/) and [what's new](whats-new/).

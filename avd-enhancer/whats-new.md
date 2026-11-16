@@ -6,8 +6,9 @@
 
 **Note:** new versions may appear on this list before the extension stores have approved the update, so the version in the store can be older than the latest one here.
 
-## 1.5.0 to 1.19.0 - 16 November 2026
-- **Running cost a day (1.19.0).** The Size and cost table has a new column for what the hosts that are on would cost over a full day, next to the idle cost. Scaling plans switch hosts off, so the real cost is lower. The first-run disclosure now says the extension asks Microsoft's public price list for VM prices.
+## 1.5.0 to 1.20.0 - 16 November 2026
+- **Idle cost uses Microsoft's prices (1.20.0).** The Idle hosts tile on the Dashboard now works out its cost a day from Microsoft's public price for each VM size (in the currency you pick in Settings), so you no longer need to type an hourly rate. The rate in Settings is only used for a host where no price is found.
+- **Running cost per day (1.19.0).** The Size and cost table has a new column for what the hosts that are on would cost over a full day, next to the idle cost. Scaling plans switch hosts off, so the real cost is lower. The first-run disclosure now says the extension asks Microsoft's public price list for VM prices.
 - **Real VM prices in Size and cost (1.18.0).** The Size and cost report now looks up Microsoft's public pay-as-you-go hourly price for each VM size in each region and uses it for the idle cost; the hourly rate in Settings is used only where no price is found. The table shows the price an hour. Settings lets you pick the currency (USD by default); Microsoft converts the price, nothing else is used. Prices are list prices and a rough guide only. The table now has a row for each size in each region.
 - **Wider Pools table (1.17.0).** The tiles on the Dashboard are a little narrower, which gives the Pools table more room, and the table no longer has a sideways scrollbar: a long pool name is cut short with an ellipsis (hover for the full name).
 - **Sidebar sorted A to Z (1.16.0).** The tools in each sidebar section are in alphabetical order, and All reports is now the first item under Reports.
