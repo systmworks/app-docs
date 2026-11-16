@@ -87,10 +87,10 @@ update itself. Once a store approves the version, install from the store instead
 
 | Browser | Version | File | SHA-256 |
 |---|---|---|---|
-| Chrome and Edge | 1.15.0 | [AVD-Enhancer-ChromeEdge-1.15.0-experimental.zip](AVD-Enhancer-ChromeEdge-1.15.0-experimental.zip) | `2ec2da9f665de21fec58bc60b777f0109467d4bdca7176b31b37b85277b1b55d` |
-| Firefox | 1.15.0 | [AVD-Enhancer-Firefox-1.15.0-experimental.zip](AVD-Enhancer-Firefox-1.15.0-experimental.zip) | `dbd07ddb714e7e3fc546d86208efa07ad2e206bd533e3b9a5dfc676a26e6451b` |
+| Chrome and Edge | 1.19.0 | [AVD-Enhancer-ChromeEdge-1.19.0-experimental.zip](AVD-Enhancer-ChromeEdge-1.19.0-experimental.zip) | `74034419a1b149c2065df0dd92b79cd18c9b1731cb3bc0c5e00a3f6e202d2731` |
+| Firefox | 1.19.0 | [AVD-Enhancer-Firefox-1.19.0-experimental.zip](AVD-Enhancer-Firefox-1.19.0-experimental.zip) | `634d229161914322a5de574d23951806880668ec51286bb570a76529ec3dc159` |
 
-Version 1.11.0 is in review at the Chrome Web Store; 1.15.0 is newer than that. What is new since 1.2.0: six themes (Light Blue, Grey and Pink; Dark Blue, Green and Red), a wider sidebar whose sections fold, up to six host pools pinned to the sidebar, a Reports section (Fleet health, Capacity, Versions, Size and cost, Coverage) with an All reports page, notices when Scan sessions or Check my access leave something out, keyboard and screen reader support in the sidebar, and a few fixes. The links on the All reports page to Azure's own reports have not all been checked on a live tenant. See [What's new](../whats-new.md).
+Version 1.11.0 is in review at the Chrome Web Store; 1.19.0 is newer than that. What is new since 1.2.0: six themes (Light Blue, Grey and Pink; Dark Blue, Green and Red), a wider sidebar whose sections fold, up to six host pools pinned to the sidebar, a Reports section (Fleet health, Capacity, Versions, Size and cost, Coverage) with an All reports page, notices when Scan sessions or Check my access leave something out, keyboard and screen reader support in the sidebar, a Size and cost report that looks up real hourly VM prices from Microsoft's public Azure price list (prices.azure.com; you pick the currency in Settings, USD by default) and shows a running and an idle cost for a day, and a few fixes. Because of the price lookup these packages ask for one more host permission (`prices.azure.com`), so a browser may ask you to accept it when you replace an older manual install; the sign-in is not sent there, only a VM size, a region and a currency. See [What's new](../whats-new.md) and the [privacy policy](../privacy-policy.md).
 
 Contact: systmworks@outlook.com
 
