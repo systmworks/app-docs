@@ -6,6 +6,11 @@
 
 **Note:** new versions may appear on this list before the extension stores have approved the update, so the version in the store can be older than the latest one here.
 
+## 2.115.0 to 2.117.0 - 16 November 2026
+- **Keyboard and screen reader use of the sidebar (2.117.0).** Tab now stops once in the sidebar, on the open tool; Up and Down move through the visible tools, Home and End jump to the first and last, and Enter or Space opens one. Tabs and pages are linked for screen readers, and Settings is a plain button.
+- **Console keeps every line (2.116.0).** Lines the extension logs at the same moment, for example when it wakes after being idle, could overwrite each other, and Clear could be undone by a line being written; they are now saved one after another.
+- **Fold the sidebar (2.115.0).** Click a heading in the left sidebar (Devices, Policies, Apps, Users and groups, Reports, Tenant) to hide or show its tools; the tool you have open stays visible. Intune Enhancer remembers which sections you folded.
+
 ## 2.107.0 to 2.114.0 - 15 November 2026
 - **Sliders match the theme (2.114.0).** The column width sliders on the Settings page, and other plain controls, now use the theme's colour instead of always being blue.
 - **Six themes (2.111.0).** The sun or moon button at the top right now opens a menu of six themes: Blue, Grey and Pink (light), and Blue, Green and Red (dark). Your choice is remembered, and an earlier light or dark choice carries over as Blue.
