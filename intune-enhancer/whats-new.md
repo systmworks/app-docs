@@ -6,6 +6,9 @@
 
 **Note:** new versions may appear on this list before the extension stores have approved the update, so the version in the store can be older than the latest one here.
 
+## 2.118.0 - 17 November 2026
+- **Tighter security rules (2.118.0).** The extension's own pages now also refuse to load images from anywhere but the extension or to submit forms elsewhere. Turning Intune Enhancer off in Settings now also empties the Console tab, along with the sign-in and stored lists it already cleared. Nothing changes in how it looks or works.
+
 ## 2.115.0 to 2.117.0 - 16 November 2026
 - **Keyboard and screen reader use of the sidebar (2.117.0).** Tab now stops once in the sidebar, on the open tool; Up and Down move through the visible tools, Home and End jump to the first and last, and Enter or Space opens one. Tabs and pages are linked for screen readers, and Settings is a plain button.
 - **Console keeps every line (2.116.0).** Lines the extension logs at the same moment, for example when it wakes after being idle, could overwrite each other, and Clear could be undone by a line being written; they are now saved one after another.
