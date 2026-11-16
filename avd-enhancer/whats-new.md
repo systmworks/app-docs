@@ -6,7 +6,8 @@
 
 **Note:** new versions may appear on this list before the extension stores have approved the update, so the version in the store can be older than the latest one here.
 
-## 1.5.0 to 1.21.0 - 16 November 2026
+## 1.12.0 to 1.22.0 - 16 November 2026
+- **Prices on refresh, whole-dollar totals (1.22.0).** Fix: refreshing the browser on the Size and cost tab showed dashes instead of prices until you left the tab and came back; the prices now appear a moment after the page loads. The cost per day totals are now whole dollars; the price per hour keeps its cents.
 - **Clearer Size and cost note (1.21.0).** The note under the Size and cost table is now four short lines that say what Running and Idle mean, where the price comes from, that the costs assume a full 24 hours (scaling plans make the real cost lower) and when your Settings rate is used.
 - **Idle cost uses Microsoft's prices (1.20.0).** The Idle hosts tile on the Dashboard now works out its cost a day from Microsoft's public price for each VM size (in the currency you pick in Settings), so you no longer need to type an hourly rate. The rate in Settings is only used for a host where no price is found.
 - **Running cost per day (1.19.0).** The Size and cost table has a new column for what the hosts that are on would cost over a full day, next to the idle cost. Scaling plans switch hosts off, so the real cost is lower. The first-run disclosure now says the extension asks Microsoft's public price list for VM prices.
@@ -17,6 +18,8 @@
 - **Reports (1.14.0).** The sidebar has a new Reports section. Fleet health shows how many hosts are on, which need attention and why, with bar charts and a table, for the subscription you picked on the Dashboard; Copy Markdown and Save HTML write it out. All reports lists the reports in AVD Enhancer and links to Azure's own reports for Azure Virtual Desktop (Insights, workbooks, Cost analysis, Advisor, Policy and more). More reports are coming.
 - **Pool quick links (1.13.0).** Settings has a new Sidebar pool links card: pick up to six host pools and they appear under a Pools heading in the sidebar. A link opens the Dashboard on just that pool. The Pools heading folds like the others.
 - **Wider sidebar, folding sections (1.12.0).** The left sidebar is a little wider. Click a heading (Monitor, Tools) to fold its tools away and click again to open them; the tool you are on stays visible, and AVD Enhancer remembers which sections you folded.
+
+## 1.5.0 to 1.11.0 - 15 November 2026
 - **Six themes (1.11.0).** The theme button now opens a menu of six themes: Light (Blue, Grey, Pink) and Dark (Blue, Green, Red). Your earlier light or dark choice carries over.
 - **Tidy-up (1.10.0).** Internal clean-up: the page's code is split into smaller files. Nothing changes in how AVD Enhancer looks or works.
 - **New icon colours (1.9.0).** The icon's grid of host-health squares now has one green square, with blue and yellow beside the amber and red ones.
