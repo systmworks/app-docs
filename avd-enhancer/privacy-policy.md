@@ -1,13 +1,14 @@
 # Privacy policy: AVD Enhancer
 
-_Last updated: 14 November 2026_
+_Last updated: 16 November 2026_
 
 ## The short version
 
 **No data is sent to the developer, or anywhere other than Microsoft Azure.** AVD Enhancer only
 talks to Azure Resource Manager (management.azure.com, which includes Azure Resource Graph), the same
-service the Azure portal itself uses. The developer runs no server for this extension and receives
-nothing from it. It is read-only: it never changes anything in your tenant.
+service the Azure portal itself uses, and to Microsoft's public Azure Retail Prices service
+(prices.azure.com), which it asks for VM prices (see below). The developer runs no server for this
+extension and receives nothing from it. It is read-only: it never changes anything in your tenant.
 
 ## What the extension accesses
 
@@ -30,14 +31,22 @@ After you accept the disclosure on the extension's Settings page (it opens when 
   what your account is allowed to do on the resource groups that hold your pools and hosts, and the
   Azure resource roles your account holds or can activate through Privileged Identity Management.
   Nothing is activated or changed from the extension.
+- **VM prices from Microsoft's public price list.** When you open the Size and cost report, the extension asks
+  Microsoft's public Azure Retail Prices service (prices.azure.com) for the pay-as-you-go hourly price of each
+  VM size in each region your session hosts use, in the currency you pick in Settings (US dollars by default;
+  Microsoft converts the price, nothing else is used). What is sent is only the VM size name (for example
+  Standard_D4s_v6), the region name (for example australiaeast) and the currency code. No sign-in or token is
+  sent, and your tenant, subscriptions, users and host names are not. Like any web request, the service
+  receives your network address and the browser's standard request headers.
 - **Background check (optional, off by default).** If you turn it on in Settings, the extension reads the
   host list at the interval you choose and shows the number of hosts that need attention on the toolbar
   icon. It uses the sign-in the Azure portal last supplied and does nothing without one.
 
 ## Where it goes
 
-Only to Azure Resource Manager (management.azure.com), over HTTPS, to read the information above.
-Every request passes a check in the code that refuses any other address. Nothing is sent to the
+Only to Azure Resource Manager (management.azure.com) to read the information above, and to Microsoft's
+public Azure Retail Prices service (prices.azure.com) for VM prices, both over HTTPS. Every request passes a
+check in the code that refuses any other address. Nothing is sent to the
 developer, to analytics, advertising or tracking services, or to any other third party. There is no
 licensing check and no error reporting. The "Try Intune Enhancer" link in the sidebar is an ordinary
 link you click to open a store page in a new tab; the extension makes no request to it.
@@ -45,8 +54,9 @@ link you click to open a store page in a new tab; the extension makes no request
 ## What is stored, and where
 
 - **Settings:** the display choices you make: auto-refresh and background-check intervals, the subscription you pick,
-  the host table columns and saved views, the custom Dashboard cards, the sidebar stars, and the idle cost
-  rate (extension storage), and the workspace's chosen theme (the workspace page's own storage).
+  the host table columns and saved views, the custom Dashboard cards, the sidebar stars and folded sections, the
+  host pools you choose as sidebar quick links (each pool's name and Azure resource id), and the idle cost
+  rate and the currency you pick for VM prices (extension storage), and the workspace's chosen theme (the workspace page's own storage).
   "Reset to defaults" in Settings removes them; removing the extension deletes them.
 - **Consent:** your Agree choice (extension storage).
 - **Toolbar badge:** the number of hosts that needed attention at the last read, and when (extension storage).
@@ -56,13 +66,14 @@ link you click to open a store page in a new tab; the extension makes no request
   that failed, sign-in pickup and page errors. Kept in the browser's session storage, which is memory only and
   cleared when the browser closes. Sign-in tokens are removed from it. A line can include the text of an Azure
   error message, which may name a resource. It is never sent anywhere. The Console tab's Clear button empties it.
-- **Not stored:** the pools, hosts, user sessions, inventory, tags and roles exist only while the workspace tab
+- **VM prices** looked up from the price list are kept in memory only while the workspace tab is open and are never saved.
+- **Not stored:** apart from the pool links you choose above, the pools, hosts, user sessions, inventory, tags and roles exist only while the workspace tab
   shows them, and in any file or clipboard copy you choose to make (Save HTML, Save CSV, Copy table).
 
 ## Changes to your tenant
 
 None. The extension is read-only: apart from Azure Resource Graph, which is a read-only query sent as a POST,
-it only makes GET requests, and the code refuses anything else.
+it only makes GET requests, and the code refuses anything else. The price list is only read.
 
 ## Children
 

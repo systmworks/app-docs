@@ -6,7 +6,15 @@
 
 **Note:** new versions may appear on this list before the extension stores have approved the update, so the version in the store can be older than the latest one here.
 
-## 1.5.0 to 1.11.0 - 15 November 2026
+## 1.5.0 to 1.19.0 - 16 November 2026
+- **Running cost a day (1.19.0).** The Size and cost table has a new column for what the hosts that are on would cost over a full day, next to the idle cost. Scaling plans switch hosts off, so the real cost is lower. The first-run disclosure now says the extension asks Microsoft's public price list for VM prices.
+- **Real VM prices in Size and cost (1.18.0).** The Size and cost report now looks up Microsoft's public pay-as-you-go hourly price for each VM size in each region and uses it for the idle cost; the hourly rate in Settings is used only where no price is found. The table shows the price an hour. Settings lets you pick the currency (USD by default); Microsoft converts the price, nothing else is used. Prices are list prices and a rough guide only. The table now has a row for each size in each region.
+- **Wider Pools table (1.17.0).** The tiles on the Dashboard are a little narrower, which gives the Pools table more room, and the table no longer has a sideways scrollbar: a long pool name is cut short with an ellipsis (hover for the full name).
+- **Sidebar sorted A to Z (1.16.0).** The tools in each sidebar section are in alphabetical order, and All reports is now the first item under Reports.
+- **Four more reports (1.15.0).** Reports now has Capacity (sessions against capacity, pool by pool), Versions (agent and OS builds, and hosts on an old agent), Size and cost (VM sizes, idle hosts and a rough daily cost from the hourly rate you set in Settings) and Coverage (pools without a scaling plan and hosts without a maintenance window). Each has charts, a table, Copy Markdown and Save HTML.
+- **Reports (1.14.0).** The sidebar has a new Reports section. Fleet health shows how many hosts are on, which need attention and why, with bar charts and a table, for the subscription you picked on the Dashboard; Copy Markdown and Save HTML write it out. All reports lists the reports in AVD Enhancer and links to Azure's own reports for Azure Virtual Desktop (Insights, workbooks, Cost analysis, Advisor, Policy and more). More reports are coming.
+- **Pool quick links (1.13.0).** Settings has a new Sidebar pool links card: pick up to six host pools and they appear under a Pools heading in the sidebar. A link opens the Dashboard on just that pool. The Pools heading folds like the others.
+- **Wider sidebar, folding sections (1.12.0).** The left sidebar is a little wider. Click a heading (Monitor, Tools) to fold its tools away and click again to open them; the tool you are on stays visible, and AVD Enhancer remembers which sections you folded.
 - **Six themes (1.11.0).** The theme button now opens a menu of six themes: Light (Blue, Grey, Pink) and Dark (Blue, Green, Red). Your earlier light or dark choice carries over.
 - **Tidy-up (1.10.0).** Internal clean-up: the page's code is split into smaller files. Nothing changes in how AVD Enhancer looks or works.
 - **New icon colours (1.9.0).** The icon's grid of host-health squares now has one green square, with blue and yellow beside the amber and red ones.

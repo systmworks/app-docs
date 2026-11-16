@@ -19,6 +19,7 @@ Works in Google Chrome, Microsoft Edge and Mozilla Firefox. Find it by searching
 - **Tags:** every Azure tag on the VMs behind your hosts; pick one to list its hosts and narrow by value. Add your own Dashboard cards that count hosts by tag.
 - **PIM roles:** the Azure roles you hold now or can activate through Privileged Identity Management, with a link to activate them.
 - **Check my access:** what your account is allowed to do on the resource groups that hold your pools and hosts.
+- **Reports:** Fleet health (what is on and what needs attention), Capacity (sessions against capacity by pool), Versions (agent and OS builds), Size and cost (VM sizes and a rough idle cost) and Coverage (pools without a scaling plan, hosts without a maintenance window), each with bar charts and a table you can save as HTML or copy as Markdown. An All reports page links Azure's own AVD reports. Pin up to six host pools to the sidebar.
 - **Quick links, console and stars:** one-click links to Azure, Entra and Intune pages, the extension's own error log, and stars for the tools you use most. Six themes (three light, three dark).
 
 ![Inventory](screenshots/4-inventory.png)
@@ -27,7 +28,7 @@ Works in Google Chrome, Microsoft Edge and Mozilla Firefox. Find it by searching
 
 - Read-only: it never changes anything in your tenant.
 - It reads the Azure sign-in your browser already has (the Azure portal's own), so there is no app registration and nothing to set up in your tenant. It can only see what your own account can see; Reader on the subscriptions or resource groups with Azure Virtual Desktop is enough.
-- It talks only to Azure Resource Manager (management.azure.com). No data is sent to the developer or anywhere else, and there is no analytics, tracking or error reporting.
+- It talks only to Azure Resource Manager (management.azure.com) and, for VM prices in the Size and cost report, Microsoft's public Azure price list (prices.azure.com, sent only a VM size, a region and a currency). No data is sent to the developer or anywhere else, and there is no analytics, tracking or error reporting.
 - Nothing happens until you accept a short disclosure, which opens as soon as you install.
 
 Read the [privacy policy](privacy-policy/) and [what's new](whats-new/).
