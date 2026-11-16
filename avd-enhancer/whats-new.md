@@ -6,7 +6,8 @@
 
 **Note:** new versions may appear on this list before the extension stores have approved the update, so the version in the store can be older than the latest one here.
 
-## 1.12.0 to 1.26.0 - 16 November 2026
+## 1.12.0 to 1.27.0 - 16 November 2026
+- **Price lookup and sorting fixes (1.27.0).** Fix: the Drain column in the host table now sorts (it did nothing before). After you turn sign-in reuse on or off, VM prices that could not be looked up are tried again without reloading the page. A price lookup now gives up after 30 seconds instead of working through every host size if Microsoft's price list stops answering, and asks again for the rest. The demo data is the only thing that skips the sign-in check.
 - **Console lines no longer lost (1.26.0).** Fix: when two lines were written to the Console tab at the same moment, for example while the extension woke up, the second could replace the first, and Clear could be undone by a line already being written. Every add, read and clear now runs one after another.
 - **Safer Markdown copy, consent guard (1.25.0).** A subscription or pool name that contains a line break can no longer change the layout of a report copied as Markdown. The setting that turns sign-in reuse on or off now only accepts a change from the extension's own pages.
 - **Sorting fix, clearer wording, prices fetched in the background (1.24.0).** Fix: cost columns of $1,000 or more, and percentage columns such as Used on the Capacity report, now sort as numbers. The description now says "Microsoft only" instead of "Azure only", because the price list is a second Microsoft address, and the same sentence is used everywhere the extension says what it talks to. The price lookup is now made by the extension's background service worker, like every other request, and does not follow redirects.
