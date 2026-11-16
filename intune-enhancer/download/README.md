@@ -88,11 +88,20 @@ itself). Your settings are kept when you load it again.
 Newer versions are listed in [What's new](../whats-new.md) before the stores approve them, so the store can be a
 version or two behind.
 
-## Pre-release / Experimental
+## Pre-release / Experimental (2.117.0)
 
-There is no pre-release version at the moment: the latest version is the one in the stores. Newer pre-release
-versions, with features and fixes that are still being tested, will be posted here later. They will be installed by
-hand (see Manual Install above), and a manual install does not update itself.
+**This version is still undergoing testing.** It has the newest features and fixes listed in
+[What's new](../whats-new.md), but the stores have not approved it yet, so use the store version if you want the tested
+one. Install it by hand with the steps above (Chrome and Edge: Load unpacked; Firefox: the Firefox steps). A manual
+install does not update itself.
+
+| Browser | File | SHA-256 |
+|---|---|---|
+| Chrome / Edge | [Intune-Enhancer-ChromeEdge-2.117.0-experimental.zip](Intune-Enhancer-ChromeEdge-2.117.0-experimental.zip) | `2625b9d478e6579350c24c42f57fa2d4ae6735ffe33e0a253013280667889bf4` |
+| Firefox | [Intune-Enhancer-Firefox-2.117.0-experimental.zip](Intune-Enhancer-Firefox-2.117.0-experimental.zip) | `44a04932f6cdb8758a48bc0429ca21ab1964e4bf8dd6273584271c0aa09d1401` |
+
+If you already have a store version installed, remove it before loading this one (two copies would both run). Removing
+it deletes its settings, so you set them again here.
 
 Contact: systmworks@outlook.com
 
