@@ -32,14 +32,14 @@ To compare it with what you have installed: unzip it, then diff it against the e
 `%LocalAppData%\Google\Chrome\User Data\Default\Extensions\`). The store repackages the file, so the ZIP's own
 hash can differ from the store's, but the files inside should match.
 
-## Firefox package (2.89.0)
+## Firefox package (2.117.0)
 
 The Firefox build of the version that is live on Firefox Add-ons: the same files as Chrome and Edge, with a
 Firefox manifest.
 
 | Version | File | SHA-256 |
 |---|---|---|
-| 2.89.0 | [Intune-Enhancer-Firefox-2.89.0.zip](Intune-Enhancer-Firefox-2.89.0.zip) | `036a2051324ca384a23e120c6a44a6e281e5b24d85a05ea7d5b1036f8894e8b9` |
+| 2.117.0 | [Intune-Enhancer-Firefox-2.117.0.zip](Intune-Enhancer-Firefox-2.117.0.zip) | `44a04932f6cdb8758a48bc0429ca21ab1964e4bf8dd6273584271c0aa09d1401` |
 
 The extension makes one kind of network request, in `src/core/graph.js`, and only to Microsoft Graph:
 
@@ -91,14 +91,13 @@ version or two behind.
 ## Pre-release / Experimental (2.117.0)
 
 **This version is still undergoing testing.** It has the newest features and fixes listed in
-[What's new](../whats-new.md), but the stores have not approved it yet, so use the store version if you want the tested
-one. Install it by hand with the steps above (Chrome and Edge: Load unpacked; Firefox: the Firefox steps). A manual
-install does not update itself.
+[What's new](../whats-new.md), but the Chrome and Edge stores have not approved it yet, so use the store version if you want the tested
+one. (Firefox already has this version: see the Firefox package above.) Install it by hand with the steps above
+(Load unpacked). A manual install does not update itself.
 
 | Browser | File | SHA-256 |
 |---|---|---|
 | Chrome / Edge | [Intune-Enhancer-ChromeEdge-2.117.0-experimental.zip](Intune-Enhancer-ChromeEdge-2.117.0-experimental.zip) | `2625b9d478e6579350c24c42f57fa2d4ae6735ffe33e0a253013280667889bf4` |
-| Firefox | [Intune-Enhancer-Firefox-2.117.0-experimental.zip](Intune-Enhancer-Firefox-2.117.0-experimental.zip) | `44a04932f6cdb8758a48bc0429ca21ab1964e4bf8dd6273584271c0aa09d1401` |
 
 If you already have a store version installed, remove it before loading this one (two copies would both run). Removing
 it deletes its settings, so you set them again here.
