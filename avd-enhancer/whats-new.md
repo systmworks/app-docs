@@ -6,7 +6,9 @@
 
 **Note:** new versions may appear on this list before the extension stores have approved the update, so the version in the store can be older than the latest one here.
 
-## 1.12.0 to 1.27.0 - 16 November 2026
+## 1.12.0 to 1.29.0 - 17 November 2026
+- **Console emptied when you turn sign-in reuse off, tighter page security (1.29.0).** Turning sign-in reuse off now also clears the Console tab, which can hold details from your tenant. The extension's own pages can no longer load pictures from other sites, set a base address or submit forms (they never did). The extension's background part also ignores a message name it does not know more strictly (no change you can see).
+- **Safer Markdown copy of names (1.28.0).** Fix: square brackets, angle brackets, backticks and backslashes in a subscription, pool, host or tag name are now escaped in a report copied as Markdown, so the name shows as plain text and cannot turn into a link, an image or web page code where you paste it.
 - **Price lookup and sorting fixes (1.27.0).** Fix: the Drain column in the host table now sorts (it did nothing before). After you turn sign-in reuse on or off, VM prices that could not be looked up are tried again without reloading the page. A price lookup now gives up after 30 seconds instead of working through every host size if Microsoft's price list stops answering, and asks again for the rest. The demo data is the only thing that skips the sign-in check.
 - **Console lines no longer lost (1.26.0).** Fix: when two lines were written to the Console tab at the same moment, for example while the extension woke up, the second could replace the first, and Clear could be undone by a line already being written. Every add, read and clear now runs one after another.
 - **Safer Markdown copy, consent guard (1.25.0).** A subscription or pool name that contains a line break can no longer change the layout of a report copied as Markdown. The setting that turns sign-in reuse on or off now only accepts a change from the extension's own pages.
