@@ -4,7 +4,7 @@ _Last updated: 16 November 2026_
 
 ## The short version
 
-**No data is sent to the developer, or anywhere other than Microsoft Azure.** AVD Enhancer only
+**No data is sent to the developer, or anywhere other than Microsoft.** AVD Enhancer only
 talks to Azure Resource Manager (management.azure.com, which includes Azure Resource Graph), the same
 service the Azure portal itself uses, and to Microsoft's public Azure Retail Prices service
 (prices.azure.com), which it asks for VM prices (see below). The developer runs no server for this
