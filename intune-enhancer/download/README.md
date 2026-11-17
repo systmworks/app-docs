@@ -95,9 +95,7 @@ version or two behind.
 one. (Chrome and Firefox already have this version: see the published packages above.) Install it by hand with the steps above
 (Load unpacked). A manual install does not update itself.
 
-| Browser | File | SHA-256 |
-|---|---|---|
-| Edge | [Intune-Enhancer-ChromeEdge-2.117.0-experimental.zip](Intune-Enhancer-ChromeEdge-2.117.0-experimental.zip) | `2625b9d478e6579350c24c42f57fa2d4ae6735ffe33e0a253013280667889bf4` |
+The file is the Chrome and Edge ZIP in the published package section above ([Intune-Enhancer-ChromeEdge-2.117.0.zip](Intune-Enhancer-ChromeEdge-2.117.0.zip)).
 
 If you already have a store version installed, remove it before loading this one (two copies would both run). Removing
 it deletes its settings, so you set them again here.
