@@ -12,7 +12,7 @@ The version live in each store today:
 | Microsoft Edge | Google Chrome | Mozilla Firefox |
 |:---:|:---:|:---:|
 | ![Microsoft Edge Add-ons: not yet available](https://img.shields.io/badge/MICROSOFT%20EDGE-PENDING%20REVIEW-DFB317?style=for-the-badge&labelColor=555555) | [![Install from the Chrome Web Store](https://img.shields.io/badge/GOOGLE%20CHROME-INSTALL%20AVD%20ENHANCER-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=555555)](https://chromewebstore.google.com/detail/avd-enhancer/pjfnicplgngkmhkhkenohahoapoimopg) | [![Install from Firefox Add-ons](https://img.shields.io/badge/MOZILLA%20FIREFOX-INSTALL%20AVD%20ENHANCER-FF7139?style=for-the-badge&logo=firefoxbrowser&logoColor=white&labelColor=555555)](https://addons.mozilla.org/firefox/addon/avd-enhancer/) |
-| ![Edge published version none](https://img.shields.io/badge/Published%20Version-none%20yet-lightgrey?style=flat-square) | ![Chrome published version 1.27.0](https://img.shields.io/badge/Published%20Version-1.27.0-2EA44F?style=flat-square) | ![Firefox published version 1.2.0](https://img.shields.io/badge/Published%20Version-1.2.0-2EA44F?style=flat-square) |
+| ![Edge published version none](https://img.shields.io/badge/Published%20Version-none%20yet-lightgrey?style=flat-square) | ![Chrome published version 1.27.0](https://img.shields.io/badge/Published%20Version-1.27.0-2EA44F?style=flat-square) | ![Firefox published version 1.27.0](https://img.shields.io/badge/Published%20Version-1.27.0-2EA44F?style=flat-square) |
 | ![Edge pending review 1.2.0](https://img.shields.io/badge/Pending%20review-1.2.0-DFB317?style=flat-square) | ![Chrome pending review none](https://img.shields.io/badge/Pending%20review-none-lightgrey?style=flat-square) | ![Firefox pending review none](https://img.shields.io/badge/Pending%20review-none-lightgrey?style=flat-square) |
 
 The Edge listing is waiting for the store's review; its link is added here when it is approved.
@@ -40,8 +40,11 @@ See the [privacy policy](../privacy-policy.md).
 
 ## Firefox package
 
-Firefox Add-ons has 1.2.0 live (install from the badge above). No Firefox package is kept here for it; a newer Firefox build
-for trying by hand is under Pre-release / Experimental below.
+The exact files of the version that is live on Firefox Add-ons.
+
+| Version | File | SHA-256 |
+|---|---|---|
+| 1.27.0 | [AVD-Enhancer-Firefox-1.27.0.zip](AVD-Enhancer-Firefox-1.27.0.zip) | `d839af8709f35aaa9862268d490446a62fd1bae6e7d418deeb37457bc60e537e` |
 
 ## Manual Install
 
@@ -70,9 +73,9 @@ version or two behind.
 
 ### Firefox
 
-Firefox Add-ons has 1.2.0; the experimental build is newer. To try it by hand (see Pre-release / Experimental below):
+To install the published Firefox package by hand (a store install is easier and keeps itself up to date):
 
-* Download the Firefox `.zip` file and extract it.
+* Download the Firefox `.zip` file (in the Firefox package section above) and extract it.
 * Open Firefox and navigate to `about:debugging#/runtime/this-firefox`
 * Click "Load Temporary Add-on" and select the `manifest.json` file in the extracted folder
 
@@ -81,15 +84,7 @@ Your settings are kept when you load it again.
 
 ## Pre-release / Experimental
 
-Newer versions that are still in store review are posted here, with `-experimental` in the file name so they are not
-mistaken for the published package. They are installed by hand (see Manual Install above), and a manual install does not
-update itself. Once a store approves the version, install from the store instead. Only the latest pair is kept here.
-
-| Browser | Version | File | SHA-256 |
-|---|---|---|---|
-| Firefox | 1.27.0 | [AVD-Enhancer-Firefox-1.27.0-experimental.zip](AVD-Enhancer-Firefox-1.27.0-experimental.zip) | `d839af8709f35aaa9862268d490446a62fd1bae6e7d418deeb37457bc60e537e` |
-
-Version 1.27.0 is live at the Chrome Web Store (see Published package above, also for Edge); Edge has 1.2.0 in review and Firefox Add-ons has 1.2.0 live, so the Firefox build in this table is a newer one for trying by hand. What is new since 1.11.0: a wider sidebar whose sections fold, up to six host pools pinned to the sidebar, a Reports section (Fleet health, Capacity, Versions, Size and cost, Coverage) with an All reports page, a Size and cost report and a Dashboard idle-cost line that look up real hourly VM prices from Microsoft's public Azure price list (prices.azure.com; you pick the currency in Settings, USD by default) and show a running and an idle cost per day with the currency symbol, safer Markdown copies, a consent change accepted only from the extension's own pages, Console lines no longer lost, a Drain column that sorts, and a few more fixes. Edge and Firefox are still on 1.2.0, so for them this build also adds the six themes (Light Blue, Grey and Pink; Dark Blue, Green and Red), notices when Scan sessions or Check my access leave something out, and keyboard and screen reader support in the sidebar. Because of the price lookup these packages ask for one more host permission (`prices.azure.com`), so a browser may ask you to accept it when you replace an older manual install; the sign-in is not sent there, only a VM size, a region and a currency. See [What's new](../whats-new.md) and the [privacy policy](../privacy-policy.md).
+There are no pre-release builds at the moment: Chrome and Firefox have 1.27.0 live. Edge is still waiting for review of 1.2.0; until it is approved, Edge can use the Chrome package above. A newer build, when there is one in store review, is posted here with `-experimental` in the file name. Because of the price lookup, 1.27.0 asks for one host permission more than 1.2.0 (`prices.azure.com`); the sign-in is not sent there, only a VM size, a region and a currency. See [What's new](../whats-new.md) and the [privacy policy](../privacy-policy.md).
 
 Contact: systmworks@outlook.com
 
