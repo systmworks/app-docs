@@ -12,23 +12,23 @@ The version live in each store today:
 | Microsoft Edge | Google Chrome | Mozilla Firefox |
 |:---:|:---:|:---:|
 | ![Microsoft Edge Add-ons: not yet available](https://img.shields.io/badge/MICROSOFT%20EDGE-PENDING%20REVIEW-DFB317?style=for-the-badge&labelColor=555555) | [![Install from the Chrome Web Store](https://img.shields.io/badge/GOOGLE%20CHROME-INSTALL%20AVD%20ENHANCER-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=555555)](https://chromewebstore.google.com/detail/avd-enhancer/pjfnicplgngkmhkhkenohahoapoimopg) | ![Firefox Add-ons: not yet available](https://img.shields.io/badge/MOZILLA%20FIREFOX-PENDING%20REVIEW-DFB317?style=for-the-badge&labelColor=555555) |
-| ![Edge published version none](https://img.shields.io/badge/Published%20Version-none%20yet-lightgrey?style=flat-square) | ![Chrome published version 1.11.0](https://img.shields.io/badge/Published%20Version-1.11.0-2EA44F?style=flat-square) | ![Firefox published version none](https://img.shields.io/badge/Published%20Version-none%20yet-lightgrey?style=flat-square) |
-| ![Edge pending review 1.2.0](https://img.shields.io/badge/Pending%20review-1.2.0-DFB317?style=flat-square) | ![Chrome pending review 1.27.0](https://img.shields.io/badge/Pending%20review-1.27.0-DFB317?style=flat-square) | ![Firefox pending review 1.2.0](https://img.shields.io/badge/Pending%20review-1.2.0-DFB317?style=flat-square) |
+| ![Edge published version none](https://img.shields.io/badge/Published%20Version-none%20yet-lightgrey?style=flat-square) | ![Chrome published version 1.27.0](https://img.shields.io/badge/Published%20Version-1.27.0-2EA44F?style=flat-square) | ![Firefox published version none](https://img.shields.io/badge/Published%20Version-none%20yet-lightgrey?style=flat-square) |
+| ![Edge pending review 1.2.0](https://img.shields.io/badge/Pending%20review-1.2.0-DFB317?style=flat-square) | ![Chrome pending review none](https://img.shields.io/badge/Pending%20review-none-lightgrey?style=flat-square) | ![Firefox pending review 1.2.0](https://img.shields.io/badge/Pending%20review-1.2.0-DFB317?style=flat-square) |
 
 The Edge and Firefox listings are waiting for the stores' review. Their links are added here when they are approved.
 Until then Edge can install from the Chrome Web Store too (Edge asks you to allow extensions from other stores).
 
-## Published package (Chrome 1.11.0)
+## Published package (Chrome 1.27.0)
 
 The exact files of the version that is live in the Chrome Web Store, so you can read them or compare them with
 what is installed. Only the currently published version is kept here; it is replaced when a newer one is approved.
 
 | Version | File | SHA-256 |
 |---|---|---|
-| 1.11.0 | [AVD-Enhancer-ChromeEdge-1.11.0.zip](AVD-Enhancer-ChromeEdge-1.11.0.zip) | `856e322a7bea3198239d15595db0a096e6866a7880646ce85894e24a0c9d2807` |
+| 1.27.0 | [AVD-Enhancer-ChromeEdge-1.27.0.zip](AVD-Enhancer-ChromeEdge-1.27.0.zip) | `14d11dac13a8c8c0d96378c17b39fbe0cb42023c59418e26fef7cf81817f6708` |
 
 The code is plain, unminified JavaScript. To check the download: compare its SHA-256 with the one above
-(PowerShell: `Get-FileHash AVD-Enhancer-ChromeEdge-1.11.0.zip`).
+(PowerShell: `Get-FileHash AVD-Enhancer-ChromeEdge-1.27.0.zip`).
 
 To compare it with what you have installed: unzip it, then diff it against the extension folder under
 `chrome://extensions` (Developer mode, then the extension's ID, then the folder under
@@ -53,7 +53,7 @@ update. Your browser deletes them when the extension is removed, so to update a 
 
 ### Chrome/Edge
 
-* Download the latest `.zip` file ([AVD-Enhancer-ChromeEdge-1.11.0.zip](AVD-Enhancer-ChromeEdge-1.11.0.zip), in the published package section above)
+* Download the latest `.zip` file ([AVD-Enhancer-ChromeEdge-1.27.0.zip](AVD-Enhancer-ChromeEdge-1.27.0.zip), in the published package section above)
 * Extract the contents of the `.zip` file.
 * Open your browser and navigate to:
    * Microsoft Edge: `edge://extensions`
@@ -87,10 +87,9 @@ update itself. Once a store approves the version, install from the store instead
 
 | Browser | Version | File | SHA-256 |
 |---|---|---|---|
-| Chrome and Edge | 1.27.0 | [AVD-Enhancer-ChromeEdge-1.27.0-experimental.zip](AVD-Enhancer-ChromeEdge-1.27.0-experimental.zip) | `14d11dac13a8c8c0d96378c17b39fbe0cb42023c59418e26fef7cf81817f6708` |
 | Firefox | 1.27.0 | [AVD-Enhancer-Firefox-1.27.0-experimental.zip](AVD-Enhancer-Firefox-1.27.0-experimental.zip) | `d839af8709f35aaa9862268d490446a62fd1bae6e7d418deeb37457bc60e537e` |
 
-Version 1.27.0 is in review at the Chrome Web Store; Edge and Firefox have 1.2.0 in review. What is new since 1.11.0 (the version live in Chrome): a wider sidebar whose sections fold, up to six host pools pinned to the sidebar, a Reports section (Fleet health, Capacity, Versions, Size and cost, Coverage) with an All reports page, a Size and cost report and a Dashboard idle-cost line that look up real hourly VM prices from Microsoft's public Azure price list (prices.azure.com; you pick the currency in Settings, USD by default) and show a running and an idle cost per day with the currency symbol, safer Markdown copies, a consent change accepted only from the extension's own pages, Console lines no longer lost, a Drain column that sorts, and a few more fixes. Edge and Firefox are still on 1.2.0, so for them this build also adds the six themes (Light Blue, Grey and Pink; Dark Blue, Green and Red), notices when Scan sessions or Check my access leave something out, and keyboard and screen reader support in the sidebar. Because of the price lookup these packages ask for one more host permission (`prices.azure.com`), so a browser may ask you to accept it when you replace an older manual install; the sign-in is not sent there, only a VM size, a region and a currency. See [What's new](../whats-new.md) and the [privacy policy](../privacy-policy.md).
+Version 1.27.0 is live at the Chrome Web Store (see Published package above, also for Edge); Firefox has 1.2.0 in review and Edge has 1.2.0 in review, so the Firefox build in this table is for trying by hand. What is new since 1.11.0: a wider sidebar whose sections fold, up to six host pools pinned to the sidebar, a Reports section (Fleet health, Capacity, Versions, Size and cost, Coverage) with an All reports page, a Size and cost report and a Dashboard idle-cost line that look up real hourly VM prices from Microsoft's public Azure price list (prices.azure.com; you pick the currency in Settings, USD by default) and show a running and an idle cost per day with the currency symbol, safer Markdown copies, a consent change accepted only from the extension's own pages, Console lines no longer lost, a Drain column that sorts, and a few more fixes. Firefox and Edge are still on 1.2.0, so for them this build also adds the six themes (Light Blue, Grey and Pink; Dark Blue, Green and Red), notices when Scan sessions or Check my access leave something out, and keyboard and screen reader support in the sidebar. Because of the price lookup these packages ask for one more host permission (`prices.azure.com`), so a browser may ask you to accept it when you replace an older manual install; the sign-in is not sent there, only a VM size, a region and a currency. See [What's new](../whats-new.md) and the [privacy policy](../privacy-policy.md).
 
 Contact: systmworks@outlook.com
 
