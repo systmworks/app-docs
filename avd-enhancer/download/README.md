@@ -11,24 +11,23 @@ The version live in each store today:
 
 | Microsoft Edge | Google Chrome | Mozilla Firefox |
 |:---:|:---:|:---:|
-| ![Microsoft Edge Add-ons: not yet available](https://img.shields.io/badge/MICROSOFT%20EDGE-PENDING%20REVIEW-DFB317?style=for-the-badge&labelColor=555555) | [![Install from the Chrome Web Store](https://img.shields.io/badge/GOOGLE%20CHROME-INSTALL%20AVD%20ENHANCER-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=555555)](https://chromewebstore.google.com/detail/avd-enhancer/pjfnicplgngkmhkhkenohahoapoimopg) | [![Install from Firefox Add-ons](https://img.shields.io/badge/MOZILLA%20FIREFOX-INSTALL%20AVD%20ENHANCER-FF7139?style=for-the-badge&logo=firefoxbrowser&logoColor=white&labelColor=555555)](https://addons.mozilla.org/firefox/addon/avd-enhancer/) |
-| ![Edge published version none](https://img.shields.io/badge/Published%20Version-none%20yet-lightgrey?style=flat-square) | ![Chrome published version 1.27.0](https://img.shields.io/badge/Published%20Version-1.27.0-2EA44F?style=flat-square) | ![Firefox published version 1.31.0](https://img.shields.io/badge/Published%20Version-1.31.0-2EA44F?style=flat-square) |
-| ![Edge pending review 1.2.0](https://img.shields.io/badge/Pending%20review-1.2.0-DFB317?style=flat-square) | ![Chrome pending review 1.31.0](https://img.shields.io/badge/Pending%20review-1.31.0-DFB317?style=flat-square) | ![Firefox pending review none](https://img.shields.io/badge/Pending%20review-none-lightgrey?style=flat-square) |
+| [![Install from Microsoft Edge Add-ons](https://img.shields.io/badge/MICROSOFT%20EDGE-INSTALL%20AVD%20ENHANCER-0078D7?style=for-the-badge&logo=microsoftedge&logoColor=white&labelColor=555555)](https://microsoftedge.microsoft.com/addons/detail/avd-enhancer/delagmdjcdhecnfddodlgdojenmilbdo) | [![Install from the Chrome Web Store](https://img.shields.io/badge/GOOGLE%20CHROME-INSTALL%20AVD%20ENHANCER-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=555555)](https://chromewebstore.google.com/detail/avd-enhancer/pjfnicplgngkmhkhkenohahoapoimopg) | [![Install from Firefox Add-ons](https://img.shields.io/badge/MOZILLA%20FIREFOX-INSTALL%20AVD%20ENHANCER-FF7139?style=for-the-badge&logo=firefoxbrowser&logoColor=white&labelColor=555555)](https://addons.mozilla.org/firefox/addon/avd-enhancer/) |
+| ![Edge published version 1.2.0](https://img.shields.io/badge/Published%20Version-1.2.0-2EA44F?style=flat-square) | ![Chrome published version 1.31.0](https://img.shields.io/badge/Published%20Version-1.31.0-2EA44F?style=flat-square) | ![Firefox published version 1.31.0](https://img.shields.io/badge/Published%20Version-1.31.0-2EA44F?style=flat-square) |
+| ![Edge pending review none](https://img.shields.io/badge/Pending%20review-none-lightgrey?style=flat-square) | ![Chrome pending review none](https://img.shields.io/badge/Pending%20review-none-lightgrey?style=flat-square) | ![Firefox pending review none](https://img.shields.io/badge/Pending%20review-none-lightgrey?style=flat-square) |
 
-The Edge listing is waiting for the store's review; its link is added here when it is approved.
-Until then Edge can install from the Chrome Web Store too (Edge asks you to allow extensions from other stores).
+Edge Add-ons is on an older version (1.2.0) than Chrome; a newer one is added there once the store approves it.
 
-## Published package (Chrome 1.27.0)
+## Published package (Chrome 1.31.0)
 
 The exact files of the version that is live in the Chrome Web Store, so you can read them or compare them with
 what is installed. Only the currently published version is kept here; it is replaced when a newer one is approved.
 
 | Version | File | SHA-256 |
 |---|---|---|
-| 1.27.0 | [AVD-Enhancer-ChromeEdge-1.27.0.zip](AVD-Enhancer-ChromeEdge-1.27.0.zip) | `14d11dac13a8c8c0d96378c17b39fbe0cb42023c59418e26fef7cf81817f6708` |
+| 1.31.0 | [AVD-Enhancer-ChromeEdge-1.31.0.zip](AVD-Enhancer-ChromeEdge-1.31.0.zip) | `d5925a052a26ed5096a802486e75687733e304cfb6b13b29c2ec1d0b58f10c5f` |
 
 The code is plain, unminified JavaScript. To check the download: compare its SHA-256 with the one above
-(PowerShell: `Get-FileHash AVD-Enhancer-ChromeEdge-1.27.0.zip`).
+(PowerShell: `Get-FileHash AVD-Enhancer-ChromeEdge-1.31.0.zip`).
 
 To compare it with what you have installed: unzip it, then diff it against the extension folder under
 `chrome://extensions` (Developer mode, then the extension's ID, then the folder under
@@ -56,7 +55,7 @@ update. Your browser deletes them when the extension is removed, so to update a 
 
 ### Chrome/Edge
 
-* Download the latest `.zip` file ([AVD-Enhancer-ChromeEdge-1.27.0.zip](AVD-Enhancer-ChromeEdge-1.27.0.zip), in the published package section above)
+* Download the latest `.zip` file ([AVD-Enhancer-ChromeEdge-1.31.0.zip](AVD-Enhancer-ChromeEdge-1.31.0.zip), in the published package section above)
 * Extract the contents of the `.zip` file.
 * Open your browser and navigate to:
    * Microsoft Edge: `edge://extensions`
@@ -84,13 +83,7 @@ Your settings are kept when you load it again.
 
 ## Pre-release / Experimental
 
-Newer versions that are still in store review are posted here, with `-experimental` in the file name so they are not mistaken for the published package. They are installed by hand (see Manual Install above), and a manual install does not update itself. Once a store approves the version, install from the store instead. Only the latest build is kept here. Firefox Add-ons already has 1.31.0, so there is no Firefox build here.
-
-| Browser | Version | File | SHA-256 |
-|---|---|---|---|
-| Chrome and Edge | 1.31.0 | [AVD-Enhancer-ChromeEdge-1.31.0-experimental.zip](AVD-Enhancer-ChromeEdge-1.31.0-experimental.zip) | `d5925a052a26ed5096a802486e75687733e304cfb6b13b29c2ec1d0b58f10c5f` |
-
-Version 1.31.0 is in review at the Chrome Web Store; Edge has 1.2.0 in review. What is new since 1.27.0: Markdown copies of a report escape square brackets, angle brackets, backticks and backslashes in names; turning sign-in reuse off also clears the Console tab; the extension's own pages are locked down further (no pictures from other sites, no forms, no base address); the Settings page folds the data disclosure away once you have turned the extension on (click "What it does with your data" to read it again). For Edge, which is still on 1.2.0, the changes since 1.2.0 are in What's new, and because of the price lookup these packages ask for one more host permission (`prices.azure.com`), so a browser may ask you to accept it when you replace an older manual install; the sign-in is not sent there, only a VM size, a region and a currency. See [What's new](../whats-new.md) and the [privacy policy](../privacy-policy.md).
+There are no pre-release builds at the moment: Chrome has 1.31.0 live, Firefox has 1.31.0 live and Edge has 1.2.0 live. See [What's new](../whats-new.md) and the [privacy policy](../privacy-policy.md).
 
 Contact: systmworks@outlook.com
 
