@@ -12,7 +12,7 @@ The version live in each store today:
 | Microsoft Edge | Google Chrome | Mozilla Firefox |
 |:---:|:---:|:---:|
 | [![Install from Microsoft Edge Add-ons](https://img.shields.io/badge/MICROSOFT%20EDGE-INSTALL%20INTUNE%20ENHANCER-0078D7?style=for-the-badge&labelColor=555555)](https://microsoftedge.microsoft.com/addons/detail/intune-enhancer/hcmhldmcpgieiaeobdbppcgfckahdeci) | [![Install from the Chrome Web Store](https://img.shields.io/badge/GOOGLE%20CHROME-INSTALL%20INTUNE%20ENHANCER-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=555555)](https://chromewebstore.google.com/detail/intune-enhancer/geifmacoimaenjdednhfiegamkjkgjjm) | [![Install from Firefox Add-ons](https://img.shields.io/badge/MOZILLA%20FIREFOX-INSTALL%20INTUNE%20ENHANCER-FF7139?style=for-the-badge&logo=firefoxbrowser&logoColor=white&labelColor=555555)](https://addons.mozilla.org/firefox/addon/intune-enhancer/) |
-| ![Edge published version 2.89.0](https://img.shields.io/badge/Published%20Version-2.89.0-2EA44F?style=flat-square) | ![Chrome published version 2.117.0](https://img.shields.io/badge/Published%20Version-2.117.0-2EA44F?style=flat-square) | ![Firefox published version 2.117.0](https://img.shields.io/badge/Published%20Version-2.117.0-2EA44F?style=flat-square) |
+| ![Edge published version 2.89.0](https://img.shields.io/badge/Published%20Version-2.89.0-2EA44F?style=flat-square) | ![Chrome published version 2.117.0](https://img.shields.io/badge/Published%20Version-2.117.0-2EA44F?style=flat-square) | ![Firefox published version 2.121.0](https://img.shields.io/badge/Published%20Version-2.121.0-2EA44F?style=flat-square) |
 | ![Edge pending review 2.117.0](https://img.shields.io/badge/Pending%20review-2.117.0-DFB317?style=flat-square) | ![Chrome pending review none](https://img.shields.io/badge/Pending%20review-none-lightgrey?style=flat-square) | ![Firefox pending review none](https://img.shields.io/badge/Pending%20review-none-lightgrey?style=flat-square) |
 
 ## Published package (Chrome 2.117.0)
@@ -32,14 +32,14 @@ To compare it with what you have installed: unzip it, then diff it against the e
 `%LocalAppData%\Google\Chrome\User Data\Default\Extensions\`). The store repackages the file, so the ZIP's own
 hash can differ from the store's, but the files inside should match.
 
-## Firefox package (2.117.0)
+## Firefox package (2.121.0)
 
 The Firefox build of the version that is live on Firefox Add-ons: the same files as Chrome and Edge, with a
 Firefox manifest.
 
 | Version | File | SHA-256 |
 |---|---|---|
-| 2.117.0 | [Intune-Enhancer-Firefox-2.117.0.zip](Intune-Enhancer-Firefox-2.117.0.zip) | `44a04932f6cdb8758a48bc0429ca21ab1964e4bf8dd6273584271c0aa09d1401` |
+| 2.121.0 | [Intune-Enhancer-Firefox-2.121.0.zip](Intune-Enhancer-Firefox-2.121.0.zip) | `70d8d64c1576ba2db04bea874179f4bc6661459840b6d4386747084d889182b0` |
 
 The extension makes one kind of network request, in `src/core/graph.js`, and only to Microsoft Graph:
 
@@ -76,7 +76,7 @@ folder, starts again with default settings.
 Intune Enhancer is on [Firefox Add-ons](https://addons.mozilla.org/firefox/addon/intune-enhancer/), and installing
 from there is the easiest way. To load it by hand for a test instead:
 
-* Download the Firefox `.zip` file ([Intune-Enhancer-Firefox-2.117.0.zip](Intune-Enhancer-Firefox-2.117.0.zip), the
+* Download the Firefox `.zip` file ([Intune-Enhancer-Firefox-2.121.0.zip](Intune-Enhancer-Firefox-2.121.0.zip), the
   published version, in the Firefox package section above)
 * Extract the contents of the `.zip` file.
 * Open Firefox and navigate to `about:debugging#/runtime/this-firefox`
