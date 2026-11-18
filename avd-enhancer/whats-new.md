@@ -6,6 +6,9 @@
 
 **Note:** new versions may appear on this list before the extension stores have approved the update, so the version in the store can be older than the latest one here.
 
+## 1.31.0 - 18 November 2026
+- **Settings opens on the settings (1.31.0).** The long "What it does with your data" text on the Settings page now folds away once you have turned AVD Enhancer on, leaving a short "Sign-in reuse is on" card with your sign-in status and Turn off. Click "What it does with your data" to read it again. Before you agree, and after you turn it off, the text is open as before.
+
 ## 1.28.0 to 1.29.0 - 17 November 2026
 - **Console emptied when you turn sign-in reuse off, tighter page security (1.29.0).** Turning sign-in reuse off now also clears the Console tab, which can hold details from your tenant. The extension's own pages can no longer load pictures from other sites, set a base address or submit forms (they never did). The extension's background part also ignores a message name it does not know more strictly (no change you can see).
 - **Safer Markdown copy of names (1.28.0).** Fix: square brackets, angle brackets, backticks and backslashes in a subscription, pool, host or tag name are now escaped in a report copied as Markdown, so the name shows as plain text and cannot turn into a link, an image or web page code where you paste it.
