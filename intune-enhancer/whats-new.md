@@ -6,6 +6,9 @@
 
 **Note:** new versions may appear on this list before the extension stores have approved the update, so the version in the store can be older than the latest one here.
 
+## 2.120.0 to 2.121.0 - 18 November 2026
+- **Try AVD Enhancer (2.121.0).** A small card in the bottom right corner of the workspace links to AVD Enhancer, the companion extension for Azure Virtual Desktop, on the store for your browser. It is only a link: nothing is sent or stored. (2.120.0 put the same card at the bottom of the left sidebar; 2.121.0 moved it to the footer because the sidebar is long.)
+
 ## 2.118.0 to 2.119.0 - 17 November 2026
 - **Safer Markdown copies (2.119.0).** When you copy a report as Markdown, characters in device, group and policy names that Markdown treats as links, images or HTML are now escaped, so a name pasted into a wiki or ticket stays plain text.
 - **Tighter security rules (2.118.0).** The extension's own pages now also refuse to load images from anywhere but the extension or to submit forms elsewhere. Turning Intune Enhancer off in Settings now also empties the Console tab, along with the sign-in and stored lists it already cleared. Nothing changes in how it looks or works.
