@@ -10,7 +10,7 @@ Aussie Unit Price only reads product names and prices on the shop pages you visi
 collects or sends anything.
 
 ## 3.1.0 to 3.10.0 - 21 November 2026
-Edge and Firefox updates to follow.
+Live on Firefox. Edge to follow.
 - **Product pages.** Open a single product on any of the seven stores and a panel under the price
   shows the price per item, and per litre or kilo, with a line for each pack option. No toolbar and
   no ranking there.
