@@ -9,6 +9,21 @@ before 3.0.0 were test builds, not public releases.
 Aussie Unit Price only reads product names and prices on the shop pages you visit. It never
 collects or sends anything.
 
+## 3.1.0 to 3.10.0 - 21 November 2026
+Edge and Firefox updates to follow.
+- **Product pages.** Open a single product on any of the seven stores and a panel under the price
+  shows the price per item, and per litre or kilo, with a line for each pack option. No toolbar and
+  no ranking there.
+- **Alcohol %.** On Dan Murphy's, BWS and Liquorland the product-page panel also shows the alcohol
+  percentage from the product specs.
+- **Dan Murphy's "Current Offers" carousel** now has the price badges too.
+- **Dan Murphy's member prices fixed.** A member offer now always beats the standard price, and the
+  non-member price is shown greyed for reference. Before, the badge could show the non-member $/L.
+- **Cleaner badges.** A product with one real price no longer repeats it on a second line.
+- **Blue themes.** The green is gone. Light blue by default, with a small sun/moon button in the
+  toolbar title bar (beside the collapse button) to switch to dark blue. Your choice is remembered.
+- Under the hood: tidier code, more tests, a new icon and store images in blue.
+
 ## 3.0.0 - 26 October 2026
 First public release on the Chrome Web Store.
 - **Price per item on every product.** A badge under each price shows the price per can, bottle,

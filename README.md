@@ -11,7 +11,7 @@ https://systmworks.github.io/app-docs/
 | Product | Pages |
 |---|---|
 | Intune Enhancer (Chrome / Edge extension) | [Overview](https://systmworks.github.io/app-docs/intune-enhancer/), [What's new](https://systmworks.github.io/app-docs/intune-enhancer/whats-new/), [Privacy policy](https://systmworks.github.io/app-docs/intune-enhancer/privacy-policy/) |
-| Aussie Unit Price (Chrome extension) | [Overview](https://systmworks.github.io/app-docs/aussie-unit-price/), [What's new](https://systmworks.github.io/app-docs/aussie-unit-price/whats-new/), [Privacy policy](https://systmworks.github.io/app-docs/aussie-unit-price/privacy-policy/) |
+| Aussie Unit Price (Edge, Firefox and Chrome extension) | [Overview](https://systmworks.github.io/app-docs/aussie-unit-price/), [What's new](https://systmworks.github.io/app-docs/aussie-unit-price/whats-new/), [Privacy policy](https://systmworks.github.io/app-docs/aussie-unit-price/privacy-policy/) |
 
 Each product has its own folder with an `index.md` (or `README.md`, which GitHub also shows on the folder page) that links to its pages, so a product lives at
 `https://systmworks.github.io/app-docs/<product>/`. To add one, create the folder and its
