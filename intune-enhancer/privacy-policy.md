@@ -1,6 +1,6 @@
 # Privacy policy: Intune Enhancer
 
-_Last updated: 15 November 2026_
+_Last updated: 24 November 2026_
 
 ## The short version
 
@@ -20,6 +20,9 @@ After you accept the disclosure on the extension's Settings page (it opens when 
   Microsoft Graph addresses graph.microsoft.us and dod-graph.microsoft.us. Nothing is requested or used
   until you allow it, and you can remove it again there. Everything else in this policy applies to those
   clouds in the same way.
+- **Admin center frames.** The admin center draws many of its lists inside frames on
+  *.reactblade.portal.azure.net. The extension adds the same in-portal information there that it adds on
+  intune.microsoft.com. It reads no sign-in tokens and sends no requests from those frames.
 - **Sign-in tokens.** It reads the Microsoft Graph access tokens that the Intune admin center
   already holds for your sign-in, so it can make requests as you. It does not read refresh
   tokens, ID tokens or passwords, and it never asks for your password.
@@ -119,7 +122,8 @@ It can only access what your own account and Intune role can already access.
 - **Console log:** a short list (the newest 200 lines) of the extension's own messages: reads Microsoft refused or that failed,
   sign-in pickup and page errors. Kept in the browser's session storage, which is memory only and cleared when the browser
   closes. Sign-in tokens are removed from it. A line can include the text of a Microsoft error message, which may name a device
-  or group. It is never sent anywhere. The Console tab's Clear button and "Clear stored data" empty it.
+  or group. The same lines are also written to the extension's background page console in the browser's developer
+  tools, on your computer. It is never sent anywhere. The Console tab's Clear button and "Clear stored data" empty it.
 - **Settings:** which in-portal features are switched on and how they show (for example display
   names or user principal names), the column widths you choose or drag, and the reports and workspace tools you
   star (extension storage), and the workspace's theme (one of six) and the tool you last had open (the workspace
