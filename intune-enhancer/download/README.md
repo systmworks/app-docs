@@ -88,14 +88,19 @@ itself). Your settings are kept when you load it again.
 Newer versions are listed in [What's new](../whats-new.md) before the stores approve them, so the store can be a
 version or two behind.
 
-## Pre-release / Experimental (2.117.0)
+## Pre-release / Experimental (2.126.0)
 
 **This version is still undergoing testing.** It has the newest features and fixes listed in
-[What's new](../whats-new.md), but the Edge store has not approved it yet, so use the store version if you want the tested
-one. (Chrome and Firefox already have this version: see the published packages above.) Install it by hand with the steps above
-(Load unpacked). A manual install does not update itself.
+[What's new](../whats-new.md), but not every store has approved it yet, so use the store version if you want the tested
+one. Install it by hand with the steps above (Load unpacked; Firefox: Load Temporary Add-on). A manual install does not
+update itself.
 
-The file is the Chrome and Edge ZIP in the published package section above ([Intune-Enhancer-ChromeEdge-2.121.0.zip](Intune-Enhancer-ChromeEdge-2.121.0.zip)).
+| Browser | File | SHA-256 |
+|---|---|---|
+| Chrome and Edge | [Intune-Enhancer-ChromeEdge-2.126.0-experimental.zip](Intune-Enhancer-ChromeEdge-2.126.0-experimental.zip) | `0da34508cbc7cb7668e549eba8556a99bc9f62b8e8f7e2d8660ca014902e69d6` |
+| Firefox | [Intune-Enhancer-Firefox-2.126.0-experimental.zip](Intune-Enhancer-Firefox-2.126.0-experimental.zip) | `c341b14cc912cbc6820631c05bce9452fbdffb6730224cbbf53a85654546f21d` |
+
+When all three stores carry this version, this section is emptied: check back later for the next experimental version.
 
 If you already have a store version installed, remove it before loading this one (two copies would both run). Removing
 it deletes its settings, so you set them again here.
