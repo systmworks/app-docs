@@ -6,6 +6,13 @@
 
 **Note:** new versions may appear on this list before the extension stores have approved the update, so the version in the store can be older than the latest one here.
 
+## 2.122.0 to 2.126.0 - 23 November 2026
+- **Tidy-up (2.126.0).** Internal clean-up of how the sorted tables are drawn; nothing changes in how Intune Enhancer looks or works.
+- **Every table sorts (2.125.0).** The rest of the tables now sort when you click a heading: the policies on each Setting check card, Recent changes, Duplicate policies, Baseline gap, Cleanup, Tenant health, Console, Check my access, Environment overview, and All reports (the star column puts your starred reports first). Status columns sort the most serious first, and Tenant health sorts the soonest expiry first. Search results, pickers and a few small detail lists stay as they are.
+- **Lookups tables sort (2.124.0).** Group assignments, Group roster, the policy tables in Compare devices, the Device 360 and User 360 "what reaches" tables and the User 360 devices table now sort when you click a heading. Result and state columns sort the most serious first, and Copy table and Save CSV follow the order on screen.
+- **More tables sort (2.123.0).** On the Devices tabs, OS builds (the releases, and the devices under each release), Update check, Compliance (the failing settings and the devices failing one setting), Stale devices, Orphaned users and the Security posture summary now sort when you click a heading. A release you have opened stays open when you sort. Compliance sorts the most serious first. Copy table and Save CSV follow the order on screen.
+- **Sort by clicking a column heading (2.122.0).** Device explorer, Hardware, Security posture, Low storage, Device 360 settings, Failed apps, Failed policies, Autopilot failures and both App versions tables now sort when you click a heading; click again to reverse. Text columns start A to Z, number and date columns start with the biggest or newest, and blanks always come last. Headings can be reached with the Tab key and sorted with Enter or Space. Copy table and Save CSV follow the order on screen. More tables follow in later versions.
+
 ## 2.120.0 to 2.121.0 - 18 November 2026
 - **Try AVD Enhancer (2.121.0).** A small card in the bottom right corner of the workspace links to AVD Enhancer, the companion extension for Azure Virtual Desktop, on the store for your browser. It is only a link: nothing is sent or stored. (2.120.0 put the same card at the bottom of the left sidebar; 2.121.0 moved it to the footer because the sidebar is long.)
 
