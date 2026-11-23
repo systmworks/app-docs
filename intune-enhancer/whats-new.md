@@ -6,6 +6,13 @@
 
 **Note:** new versions may appear on this list before the extension stores have approved the update, so the version in the store can be older than the latest one here.
 
+## 2.127.0 to 2.128.0 - 24 November 2026
+- **Screen readers and the search boxes (2.128.0).** The group, device and user search boxes now tell a screen reader that they open a list of matches and which match is highlighted when you use the arrow keys.
+- **Numbers in Save CSV (2.128.0).** A number such as -12 is no longer saved as text, so Excel sorts it as a number. Names that start with an equals sign, minus sign or similar are still protected.
+- **Time zone in page exports (2.127.0).** Save HTML and Copy Markdown on a report page now name the time zone in a time column's heading ("Last check-in (UTC+10)"), as Save CSV and Copy table already did.
+- **Sign-in pickup after turning consent off and on (2.127.0).** If you turned the extension off and on again without reloading the Intune admin center, it could report "No Intune session" for up to an hour. It now picks the sign-in up again straight away.
+- **Tidy-up (2.127.0).** Saved lookup answers older than 30 minutes are cleared when the extension wakes, and a safety check stops anything but the batch reader from sending Microsoft's batch requests.
+
 ## 2.122.0 to 2.126.0 - 23 November 2026
 - **Tidy-up (2.126.0).** Internal clean-up of how the sorted tables are drawn; nothing changes in how Intune Enhancer looks or works.
 - **Every table sorts (2.125.0).** The rest of the tables now sort when you click a heading: the policies on each Setting check card, Recent changes, Duplicate policies, Baseline gap, Cleanup, Tenant health, Console, Check my access, Environment overview, and All reports (the star column puts your starred reports first). Status columns sort the most serious first, and Tenant health sorts the soonest expiry first. Search results, pickers and a few small detail lists stay as they are.
