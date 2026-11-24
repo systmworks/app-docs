@@ -12,10 +12,8 @@ The version live in each store today:
 | Microsoft Edge | Google Chrome | Mozilla Firefox |
 |:---:|:---:|:---:|
 | [![Install from Microsoft Edge Add-ons](https://img.shields.io/badge/MICROSOFT%20EDGE-INSTALL%20AVD%20ENHANCER-0078D7?style=for-the-badge&logo=microsoftedge&logoColor=white&labelColor=555555)](https://microsoftedge.microsoft.com/addons/detail/avd-enhancer/delagmdjcdhecnfddodlgdojenmilbdo) | [![Install from the Chrome Web Store](https://img.shields.io/badge/GOOGLE%20CHROME-INSTALL%20AVD%20ENHANCER-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=555555)](https://chromewebstore.google.com/detail/avd-enhancer/pjfnicplgngkmhkhkenohahoapoimopg) | [![Install from Firefox Add-ons](https://img.shields.io/badge/MOZILLA%20FIREFOX-INSTALL%20AVD%20ENHANCER-FF7139?style=for-the-badge&logo=firefoxbrowser&logoColor=white&labelColor=555555)](https://addons.mozilla.org/firefox/addon/avd-enhancer/) |
-| ![Edge published version 1.2.0](https://img.shields.io/badge/Published%20Version-1.2.0-2EA44F?style=flat-square) | ![Chrome published version 1.31.0](https://img.shields.io/badge/Published%20Version-1.31.0-2EA44F?style=flat-square) | ![Firefox published version 1.31.0](https://img.shields.io/badge/Published%20Version-1.31.0-2EA44F?style=flat-square) |
-| ![Edge pending review 1.31.0](https://img.shields.io/badge/Pending%20review-1.31.0-DFB317?style=flat-square) | ![Chrome pending review none](https://img.shields.io/badge/Pending%20review-none-lightgrey?style=flat-square) | ![Firefox pending review none](https://img.shields.io/badge/Pending%20review-none-lightgrey?style=flat-square) |
-
-Edge Add-ons is on an older version (1.2.0) than Chrome; 1.31.0 is in review there (usually about a week).
+| ![Edge published version 1.31.0](https://img.shields.io/badge/Published%20Version-1.31.0-2EA44F?style=flat-square) | ![Chrome published version 1.31.0](https://img.shields.io/badge/Published%20Version-1.31.0-2EA44F?style=flat-square) | ![Firefox published version 1.31.0](https://img.shields.io/badge/Published%20Version-1.31.0-2EA44F?style=flat-square) |
+| ![Edge pending review none](https://img.shields.io/badge/Pending%20review-none-lightgrey?style=flat-square) | ![Chrome pending review none](https://img.shields.io/badge/Pending%20review-none-lightgrey?style=flat-square) | ![Firefox pending review none](https://img.shields.io/badge/Pending%20review-none-lightgrey?style=flat-square) |
 
 ## Published package (Chrome 1.31.0)
 
@@ -83,7 +81,7 @@ Your settings are kept when you load it again.
 
 ## Pre-release / Experimental
 
-There are no pre-release builds at the moment: Chrome has 1.31.0 live, Firefox has 1.31.0 live and Edge has 1.2.0 live with 1.31.0 in review (the Chrome/Edge package above is the same file). See [What's new](../whats-new.md) and the [privacy policy](../privacy-policy.md).
+There are no pre-release builds at the moment: Chrome has 1.31.0 live, Firefox has 1.31.0 live and Edge has 1.31.0 live (the Chrome/Edge package above is the same file). See [What's new](../whats-new.md) and the [privacy policy](../privacy-policy.md).
 
 Contact: systmworks@outlook.com
 
