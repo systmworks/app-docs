@@ -85,6 +85,8 @@ After you accept the disclosure on the extension's Settings page (it opens when 
   and uninstall commands, detection and requirement rules (including the text of any detection or requirement script),
   return codes, and the apps it depends on or supersedes. Shown on the page only, not stored.
 - **Any ID you paste** into the ID decoder, which is looked up in Microsoft Graph.
+- **Organization name and domains**: your tenant's display name and verified domain names, read once so saved files and
+  report headings can carry the tenant's name. Kept in memory only, never saved to storage.
 
 It can only access what your own account and Intune role can already access.
 
