@@ -6,7 +6,8 @@
 
 **Note:** new versions may appear on this list before the extension stores have approved the update, so the version in the store can be older than the latest one here.
 
-## 2.127.0 to 2.128.0 - 24 November 2026
+## 2.127.0 to 2.129.0 - 24 November 2026
+- **Tenant name in saved files and headings (2.129.0).** Every saved file now starts with your tenant's short name and ends with the date, for example "CONTOSO-Environment-Overview-2026-11-24.html". Save HTML and Copy Markdown headings also carry the full tenant name, for example "Environment overview - Contoso Ltd". If your role cannot read the organization's details, the short name comes from your sign-in address and the heading has no tenant name.
 - **Screen readers and the search boxes (2.128.0).** The group, device and user search boxes now tell a screen reader that they open a list of matches and which match is highlighted when you use the arrow keys.
 - **Numbers in Save CSV (2.128.0).** A number such as -12 is no longer saved as text, so Excel sorts it as a number. Names that start with an equals sign, minus sign or similar are still protected.
 - **Time zone in page exports (2.127.0).** Save HTML and Copy Markdown on a report page now name the time zone in a time column's heading ("Last check-in (UTC+10)"), as Save CSV and Copy table already did.
